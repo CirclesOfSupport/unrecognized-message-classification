@@ -1,0 +1,67 @@
+name: who_is_this
+description: Messages asking who the sender is or why they are being contacted
+priority: 10
+
+keyword_rules:
+  - name: who_is_this_exact
+    description: Standalone identity/unknown-sender questions
+    match_mode: exact
+    keywords:
+      - who is this
+      - who are you
+      - whos this
+      - whos texting
+      - who is texting
+      - who texted me
+      - who is texting me
+      - who are you texting
+      - who dis
+      - who this
+      - whos messaging me
+      - who is messaging me
+      - who is sending this
+      - who sent this
+      - identify yourself
+      - who
+
+  - name: who_is_this_phrases
+    description: Common natural-language variants asking sender identity
+    match_mode: phrase
+    keywords:
+      - who is this
+      - who are you
+      - who this
+      - whos this
+      - who texted me
+      - who is texting me
+      - whos texting me
+      - who is messaging me
+      - whos messaging me
+      - who sent this
+      - who is sending this
+      - who keeps texting me
+      - stop texting me who is this
+      - who is asking
+      - who r u
+      - who are you
+  
+regex_rules:
+  - name: who_is_this_basic
+    match_mode: include
+    description: Basic standalone who-is-this questions
+    pattern: "^\\s*(who\\s+(is|s)\\s+this|whos\\s+this|who\\s+are\\s+you|who\\s+dis|who\\s+this)\\s*$"
+
+  - name: who_is_texting_me
+    match_mode: include
+    description: Variants asking who is texting or messaging
+    pattern: "^\\s*(who\\s+(is|s)\\s+(texting|messaging|sending)\\s+(me|this)?|who\\s+texted\\s+me|who\\s+sent\\s+this|who\\s+is\\s+sending\\s+this)\\s*$"
+
+  - name: identify_sender
+    match_mode: include
+    description: Direct requests to identify the sender
+    pattern: "^\\s*(identify\\s+yourself|tell\\s+me\\s+who\\s+this\\s+is|may\\s+i\\s+ask\\s+who\\s+this\\s+is)\\s*$"
+
+  - name: stop_texting_who_is_this
+    match_mode: include
+    description: Combined unknown-sender and contact challenge messages
+    pattern: "^\\s*(stop\\s+texting\\s+me\\s+)?who\\s+(is|s)\\s+this\\s*$"

@@ -1,0 +1,67 @@
+name: symbols_emotes_reactions
+description: Messages that are emoji-only, emoticons, or reaction-style replies such as iPhone tapbacks.
+priority: 6
+
+keyword_rules:
+  - name: reaction_exact
+    description: Exact text reactions and common reaction-system phrases
+    match_mode: exact
+    text_input_type: emoji_normalized_text
+    keywords:
+      - __EMOJI__
+      - loved message
+      - liked message
+      - disliked message
+      - laughed at message
+      - emphasized message
+      - questioned message
+  
+  - name: reaction_phrases
+    description: Common reaction-system phrases that may include an emoji
+    match_mode: phrase
+    text_input_type: emoji_normalized_text
+    keywords:
+      - reacted __EMOJI__ to
+      - removed __EMOJI__ from
+      - removed a question mark from
+      - removed a like from
+      - removed a heart from
+      - removed a laugh from
+      - removed a dislike from
+      - removed an emphasis from
+      - __EMOJI__ to
+
+regex_rules:
+  - name: emoji_only
+    match_mode: include
+    text_input_type: emoji_normalized_text
+    description: Messages that contain only emojis (after normalization)
+    pattern: "^(__EMOJI__\\s*)+$"
+  
+  - name: iphone_reacted_to_message
+    match_mode: include
+    text_input_type: emoji_normalized_text
+    description: Messages that indicate a reaction to another message (after normalization)
+    pattern: "^(reacted\\s+)?__EMOJI__\\s+to\\s+.+$"
+  
+  - name: iphone_tapback_reaction
+    match_mode: include
+    description: iPhone-style tapback reaction messages such as Loved, Liked, Emphasized, or Questioned
+    pattern: "^(loved|liked|disliked|laughed\\s+at|emphasized|questioned)\\s+.+$"
+
+  - name: emoticon_smile
+    match_mode: include
+    text_input_type: raw_text
+    pattern: "^\\s*(:\\)|:-\\)|:D|=D|<3)\\s*$"
+  
+  - name: empty_after_normalization
+    match_mode: include
+    text_input_type: normalized_text
+    description: Message becomes empty after normalization (likely emoji-only or special-character-only)
+    pattern: "^\\s*$"
+  
+  - name: generic_removed_action
+    match_mode: include
+    text_input_type: normalized_text
+    description: Detect "removed a question mark from message" patterns
+    pattern: "^removed\\s+(?:a\\s+|an\\s+)?\\S+(?:\\s+\\S+)*\\s+from\\s+.+$"

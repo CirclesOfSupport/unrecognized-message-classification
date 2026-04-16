@@ -1,0 +1,65 @@
+name: malformed_number
+description: Messages that appear to be attempted numeric responses but are not a single clean numeric value.
+priority: 13
+
+keyword_rules:
+  - name: malformed_number_exact
+    description: Standalone spelled-out or ambiguous numeric responses
+    match_mode: exact
+    keywords:
+      - zero
+      - one
+      - two
+      - three
+      - four
+      - five
+      - six
+      - seven
+      - eight
+      - nine
+      - ten
+      - one or two
+      - two or three
+      - three or four
+      - four or five
+      - five or six
+      - six or seven
+      - seven or eight
+      - eight or nine
+      - nine or ten
+
+regex_rules:
+  - name: spelled_out_single_number
+    match_mode: include
+    description: Single spelled-out number response
+    pattern: "^\\s*(zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*$"
+
+  - name: ambiguous_numeric_choice_digits
+    match_mode: include
+    description: Multiple numeric choices such as 1 or 2
+    pattern: "^\\s*\\d+\\s*(or|/|\\\\|-|to|,|and)\\s*\\d+\\s*$"
+
+  - name: ambiguous_numeric_choice_words
+    match_mode: include
+    description: Multiple spelled-out numeric choices such as one or two
+    pattern: "^\\s*(zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*(or|/|\\\\|-|to|,|and)\\s*(zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*$"
+
+  - name: mixed_digit_word_choice
+    match_mode: include
+    description: Mixed numeric formats such as 1 or two
+    pattern: "^\\s*(\\d+|zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*(or|/|\\\\|-|to|,|and)\\s*(\\d+|zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*$"
+
+  - name: number_with_uncertainty
+    match_mode: include
+    description: Numeric response with uncertainty markers
+    pattern: "^\\s*(\\d+|zero|one|two|three|four|five|six|seven|eight|nine|ten)\\s*(maybe|i\\s+guess|guess|ish)\\s*$"
+  
+  - name: clean_numeric_only
+    match_mode: include
+    description: Exclude single clean numeric values
+    pattern: "^\\s*\\d+\\s*$"
+
+  - name: multi_token_numeric_attempt
+    match_mode: include
+    description: Numeric-like responses split into multiple tokens after normalization, such as 6 5, 1 2, twenty one, or 6 five
+    pattern: "^\\s*(?:\\d+|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand)(?:\\s+(?:\\d+|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand))+\\s*$"

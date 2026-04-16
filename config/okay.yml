@@ -1,0 +1,161 @@
+name: okay
+description: Messages that express simple acknowledgment, agreement, or affirmation.
+priority: 7
+
+keyword_rules:
+  - name: okay_keywords_and_phrases
+    description: Matches common expressions
+    match_mode: exact
+    keywords:
+      - k
+      - kk
+      - ok
+      - okay
+      - okie
+      - okk
+      - okayy
+      - okayyy
+      - okey
+      - okiedokie
+      - okie dokie
+      - o k
+      - ok ok
+      - ok cool
+      - okay will do
+      - roger
+      - roger that
+      - rgr
+      - copy
+      - gotcha
+      - got it
+      - got u
+      - gotit
+      - received
+      - noted
+      - acknowledged
+      - understood
+      - bet
+      - word
+      - facts
+      - all good
+      - looks good
+      - sounds good
+      - fair enough
+      - works for me
+      - that works
+      - fair
+      - i will
+      - will do
+      - im okay
+      - i know
+      - ik
+      - maybe
+      - i guess
+
+  - name: kw_yes_variants
+    description: Affirmative yes words and common spellings/abbreviations.
+    match_mode: exact
+    keywords:
+      - "yes"
+      - yees
+      - yep
+      - yup
+      - yeah
+      - yea
+      - ya
+      - ye
+      - affirmative
+      - absolutely
+      - definitely
+      - certainly
+      - of course
+      - indeed
+      - ofc
+      - obv
+      - obviously
+      - duh
+      - uh huh
+      - mhm
+      - yessir
+      - sure
+      - for sure
+      - hell yeah
+
+  - name: kw_positive_reactions
+    description: Standalone positive reaction words
+    match_mode: exact
+    keywords:
+      - great
+      - awesome
+      - cool
+      - nice
+      - amazing
+      - fantastic
+      - wonderful
+      - perfect
+      - excellent
+      - good
+      - fabulous
+      - lovely
+      - splendid
+      - superb
+      - terrific
+      - very good
+      - dope
+      - lit
+      - fire
+      - love you
+      - love ya
+      - love it
+      - yay
+
+regex_rules:
+  - name: short_acknowledgment
+    match_mode: include
+    description: Short acknowledgment messages with optional mild filler
+    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|k+|cool|great|awesome|nice|fine|yes|ye+s|yeah|yep|yup)\\s*$"
+
+  - name: repeated_acknowledgment
+    match_mode: include
+    description: Repeated acknowledgment forms like ok ok or okay okay
+    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|k+)(?:\\s+(?:ok(?:ay)?|o\\s+k|k+))+\\s*$"
+
+  - name: acknowledgment_with_modifier
+    match_mode: include
+    description: Acknowledgment with small conversational modifiers
+    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|yeah|yep|yup)\\s+(?:sounds\\s+good|that\\s+s\\s+fine|thats\\s+fine|all\\s+good|cool|will\\s+do)\\s*$"
+
+  - name: sounds_good_variants
+    match_mode: include
+    description: Variations of sounds good
+    pattern: "^\\s*(?:that\\s+)?sounds\\s+(?:good|great|fine)\\s*$"
+
+  - name: fair_acknowledgment
+    match_mode: include
+    description: Short acknowledgment phrases like fair, thats fair, or ok fair
+    pattern: "^\\s*(?:(?:ok(?:ay)?\\s+|o\\s+k\\s+|yeah\\s+|yep\\s+|yup\\s+)*)?(?:that\\s+s\\s+fair|thats\\s+fair|fair)\\s*$"
+
+  - name: i_am_okay_response
+    match_mode: include
+    description: Responses indicating the user is okay
+    pattern: "^\\s*(?:(?:yeah|yea|yep|yup|no)\\s+)?(?:i\\s+(?:am|m)|im)?\\s*(?:ok(?:ay)?|fine|good)\\s*(?:thanks)?\\s*$"
+
+  - name: love_variants
+    match_mode: include
+    description: Variations of love you, love it, etc.
+    pattern: "\\b(?:i\\s+)?love\\s+(?:you|u|ya|it)(?:\\s+too)?\\b"
+
+  - name: its_im_okay
+    match_mode: include
+    description: Variations of its okay, im ok, etc.
+    pattern: "^\\s*(?:(?:it\\s+s|its|it|i\\s+m|im)\\s+)?(?:ok(?:ay)?|good|fine|great)\\s*$"
+
+  - name: will_do_affirmation
+    match_mode: include
+    description: Will do responses optionally prefixed by okay
+    pattern: "^\\s*(?:(?:ok(?:ay)?|o\\s+k)\\s+)?will\\s+do\\s*$"
+
+  - name: ok_plus_positive_reaction
+    match_mode: include
+    description: Acknowledgment followed by a positive reaction such as ok cool
+    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k)\\s+(?:cool|great|awesome|nice|good|fine)\\s*$"

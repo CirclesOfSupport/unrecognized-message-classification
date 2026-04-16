@@ -1,0 +1,110 @@
+name: definitely_triage
+description: Messages that are likely to require triage and should be reviewed by a human.
+priority: 1
+
+keyword_rules:
+  - name: alert_words
+    description: Matches common alert words
+    match_mode: token
+    keywords:
+      - abandon*
+      - afraid
+      - anger*
+      - angry
+      - anxi*
+      - blam*
+      - bleed*
+      - blood*
+      - break*
+      - broken
+      - burden*
+      - burn*
+      - chok*
+      - confus*
+      - crumbl*
+      - cut*
+      - dead
+      - death
+      - defective
+      - depress*
+      - "*deserv*"
+      - destroy*
+      - die*
+      - disappear*
+      - disappoint*
+      - done
+      - drown*
+      - empt*
+      - enemy
+      - escap*
+      - exhaust*
+      - fail*
+      - fall*
+      - fear*
+      - feel*
+      - flaw*
+      - fright*
+      - gone*
+      - guilt*
+      - "*harm*"
+      - hate
+      - hid*
+      - hurt*
+      - invisible
+      - isolat*
+      - kill*
+      - "*less"
+      - "*lone*"
+      - lost
+      - miserable
+      - numb*
+      - overdose*
+      - overwhelm*
+      - pain*
+      - panic*
+      - pathetic
+      - quit*
+      - reject*
+      - regret*
+      - scar*
+      - shame*
+      - shatter*
+      - slash*
+      - spiral*
+      - stress*
+      - suffer*
+      - suffoc*
+      - suicid*
+      - temper
+      - terror*
+      - trap*
+      - unlov*
+      - unravel*
+      - unwanted
+      - vanish*
+      - victim
+      - weak
+      - withdraw*
+      - "*worth*"
+
+  - name: alert_phrases
+    description: Matches common alert phrases
+    match_mode: phrase
+    keywords:
+      - be careful
+      - watch out
+      - self harm
+      - give up
+      - its over
+      - not good enough
+      - whats the point
+      - what is the point
+  
+  - name: alert_abbreviations
+    description: Matches common alert abbreviations
+    match_mode: token
+    keywords:
+      - kms
+      - od
+
+regex_rules: []

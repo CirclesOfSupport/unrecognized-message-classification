@@ -1,0 +1,54 @@
+name: quote
+description: Message requesting a quote or introducing/sending a quote.
+priority: 9
+
+keyword_rules:
+  - name: quote_exact
+    description: Standalone quote requests
+    match_mode: exact
+    keywords:
+      - quote
+      - quote please
+      - quote pls
+      - quote plz
+  
+  - name: quote_phrases
+    description: Common phrases requesting or referencing a quote
+    match_mode: phrase
+    keywords:
+      - have a quote
+      - need a quote
+      - want a quote
+      - like a quote
+      - get a quote
+      - give me a quote
+      - send me a quote
+      - another quote
+      - quote of the day
+      - quote of the
+      - words of wisdom
+      - nice quote
+      - great quote
+      - here's a quote
+      - heres a quote
+  
+regex_rules:
+  - name: quote_short_request
+    match_mode: include
+    description: Short standalone quote requests with optional polite modifiers
+    pattern: "^\\s*((can\\s+i\\s+)?(have|get|need)\\s+(a\\s+)?quote|quote(\\s+(please|pls|plz))?)\\s*$"
+
+  - name: quote_with_i_prefix
+    match_mode: include
+    description: Slightly longer but still direct quote requests
+    pattern: "^\\s*i\\s+(need|want)\\s+(a\\s+)?quote\\s*$"
+
+  - name: quote_request_legacy_coverage
+    match_mode: include
+    description: Covers older quote request phrasing and short quote-related prompts
+    pattern: "\\b(?:quote\\s+of\\s+the|give\\s+me\\s+a\\s+quote|nice\\s+quote|great\\s+quote|words\\s+of\\s+wisdom)\\b"
+
+  - name: quote_intro_phrase
+    match_mode: include
+    description: Covers messages that introduce a quote, including missing apostrophes
+    pattern: "\\bhere'?s\\s+a\\s+quote\\b"

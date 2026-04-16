@@ -1,0 +1,88 @@
+name: clarification
+description: Messages asking for clarification about the message, sender, service, or purpose.
+priority: 11
+
+keyword_rules:
+  - name: clarification_exact
+    description: Short standalone clarification questions
+    match_mode: exact
+    keywords:
+      - huh
+      - why
+      - what
+      - when
+      - where
+      - what is this
+      - whats this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what is this message
+      - whats this message
+      - when is this
+      - where is this
+      - why this
+
+  - name: clarification_phrases
+    description: Common clarification phrases
+    match_mode: phrase
+    keywords:
+      - what is this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why are you texting me
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what does this mean
+      - what is this message about
+      - what is this in reference to
+      - what is this regarding
+      - is a chatbot
+      - is a chat bot
+
+regex_rules:
+  - name: single_word_clarification
+    match_mode: include
+    description: Standalone clarification words
+    pattern: "^\\s*(why|what|when|where)\\s*$"
+
+  - name: what_is_this_variants
+    match_mode: include
+    description: Variants of what is this / what's this
+    pattern: "^\\s*(what\\s*(is|s)\\s+this|whats\\s+this)(\\s+(for|about))?\\s*$"
+
+  - name: why_am_i_getting_this
+    match_mode: include
+    description: Questions asking why the user received the message
+    pattern: "^\\s*why\\s+(am\\s+i\\s+getting|did\\s+i\\s+get|are\\s+you\\s+(texting|messaging)|did\\s+you\\s+text)\\s+(this|me)?\\s*$"
+
+  - name: what_does_this_mean
+    match_mode: include
+    description: Meaning / purpose clarification questions
+    pattern: "^\\s*what\\s+(does\\s+this\\s+mean|is\\s+this\\s+(for|about)|is\\s+this\\s+message\\s+about)\\s*$"
+
+  - name: when_where_short_questions
+    match_mode: include
+    description: Short when/where clarification questions tied to this
+    pattern: "^\\s*(when|where)\\s+(is|s)?\\s*(this|it)?\\s*$"
+
+  - name: not_general_wh_question_sentence
+    match_mode: exclude
+    description: Exclude broader WH questions not asking for clarification about the text/service
+    pattern: "^\\s*(why|what|when|where)\\b.*\\b(i|you|we|they|he|she)\\b.*\\b(should|would|could|can|will|did|do|are)\\b.*$"
+
+  - name: not_who_is_this
+    match_mode: exclude
+    description: Exclude sender-identity questions handled by who_is_this bucket
+    pattern: "\\bwho\\s+(is|s)\\s+this\\b|\\bwho\\s+are\\s+you\\b|\\bwho\\s+dis\\b"

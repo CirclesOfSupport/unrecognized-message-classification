@@ -1,0 +1,97 @@
+name: opt_out
+description: Messages that indicate the desire to opt out of Early Alert.
+priority: 2
+
+keyword_rules:
+  - name: opt_out_exact
+    description: Explicit opt-out commands sent as standalone messages
+    match_mode: exact
+    keywords:
+      - stop
+      - unsubscribe
+      - cancel
+      - delete
+      - opt out
+      - opting out
+      - end
+      - quit
+      - remove me
+      - stop messages
+      - remove
+      - remove me
+      - not interested
+
+  - name: opt_out_tokens
+    description: Strong opt-out keywords appearing in a message
+    match_mode: token
+    keywords:
+      - unsubscribe*
+  
+  - name: opt_out_phrases
+    description: Natural language expressions of opting out
+    match_mode: phrase
+    keywords:
+      - stop texting me
+      - stop messaging me
+      - stop sending messages
+      - stop sending texts
+      - do not contact me
+      - dont contact me
+      - do not text me
+      - dont text me
+      - remove me from this list
+      - take me off this list
+      - i want to unsubscribe
+      - i want to opt out
+      - i do not want messages
+      - i dont want messages
+      - no more messages
+      - no more texts
+      - leave me alone
+      - take me off your list
+      - fuck off
+      - fuck you
+      - fuck u
+      - bullshit
+      - bull shit
+
+regex_rules:
+  - name: stop_messages_variants
+    description: Variations of "stop sending messages/texts"
+    pattern: "\\b(stop|stp|plz stop|pls stop)\\b.*\\b(texts?|txts?|msgs?|messages?|notifications?|alerts?)\\b"
+
+  - name: do_not_contact_variants
+    description: Do not contact / text me variations
+    pattern: "\\b(do\\s*not|dont|do\\s*nt|dnt)\\b.*\\b(contact|text|msg|message|call)\\b.*\\b(me|me anymore)?\\b"
+
+  - name: unsubscribe_intent
+    description: Explicit unsubscribe intent in natural language
+    pattern: "\\b(i\\s*(want|would like|wanna|dont want|do not want)?\\s*(to)?\\s*)?(unsubscrib(e|ing)|opt\\s*out|cancel\\s*(subscription)?)\\b"
+
+  - name: remove_from_list
+    description: Requests to be removed from a list/service
+    pattern: "\\b(remove|rmv|take\\s*off|delete)\\b.*\\b(me)?\\b.*\\b(from|off)?\\b.*\\b(list|msgs?|messages?|texts?|service)\\b"
+
+  - name: no_more_messages
+    description: Expressions indicating no more messages desired
+    pattern: "\\b(no\\s*more|stop|dont send|do not send)\\b.*\\b(texts?|msgs?|messages?|alerts?)\\b"
+
+  - name: leave_me_alone_contextual
+    description: Leave me alone only when likely referring to messaging
+    pattern: "\\b(leave\\s*me\\s*alone)\\b.*\\b(text|msg|message|contact|call)?\\b"
+
+  - name: cancel_service_context
+    description: Cancel when clearly tied to a service or messages
+    pattern: "\\b(cancel|end|quit)\\b.*\\b(subscription|service|msgs?|messages?|texts?)\\b"
+
+  - name: profanity_directed_opt_out
+    description: Profanity directed at sender implying opt-out (very conservative)
+    pattern: "\\b(fuck\\s*(off|you|u)|f\\s*u\\s*c\\s*k\\s*(off|you))\\b.*\\b(text|msg|message|contact|send)?\\b"
+
+  - name: texting_shorthand_opt_out
+    description: Common shorthand texting opt-out phrases
+    pattern: "\\b(stop|unsub|opt\\s*out|cancel)\\b\\s*(pls|plz)?\\b"
+
+  - name: explicit_opt_out_with_context
+    description: Opt out explicitly tied to messages/service (prevents 'opt out of life')
+    pattern: "\\b(opt\\s*out|opting\\s*out)\\b.*\\b(of|from)?\\b.*\\b(texts?|msgs?|messages?|alerts?|service)\\b"

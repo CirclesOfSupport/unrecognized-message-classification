@@ -1,0 +1,188 @@
+name: end_conversation
+description: Messages that indicate the conversation is ending, including farewells, signoffs, polite declines, short closure acknowledgments, and driving-related auto-replies that imply the user cannot continue texting.
+priority: 4
+
+keyword_rules:
+  - name: end_conversation_exact
+    description: Explicit standalone conversation-ending messages and short closure acknowledgments
+    match_mode: exact
+    keywords:
+      - busy
+      - bbye
+      - bye
+      - bye bye
+      - catch you later
+      - cya
+      - gn
+      - good bye
+      - good night
+      - good nite
+      - goodby
+      - goodbye
+      - goodnite
+      - goodnight
+      - gtg
+      - have a good day
+      - have a good night
+      - have a great day
+      - have a nice day
+      - have a good one
+      - i gotta go
+      - i have to go
+      - later
+      - nah
+      - night
+      - nite
+      - "no"
+      - nope
+      - none
+      - no thanks
+      - no thank you
+      - not now
+      - not yet
+      - not right now
+      - see u later
+      - see ya
+      - see you
+      - see you later
+      - shut up
+      - talk later
+      - talk soon
+      - talk tomorrow
+      - ttyl
+      - take care
+      - ty
+      - thanks
+      - thank you
+      - thx
+      - thks
+      - k
+      - kk
+      
+  - name: end_conversation_phrases
+    description: Common short phrases that politely end a conversation or indicate unavailability
+    match_mode: phrase
+    keywords:
+      - cant talk right now im driving
+      - cant text i am driving
+      - cant text im driving
+      - cannot text i am driving
+      - cannot text im driving
+      - catch up later
+      - chat later
+      - driving right now cant text
+      - gotta go bye
+      - have a good one
+      - have a great day
+      - have a nice day
+      - i am currently driving
+      - i am driving
+      - i cant text i am driving
+      - i cant text im driving
+      - i have to go bye
+      - i m driving
+      - im driving
+      - see u tomorrow
+      - see you tomorrow
+      - speak later
+      - talk to u later
+      - talk to you later
+      - text u later
+      - text you later
+      - ttyl
+      - no thanks
+      - no thank you
+      - wrong number
+      - driving sent from
+      - with focus turned on
+      - not right now
+      - not yet
+      - have a good day
+      - good night
+      - good nite
+
+regex_rules:
+  - name: chained_short_closers
+    match_mode: include
+    description: >
+      Covers old-regex behavior for standalone short closers and repeated closure tokens,
+      including abbreviations, gratitude signoffs, and punctuation-separated combinations.
+    pattern: "^\\s*(?:no(?:pe)?|none|no\\s+thanks|no\\s+thank\\s+you|not\\s+now|not\\s+yet|not\\s+right\\s+now|have\\s+a\\s+(?:good|great|nice)\\s+(?:day|night|one)|good\\s*night|good\\s*nite|night|nite|later|b+y+e+|good\\s*b+y+e+|goodby[e]?|cya|see\\s+ya|see\\s+you|gn|ttyl|take\\s+care|ty|th(?:a?nks|x|ks)|thank\\s+you|k{1,2})(?:\\s*(?:,|\\.|!|/|\\-|&|and)?\\s*(?:no(?:pe)?|none|no\\s+thanks|no\\s+thank\\s+you|not\\s+now|not\\s+yet|not\\s+right\\s+now|have\\s+a\\s+(?:good|great|nice)\\s+(?:day|night|one)|good\\s*night|good\\s*nite|night|nite|later|b+y+e+|good\\s*b+y+e+|goodby[e]?|cya|see\\s+ya|see\\s+you|gn|ttyl|take\\s+care|ty|th(?:a?nks|x|ks)|thank\\s+you|k{1,2}))*\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: standalone_farewell
+    match_mode: include
+    description: Short standalone farewell messages, including stretched bye variants
+    pattern: "^\\s*(?:ok(?:ay)?\\s+|well\\s+|alright\\s+)?(?:b+y+e+|goodbye|good\\s+b+y+e+|goodby[e]?|cya|see\\s+ya|see\\s+you|later|ttyl|goodnight|good\\s+night|good\\s*nite|gn|night|nite)\\s*$"
+
+  - name: farewell_with_soft_modifier
+    match_mode: include
+    description: Farewell messages with short conversational modifiers
+    pattern: "^\\s*(?:alright|ok(?:ay)?|well)\\s+(?:bye|b+y+e+|goodbye|good\\s+bye|goodnight|good\\s+night|later|ttyl|see\\s+ya|see\\s+you)\\s*$"
+
+  - name: talk_later_variants
+    match_mode: include
+    description: Phrases indicating the conversation will continue later
+    pattern: "\\b(?:talk|text|chat|msg|message|speak)\\s+(?:to\\s+)?(?:you|u)?\\s*(?:later|tmrw|tomorrow|soon)\\b"
+
+  - name: have_a_good_day_signoff
+    match_mode: include
+    description: Polite signoff phrases
+    pattern: "\\b(?:have\\s+a\\s+(?:good|great|nice)\\s+(?:day|night|one))\\b"
+
+  - name: gotta_go_signoff
+    match_mode: include
+    description: Statements that clearly indicate the user is leaving the conversation
+    pattern: "\\b(?:gotta\\s+go|got\\s+to\\s+go|have\\s+to\\s+go|i\\s+(?:gotta|got\\s+to|have\\s+to|need\\s+to)\\s+go)\\b(?:\\s+now)?(?:\\s+(?:bye|later|ttyl))?\\b"
+
+  - name: gratitude_as_closure
+    match_mode: include
+    description: Very short gratitude/acknowledgment messages commonly used to close a text exchange
+    pattern: "^\\s*(?:ty|thx|thks|thanks|thank\\s+you|k|kk)\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: driving_cannot_text
+    match_mode: include
+    description: Driving messages that clearly indicate inability to text
+    pattern: "\\b(?:cant|cannot|can\\s*not|cn't)\\s+(?:text|txt|talk|reply|respond|message|msg)\\b.*\\b(?:driv(?:ing)?|drvng|on\\s+the\\s+road)\\b"
+
+  - name: driving_implied_autoreply
+    match_mode: include
+    description: Auto-reply style driving messages
+    pattern: "\\b(?:i\\s*m|im|i\\s+am|i\\s+m)\\s+(?:currently\\s+|rn\\s+|right\\s+now\\s+)?driv(?:ing)?\\b.*\\b(?:cant|cannot|can\\s*not|will\\s+not|wont|unable)\\s+(?:text|txt|reply|respond|talk|message|msg)\\b"
+
+  - name: auto_reply_driving_system
+    match_mode: include
+    description: System-like driving auto-reply messages
+    pattern: "\\b(?:this\\s+(?:is\\s+)?an?\\s+auto(?:matic)?\\s+reply|automatic\\s+reply|auto\\s+reply|sent\\s+from\\s+my\\s+car|driving\\s+mode|with\\s+focus\\s+turned\\s+on)\\b.*\\b(?:driving|on\\s+the\\s+road)\\b"
+
+  - name: driving_only_standalone
+    match_mode: include
+    description: Standalone driving statements only when they are short and likely signal unavailability
+    pattern: "^\\s*(?:i\\s*m|im|i\\s+am|i\\s+m)\\s+driv(?:ing)?\\s*$"
+
+  - name: goodnight_variants
+    match_mode: include
+    description: Goodnight signoffs
+    pattern: "^\\s*(?:good\\s*night|goodnight|good\\s*nite|goodnite|gn|night|nite|goodby)\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: regex_reply_later_driving
+    description: >
+      "Will reply when I land / when I'm done driving / back later" style sign-offs.
+    match_mode: include
+    pattern: "\\b(?:will\\s+(?:reply|respond|text|txt|message|msg|call)\\s+(?:back\\s+)?(?:when|once|after|later)|back\\s+(?:when|once|after|later|soon)|ttyl|talk\\s+(?:to\\s+you\\s+)?later).{0,60}\\b(?:driv|park|land|free|safe|done)\\b"
+
+  - name: wrong_number_or_decline_closure
+    match_mode: include
+    description: Short declines that often end a conversation immediately
+    pattern: "^\\s*(?:wrong\\s+number|no(?:pe)?|none|no\\s+thanks|no\\s+thank\\s+you|not\\s+now|not\\s+yet|not\\s+right\\s+now)\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: explicit_rejection_closure
+    match_mode: include
+    description: >
+      Direct rejection or boundary-setting statements that typically end the conversation.
+      Includes variations in contractions, spacing, and punctuation common in text messages.
+    pattern: "^\\s*(?:no(?:ne)?\\s+of\\s+your\\s+business|not\\s+interested|don'?t\\s+want\\s+(?:it|that)|do\\s+not\\s+want\\s+(?:it|that)|no\\s+need)\\s*(?:!+|\\.+)?\\s*$"
+  
+  - name: driving_me_phrase
+    match_mode: exclude
+    description: Exclude figurative uses of "driving me ..." (emotional expressions, not literal driving)
+    pattern: "\\bdriving\\s+me\\b"

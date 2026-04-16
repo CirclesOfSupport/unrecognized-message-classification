@@ -1,0 +1,53 @@
+name: reciprocal
+description: Messages that are polite reciprocal responses such as "you're welcome", "you too", or similar.
+priority: 10
+
+keyword_rules:
+  - name: reciprocal_exact
+    description: Standalone reciprocal or polite responses
+    match_mode: exact
+    keywords:
+      - welcome
+      - youre welcome
+      - you re welcome
+      - your welcome
+      - you are welcome
+      - yw
+      - you too
+      - u too
+      - u2
+      - same to you
+      - likewise
+      - back at you
+      - you as well
+      - u as well
+      - you also
+  
+  - name: reciprocal_phrases
+    description: Common phrases expressing reciprocity or politeness
+    match_mode: phrase
+    keywords:
+      - you are welcome
+      - you are very welcome
+      - you are most welcome
+      - youre very welcome
+      - youre most welcome
+      - no worries
+      - its all good
+      - my pleasure
+
+regex_rules:
+  - name: youre_welcome_variants
+    match_mode: include
+    description: Variations of "you're welcome", including common spacing and emphasis variants
+    pattern: "^\\s*(?:you(?:\\s+are|\\s*['’]?\\s*re)?\\s+(?:very\\s+|most\\s+)?welcome|your\\s+welcome|yw)\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: you_too_variants
+    match_mode: include
+    description: Variations of "you too" with optional ok/okay prefix and punctuation
+    pattern: "^\\s*(?:ok(?:ay)?\\s+)?(?:you\\s*(?:,?\\s*)?(?:too|to)|u\\s*(?:2|too|to))\\s*(?:!+|\\.+)?\\s*$"
+
+  - name: reciprocal_phrase_variants
+    match_mode: include
+    description: Variations like "you also", "you as well", "u as well", and "same to you"
+    pattern: "^\\s*(?:ok(?:ay)?\\s+)?(?:you\\s+also|you\\s+as\\s+well|u\\s+as\\s+well|same\\s+to\\s+you|likewise|back\\s+at\\s+you)\\s*(?:!+|\\.+)?\\s*$"

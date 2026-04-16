@@ -1,0 +1,17 @@
+name: contact_info
+description: Messages that contain a valid full phone number, email, etc.
+priority: 12
+
+keyword_rules: []
+
+regex_rules:
+  - name: phone_number_detection
+    match_mode: include
+    description: Detects full phone numbers with optional country code and separators
+    pattern: "\\b(\\+?1[\\s\\-\\.]*)?(\\(?\\d{3}\\)?[\\s\\-\\.]*)\\d{3}[\\s\\-\\.]*\\d{4}\\b"
+
+  - name: email_address_detection
+    match_mode: include
+    text_input_type: raw_text
+    description: Detects valid email addresses
+    pattern: "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"

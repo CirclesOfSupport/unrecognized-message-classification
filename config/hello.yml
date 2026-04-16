@@ -1,0 +1,76 @@
+name: greeting
+description: Messages that contain only a simple greeting and nothing more.
+priority: 5
+
+keyword_rules:
+  - name: greeting_exact
+    description: Standalone greeting messages
+    match_mode: exact
+    keywords:
+      - hi
+      - hii
+      - hiii
+      - hey
+      - heyy
+      - heyyy
+      - hello
+      - yo
+      - sup
+      - wassup
+      - good morning
+      - good afternoon
+      - good evening
+      - morning
+      - afternoon
+      - evening
+
+name: greeting
+description: Messages that contain only a simple greeting and nothing more.
+priority: 5
+
+keyword_rules:
+  - name: greeting_exact
+    description: Standalone greeting messages
+    match_mode: exact
+    keywords:
+      - hi
+      - hii
+      - hiii
+      - hey
+      - heyy
+      - heyyy
+      - hello
+      - helloo
+      - hellooo
+      - yo
+      - yoo
+      - yooo
+      - sup
+      - wassup
+      - good morning
+      - good afternoon
+      - good evening
+      - morning
+      - afternoon
+      - evening
+
+regex_rules:
+  - name: simple_greeting
+    match_mode: include
+    description: Standalone short greetings with optional mild filler and optional punctuation
+    pattern: "^\\s*(?:ok(?:ay)?\\s+|well\\s+)?(?:hi+|hey+|hello+|yo+|sup|wassup)\\s*!?\\s*$"
+
+  - name: time_of_day_greeting
+    match_mode: include
+    description: Standalone time-of-day greetings
+    pattern: "^\\s*(?:good\\s+(?:morning|afternoon|evening)|morning|afternoon|evening)\\s*!?\\s*$"
+
+  - name: polite_short_greeting
+    match_mode: include
+    description: Slightly more polite standalone greetings
+    pattern: "^\\s*(?:hi+|hey+|hello+)\\s+there\\s*!?\\s*$"
+
+  - name: greeting_with_name_like_followup
+    match_mode: exclude
+    description: Exclude greetings followed by additional message content
+    pattern: "\\b(hi+|hey+|hello|yo|sup|wassup|good\\s+morning|good\\s+afternoon|good\\s+evening)\\b\\s+\\w+"

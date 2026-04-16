@@ -1,0 +1,20 @@
+name: giftcard
+description: TODO
+priority: 8
+
+keyword_rules:
+  - name: giftcard_exact
+    description: Standalone gift card or code messages
+    match_mode: token
+    keywords:
+      - gift card
+      - giftcard
+      - gift code
+      - amazon gift card
+      - amazon code
+
+regex_rules:
+  - name: amazon_card_basic
+    match_mode: include
+    description: Amazon card mentions (including implicit gift cards)
+    pattern: "\\b(?:amazon\\s+(?:gift\\s*)?(?:card|code)s?|gift\\s*(?:card|code)s?)\\b"

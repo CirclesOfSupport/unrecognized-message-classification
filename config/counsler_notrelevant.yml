@@ -1,0 +1,5338 @@
+name: counsler_notrelevant
+description: Messages that are likely to require triage and should be reviewed by a human.
+priority: -1
+
+keyword_rules:
+  - name: counsler_already_triaged
+    description: Messages that have already been triaged by Counsler and should be ignored
+    match_mode: exact
+    text_input_type: raw_text
+    keywords:
+      - input
+      - Will do
+      - Getting laid off
+      - How do I help with my memory and concentration
+      - School is getting tough and I feel behind.
+      - Fair
+      - I was a medic during Vietnam and I have many horror stories that I don't share. Nobody needs to hear my tales.
+      - Ok, thanks.
+      - Have an exam. I feel okay tho
+      - Darryl e Downey
+      - Not looking
+      - This is Don MacIntyre.
+      - )
+      - Dec-76
+      - How do I stop getting these texts?
+      - Opt out
+      - Okay
+      - Not enough sleep
+      - Please remove me from this program. Same exact question as last wk. Not what I expected
+      - No, remove
+      - You are not favorite wellness bot
+      - Thanks!
+      - No problem!
+      - stop texting me I'm not interested in whatever you're selling
+      - Stop texting me I opt out
+      - I opt out please
+      - Yours ?
+      - Hello
+      - How can I opt out of these text messages?
+      - Stop texting
+      - None
+      - I found out the latest App to create AI music! It's insane, just try yourself:
+      - None
+      - Babylon ?
+      - Babylon
+      - We inna babylon
+      - ​👍​ to " Welcome to Early Alert, John! 🥳 "
+      - What is your name
+      - No
+      - NONE
+      - Scammer
+      - The VA has all of my information. Therefore, I am not willing to enter it for you!
+      - Ten
+      - Huang
+      - Thanks
+      - Welcome
+      - The number you are sending an SMS to,currently has no SMS capabilities.
+      - Okay
+      - Please stop texting me.
+      - Okay
+      - Thanks
+      - Cool
+      - Gary Maddux
+      - ​👍​ to " How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+      - Removed ‌👍‌ from " How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+      - Removed ‌👍‌ from " How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+      - Yes
+      - Yees
+      - Who are YOU ?
+      - Yes
+      - Rgr
+      - You are about as useful as bowl of ice cream at the north Pole
+      - Whats urs
+      - Yes
+      - STIP
+      - Rolando T Guevara jr
+      - Okay, Thank you, and GOD Bless
+      - Stop 🛑
+      - )
+      - Shawn Stevens
+      - Never mind. Until you are ready to identify yourself there is no need to contact me!!!
+      - I know it's AI. I have no reason to talk to an unintelligent machine!!!
+      - 0-10
+      - That would be great, thank you
+      - Yes
+      - End
+      - No don't
+      - Ok
+      - Who is this?
+      - Not relevant
+      - Benjamin-Ray  Mendoza somebody is texting me saying I have to text somebody my name to enroll
+      - UPDATE
+      - Stop sending text
+      - Okay
+      - three
+      - Active Air Force & MI Army National Guard
+      - 1,2
+      - Give it a few more days b4 I'll write anything...much thxz
+      - Sorry I forgot the 1
+      - YES
+      - Liked "I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁"
+      - Ok I understand
+      - cancel
+      - Stop all future
+      - Don't worry about it. I got chatgp
+      - Stop messaging this number please
+      - Who are you and what are you peddling?
+      - USAir Force, 8-1961/3-3-1963  under honorable conditions
+      - Thank you
+      - ​4️⃣​ to " How would you rate your memory and concentration over the past week, on a scale of 0-10? (0 = Extremely Poor, 5 = Fair, 10 = Excellent) "
+      - Hey
+      - Schwager
+      - I replied yes I'm a veteran on you questioneer
+      - Thank you.
+      - Please don't check anymore
+      - Ok
+      - Roger
+      - Why Does, This!!! Keeps Repeating???!!!
+      - Male
+      - Male
+      - Completely
+      - Why are u asking
+      - If I'm still with the school
+      - Wow
+      - Yes
+      - Viet Nam
+      - Doing it
+      - No thanks
+      - Stop it now
+      - Chuck
+      - Message received and annotated on my phone. Thank you
+      - Yes
+      - Five
+      - Yes
+      - Who are you
+      - Okay, thanks
+      - No need good bye.
+      - I really like that
+      - Sir
+      - Who is this
+
+      - Who are you?
+      - Yes
+      - Okay, you are a bot, what is this info for?
+      - I dont believe this AI system is working well
+      - N0
+      - Shut up clanker
+      - Loved "Cheers. It's my pleasure."
+      - Pls remove me
+I am forwarding this for you with your text.
+Take me of your list
+Removed ‌👍‌ from " Hi Gary. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Identify yourself
+None of your business.
+remove for this this is not what I want
+remove from this I do not want it. I do not need it. Take my name off of it. This is not what I thought. I thought this was a medical alert bracelet. Remove me.
+remove this
+You are very helpful
+Financial
+WHAT?
+okay
+A R Evins
+Yes
+The number three
+Okay, great!
+Milton Sain
+Do you have another quote?
+Five across the board.
+Yes
+Are you able to give Biblical affirmations in the future?
+Ok thanks
+My what?
+I just started
+I m opting out of this service, I get more text than I want already. Thanks
+Who is this
+Okay and Thanks
+Army
+Tym
+Resouces
+Very informative and great costumer service
+Why Certainly 🫡
+Are you from mortgage solutions
+My bad, thanks for the info
+Never mind
+I was in the National Guard and a veteran from there.
+My name is Armand Plaisance Jr.
+Yes
+Yes can you tell me where they are serving the veterans meal today
+Im sorry I dont use Early Alert. What is it?
+I'm Driving  - Sent from MY CAR
+Thank you
+No Charles. Take me off your list.
+I am not certain of your mission. I am a disabled veteran what services do you provide?
+Yes
+And which institution are you referring to???
+None at this time
+Do you have a web site?
+Ok Ty
+Tanks
+Yes
+You Are Welcome
+Yes
+UPDATE
+🇺🇸💖
+I like to know more about it
+Early alert has helped me relax a little more and not being mad most of the time.
+None
+Loved "🙏"
+I am a veteran.  USAF from 1979-1974.
+Yes
+I thank you and friends for recognizing my service. Would do it all again if I was needed.
+I use the VA frequently. I didn't realize the benefits I would receive by serving in Vietnam. I'm grateful for America and the rewards it bestowed on me.
+Welcome
+Not your business
+I'm 75. Been there, done that to most of those things.
+Have a great day
+I'm good. Thanks
+No, but thanks
+NO THANKS
+No thanks. I'm good.
+I love early alert. It helps in keeping a good schedule around other things
+What is earl alert?
+I like it
+Yes
+Not now
+Ok it's Veterans Day thanks
+Yes I am a Veteran
+Yes
+Savor In times of need
+Eight
+Don't know yet
+Sal abrus ok
+it's okay
+Helpful and understanding with the advice they give
+Don't recognize your company!
+Who is this?
+Yes
+It's just nice to have something just checking in
+And I bet that I well not get one dam thing from you
+Ok, you take care too .
+None
+Just being respectful
+all the same to you my friend
+My name is Sebastian Jenkins
+Yes
+Not yet.
+What is Early Alert
+Delete
+Proud to have served! Thanks and Welcome!
+Yes I am
+Ok thanks
+What resources do you have
+I like that EarlyBot responds faster than a human and contains the knowledge to point veterans to the correct resource to meet their needs.
+Please
+Yes
+Yes
+Honorably discharged
+I need your click to get my free gift. https://temu.com/a/xej3eA1GvBQ8L7
+I received your text.
+Excellent
+Yes
+Yes
+It's a very good organization
+Roger  that
+Tap and get 2,000 H/s free: https://g.cb.click/F0EWbW
+Davies
+Ok thanks
+My Pleasure being a Veteran!
+What is ume?
+Thank you and God bless you all
+Fine
+Ask me later on
+Okay, thanks!
+Who are you
+as fa mo.
+I'm a veteran I don't need insurance please quit calling and texting
+Im a vietnam combat veteran also a retired professional full time firefighter here
+Let's go
+For self-help resources, visit
+Dave Ainley
+What is this for
+Okay, thanks!
+Said it all above
+Nevermind
+I don't know yet. I need more interactions
+How about something actually tangible
+I just starting using this app.  I will give a testimonial once I have had an opportunity to to use ut.
+None of your damn business
+Stop, I do not need this. All is well
+Stop texting me
+Loved "Here's our quote of the week:  'Loving yourself isn't vanity. It's sanity' (Katrina Mayer)  Until next time, take good care. 🙏"
+What sleep ovr
+How do I download calm
+Never mind. Obviously you are a computer so you have no empathy or insight. Stop
+No you share some good quotes
+No. I jus want access to the calm app
+What are you talking about
+I'll try, thanks.
+None of your business.
+Yes
+Check in again in ten days. This is helping
+Law
+The answer to the question is a five
+These responses are automatic and are not heartfelt like so many others today. Sad, sad, sad.
+As I thought. Thanks anyway.
+No......you are a machine.
+Stop.....please.
+❓❓❓❓
+Yes
+I don't know who you are
+Yes
+Night
+stop fuckin bugging me
+fuck off
+Ok stop texting me.
+I was just filling out the forms and then I shut it down. I don't know what I want to do. I would like to know what is for sale near Hamilton. Thank you for your polite response. BOB
+Yes
+Ok.
+No thanks
+Is ok . leave me alone please  Resting sleep ok good night
+O. K.
+You also
+Yes
+Not at this time
+Who the h--- are you
+Go fly a kite.
+Nothing you have to offer.
+Not interested. Get lost
+Six
+Who might you be?
+try try try again
+Truck is gone. Had an offer I couldn't refuse. Sorry
+I love u
+Not now
+You To!
+What would that be?
+Already working on it
+No problem, thank you!
+Can you call me 'Lillie' please?
+The prompt responses
+Will do thx
+The Lama has spoken
+All the above
+Okay
+Neutral thanks for asking
+Pic s fort both  dome
+None
+I don't care for the quotes
+Thanks
+Thanks
+Fuck off and leave me alone
+Do you have any resources on the metric system?
+Yes
+Migraines!
+Indeed!
+I'm good
+Thanks
+Thank you
+Good night
+Fair
+Yes
+Is ther a chsrve for this
+JUST ASKING IS THIS A FREE SERVICE
+Yes
+Stop sending
+I will
+Ok thanks
+What don't you understand about what I said
+You are a waste of my time
+Go away
+Why?
+Where are you calling from
+Who is this
+O please stop the text
+Yes
+Nothing
+Ok thanks
+V be
+Thanks
+Ok ty
+You also
+Not at this time.
+How?
+Kool
+Ok thanks
+I never got my Amazon gift card
+I just asked you a question and you said upwards of downwards so do ask me anything else
+Knowledge is power
+Not now
+Ok thanks
+Okay you too
+I'm a Charlie too
+No
+I'm fine
+i'm jk
+just trolling
+i mean 7
+Ok ty
+So do I get paid for these surveys?
+I have this constant ringing in my ear that's so irritating and I can only sleep a little while.
+I'm a combat airborne vet
+Don't  understand computers
+Not now
+Okay, will do
+Good
+Thanks
+Ten
+True have a great week
+That would be great
+I don't have an org
+Yes
+Yes
+Okay
+Okay
+Okay
+I am enjoying it
+I read the three
+I will text you. Stop texting me.
+No shit. Duh
+Pissing me off stop asking questions bye
+Fair
+
+Who is this?
+browningdavidb9@gmail.com
+I don't need that
+I'm a Veteran
+Will answer back when I have a spare minute. Talk to you soon
+
+Okay, thanks!
+I sent my email address to you.
+Hell yeah!
+Okay, thanks!
+Beep beep…I'm driving with Do Not Disturb While Driving turned on. I'll see your message when I get where I'm going.
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+46299
+Neutral
+What is this for?
+Navy
+Early alert
+Robert E Gell 609 235 6395
+If it's a human
+You're not real! I need human help!
+Exactly! Fuck off ai
+Who are you?
+Hello chatbot. Who owns you?
+Who is this information for
+What company do you work for and what would done with information I might supply
+Don't contact me again if you don't know who you are working for.
+I would say five.
+Loved "Here's a quote I thought you might l  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏"
+You, too
+Male
+Yes
+Understood
+Agent Orange
+Removed ‌👍‌ from " Hi Rickey. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+I know
+I would but later
+I will
+None
+I don't have one
+Where is parking for recreation center
+Dont
+You do the same
+Got it. Thank you.
+I don't have this app. If you have one in my name, please send it immediately.
+At best
+Copy that
+Sure
+No.
+About what please explain
+Tks
+Maybe
+What is 'your institution?'
+Why do you want that
+List
+You as well
+You, too
+You, too
+Yes
+Who is this?
+Male, man as God made me
+Nonononono
+Go away you are annoying
+Yes
+Not buying anything
+Dave Morales
+Dave Morales
+Removed a like from "👋 Hi again, Colton. How satisfied have you been with your personal/social relationships over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied)"
+None
+Okay, thanks!
+What is this????
+Good bye
+Male
+Thk u
+Do I need to block you
+Stop 🛑
+123569
+No.
+Yes
+
+Oh ok  Well I'm not really sure what this is so I thought I'd check it out
+None at this time
+Not really
+Yes
+Not sure yet
+How do locate my servicer
+Happy Thanksgiving
+Absolutely
+Ok I understand
+Bolton
+Who are you?
+Right now you're just pissing me off.
+I would like to know who you are and why you keep asking me these questions. Are you associated with the VA hospital?
+Fuck off
+
+Yes
+No worries
+Zero zip nada
+Love it!!!😍
+Qualiyfying exam
+Who is this
+Who is asking
+You can't understand plan english
+None at this time.
+None at this time. Good bye.
+My Quote ;  If they roar like a lion , you fight like a tiger !
+Not yet
+That you. Have a safe holiday!
+Whatever!
+Who is this?I want to know what school this is
+Have a nice Thanksgiving now.Enjoy it with your family god bless
+Number nine
+Gary Gallup
+They usually give notice
+No you don't understand  The B-well app REQUIRED AN ACCESS CODE
+Not at this time
+Welcome
+Sleep 😴 over where?
+No stop
+Leave me alone
+Nothing
+Nothing
+FUCK OFF ASS HOLE
+Fine
+May I ask why you ask
+Slept over where?
+Who is asking ?
+None of your fucking business
+Who is this?
+Can you be more specific?
+Maybe tomorrow I'm going to bed. Good night
+Ok thanks
+I will see
+Dammit I don't know
+Why Do you want to know
+Jack Daniel's
+Yes
+No thanks
+No thanks
+Yes
+Yes
+Later
+Wait, who am I chatting with?
+A chat it from what organization
+Thabk you
+Yes I am a Veteran.
+Happy Thanksgiving
+None right now
+I hit the wrong didnt want to hit it
+None
+Who are you and who are you working with?
+I am done conversation with you
+I do not consent to my information being shared.
+HAPPY THANKSGIVING
+Nice to know someone cares
+Have a wonderful Thanksgiving
+We can do it later u have a happy Thanksgiving
+Will do. Its a holiday im sure they have a skeleton crew
+Who is this
+Thank you
+Happy Thanksgiving 🦃
+Halfway
+Uss
+Who the fuck is this
+Get lost please
+Go away
+
+
+Discharge upgrade
+Is there a app
+Sorry but I don't have time for this right now..
+Don't want to talk about my personal issues like my only sister's husband passing or my brother being in jail for domestic problems...let alone my personal problems with disability, depression and poor hearing. I was re-evaluated by the VA this summer but that is still being assessed so I submitted a heart ship request.  I'm just stressed out!
+I'm Driving  - Sent from MY CAR
+Who's this & how did you ger my number?
+How can I unplug it
+Where is this coming from?
+All
+stories
+Yes
+US Air Force
+Never mind
+Who are you? Explain your text!
+Ok appreciate u asking
+Meow
+Why U Ask ?
+How do I Block ALL this SPAM Calls ?
+Army
+Who is this
+
+I was on a Diesel electric submarine
+I'll call you later.
+What??? Get lost
+Fuck Off!!
+Yes
+1972 from active duty, 1974 from Navy Reserve.
+Acknowledged
+Acknowledged
+Not really
+Just looking
+Sorry, no
+Sorry, no
+I did
+Of course
+It's badddd
+I don't do bots
+Who is this?
+Financial
+Yes
+Housing
+Nice
+That was a nice quote
+I have a doctors appointment Tuesday at 10 thanks
+You've nothing for me
+Excellent
+No, but my dad is a veteran
+Not at this time
+Words of wisdom, never kick an ostrich while it's laying an egg-----Chuck
+u 2
+Yes
+Gene Taylor VA clinic
+Fuck off
+Fuck off
+Much appreciated
+Keep  arasing me   going to court .  Invasion of privacy.  .... understand
+How do I opt out of these texts
+How do I opt out of these texts
+I was all fuck up shit bad on holidays
+Stop sending msgw
+No
+I have no idea what your talking about
+Ok ty
+Not sure
+How I would like a nice lady to rub my back
+Stuck in pa
+What is so hard to understand I like to lay out naked and get my back rubed
+That's the problem l like my back rubbed by a female with or without clothes on can you understand that
+Maybe
+A nice young female who would like to rub my back and maybe spend the night,
+Six
+https://www.facebook.com/share/v/17YCbPmZe3/
+No bots
+Just like you just listen and run away
+Forget it
+It gives me something to look forward too
+Yes
+Yes
+Let me get back to you I have go right now
+But. I am not John
+Maybe later
+🎉 Claim 5 free SHEIN products now!   Click the link to help and let's both win big! ✨ https://onelink.shein.com/21/590didwll1k3
+Steven Tyler said he loved my answer!   Don't know  what ur coming from
+It won't do any good
+None
+None
+Yes
+I did it
+67676767
+Who wants to know and why?
+Same to you, thanks
+Just cross me off.
+I slept good at home. Think you have the wrong PHONE NUMBER. Don't text or call again
+Give me a quote
+What kind of resources?
+At sometime or another all the above
+yes
+I think early alert is a great source of information for people who are having a hard time getting to the hospital 🏥 and I recommend early alert to family and friends.
+Supposed to be Air Force
+Who are you?
+I do not know you and do not want to!
+I was just curious
+Nice Quote.
+why?
+I have an appointment next week
+Ok .t y.
+Ok .what ph #
+You are very welcome
+1236910
+Is there an app to remind me too take my meds?
+Isn't it bit, not bt
+Why?
+I don't comunicate with bots. Sooo Fuck Off!!
+How much does it cost me
+Just so you know I am 💯% disabled
+Can we stop these texts?
+Driving, can't text. Sent from MY SENTRA
+Driving, can't text. Sent from MY SENTRA
+Driving, can't text. Sent from MY SENTRA
+Driving, can't text. Sent from MY SENTRA
+
+Parkingson's
+Is there a cost for you to do periodic check ins?
+Are you charging me money for doing weekly che k in?
+Free to me, I hope? No cost to me?
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+Okay, will do
+Always
+None
+Who is asking?
+Who are you and why are you asking?
+I need your click to get my free gift. https://temu.com/a/vxEdexZItRPIt
+Thank you ❤️
+Not yet
+Sure!
+Not right now.
+Yes
+Did that id work
+Age in years....as opposed  to  what?
+Huh
+gotcha
+What sleep over are you talking about
+Okie Dokie
+Go Away Please!
+Stop! Please!
+Yes
+Not interested in this conversation. So long
+Who's this?
+
+Very
+Nope
+Are you a machine or live person
+Never mind
+I don't think it's your business!
+I'm
+I'm amazing I promise !
+I didn't know l had an account
+Nothing,thanks though
+No thanks
+Claramarkham@gmail.com
+I send all the messages to my wife's email address,  Claramarkham@gmail.com
+None
+In that order
+Unable to communicate right now
+Why
+Yes
+Why & who is this?
+Nunya FKN Business ! Move on !
+Please call me later. Thanks!
+🤓 (sent with Gentle Effect)
+Nunya FKN Business !
+Why ? Ya just trying to Steal my Information !
+Who is this
+Who is this please
+Which specific relationship
+
+Male
+Ok
+Good deal
+
+Amazon gift card
+Mine as well🫡
+I was stationed at Camp Casey.... near the DMZ between North and South Korea
+We shall try
+Yes
+Very good
+Don't want it
+Extremely
+No I
+Thanks
+Tks
+Tks
+None
+Who are you
+This is Sunday witches make it a good day but receive the text while in church which made it a bad time.
+No thank you
+For one thing nothing identified you as a veterans administration rep. I had to run a check on your phone number to make identification.
+You are welcome
+I always enjoy something inspiring, even if it is a long forgotten quote!
+Yes sir
+The roof is my biggest concern!!  The whole roof needs to be removed! Then 20' 2 x4 will have to be glued & lag bolted to the trusses!!! Each side of the roof is 20' x 30' !! If you can help me with that for now. I would be most grateful!!
+Not today
+Please quit emailing me
+My service dog died shortly ago. I am wanting to go to a program in Palm Springs that is very important to my mental health and my providers are not wanting to put the referral into the community care program because its for veterans but not VA affiliated so Triwest won't pay for it which I need in order to go to this program. Please tell me you aren't AI.
+Nos
+attend
+Yess
+Nos
+I have very little idea about what this is.
+Yes
+Ok, TKS
+Please unsubscribe my number.
+Ya asking for a little to much information that is private. I'm sorry
+Won't change anything, never has yet.
+Male
+2male
+answer to one more thing no
+I served in army- 1966-1968
+Yes
+Markham to verify my last name
+Asbestos
+The message are inspiring
+Sty
+Eight
+Most of these things are for people still in the service
+I will 😺
+Same to you.
+Why do u want to know?
+Since you're just a bot and just am a human then there's nothing to say to each other!
+1970
+Why should you care
+Let's not
+Fuck you and will be blocking
+the water pump
+I love you!!
+Only Way To Roll People's
+Meow
+Not right now ty
+Keeps me informed
+Bull shit
+2001 year i separated
+T143373676716
+https://www.kfgy4trk.com/cmp/22CSPB1/2JL8K8/?sub1=&sub2=w&sub3=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IklnZjE0R285OVpqNSJ9.tnfnBSzE_NR3TlrVjt6Ih84YtG7cP7O3_cQDxcgtgTY&sub4=2KXGDCR&sub5=null
+Okay, I will
+Like coal and copper?
+It was a joke, Humble Chatbox.
+None
+None
+Nope i am not talking
+it's ok!
+Le gustó "(pardon the wall of text I'm about to send - I just want to make sure you have all of the relevant information)"
+Who is this?
+Nite
+Sorry Not at this time!
+U as well
+Haven't used it yet.
+Not sure of numbers meaning.
+You don't understand.  I have a fellow miltary guy here as he plays poker as I watch
+At this point I really don't know? I guess some military friends
+Tomorrow
+Good Night
+Not happy texting with you at one in the morning!!!!!! 😡🫣🤬😡🤬
+Satisfied with what???
+Good Bye!]!!!
+I too have formulated such...   'The cards 🃏 that are dealt to you, how you play them is all on you'
+I just joined so maybe in a few weeks
+You, too
+Sorry, it won't happen again
+Yes ma'am
+Can't you tell my name is Robert.
+No email and don't know how to send verification. Will check with friend     how to do it
+You also
+Nothing right now
+? Who, why what for
+Is this number to early alert and will I talk to someone if I call or will AI technology be handling calls?
+Yes. My mistake!
+Not right now
+Do not bother checking in. It will be the same extact answer.
+The service is real good because they check on every week to see how your doing
+2sleep
+Oh good
+Who is this
+Bless you.  Light at the end of the tunnel
+Yes
+Got it, thanks
+Good bye
+it won't let me upload. tapping out.
+For sure
+I don't want to update any f****** things zero is my f****** answer 0
+Who r u
+Who are you
+Tks
+What are you wearing?
+Burn pits for waste
+Did not receive!
+I asked what this about
+It has been this way for a long time.
+Who is this
+Oh sorry chatbot lol
+Got it
+Who is asking?
+You are quite welcome
+Sorry, I don't do bots. So now you'll be blocked!!!
+Who is this and what the hell's sleepover are you talking about
+And Marry Christmas
+Not right now!
+app is not a good fit
+I'm Driving  - Sent from My Car
+Not really
+I would like to know your identity, who are you
+Not much
+I'm always praying
+Yes
+NAVY
+CIVIL LIBERTIES
+VIOLATIONS OF CIVIL LIBERTIES, DUE PROCESS AND MISCARRIAGE OF JUSTICE guaranteed constitutional rights and HOMELESS VETERAN
+Yes
+Yes
+Not at this time.
+I don't know
+Well, then, maybe you should have an intelligent human being instead of AI as I said everything I had to say and if you can't understand English, I'm doing fine without mental health medication. The doctor kept me on that just to bring a paycheck for a visit.
+You have to be your own master if you're strong enough in willing enough and not be living on dependency where a doctor you consider him the drug pusher for a weak medication which psychologically at one point dominated me and they were holding the drugs. You gotta visit me another paycheck for them in my mentality was no way to be found. I did it on my own. I've survived the war. I'll survive my mentality.
+All you're doing is referring me to another MD who's just gonna have a paid by the government visit and put me on meds so I can be in have a dependency and when I run out anxiety bills really I think I'll deal with it
+AI is nothing but bullshit just another taxpayers dollar being wasted on doctors. You have no clue coming out of college and you'll pose them on veterans like guinea pigs. I'm not that guy. I'm the guy you wanna avoid I asked for helping hand and the VA turned it back on me reasons not to discuss with the machine as you wouldn't understand it.
+No thanks
+How to sign out bladder biopsy of papilloma
+If so why haven't I received any messaged from you?
+I think this is a good thing
+Ok I'll will
+Cool thanks
+Till next time
+Good bye
+Nothing to measure
+Just got their payment book showing the assessment never even knew so now they're just like well. It's those four people didn't even know about them being tore up down there and they described how they were gonna set up the new pay system the new billing system that they are using to hell I want a goddamn receipt. I want a document in my hands lays out the charges bullshit I got a printed document, but I didn't get the one where you had one. When are they setting up the paperwork when they send out paperwork how much we owe on your computer I can just login you haven't done that yet. Give me the one and I got the sheet from whatever
+What are you talking about
+Not right now
+Later after been with you for a while
+Next time
+
+Yes
+Service connected
+18002738255
+Will happily do that!
+Will do. Thanks.
+What r see your es
+Spiritual
+Because you are unable to understand spiritual
+Spirituality is God given
+Do you understand?
+Talk to you later
+Yes
+Airborne Army Ranger an VMI alumni
+Where is the gift code link
+Not yet
+Male
+Who are you?
+Yes all the ladies on this site are nothing but thieves. Every lady oh here never has enough gas to get to you. You send money to help not one lady has showed up. I been on here a long time and i finally figured out they all do the same. I just kept having faith but it has finally run out. I don't know what else to say.
+No, please delete me.
+None of your business!
+Why you want to know???
+Who is this
+Okay, will do
+OEF/OIF
+Sgt usmc
+Do i get a link for the $20 Amazon card
+Not really
+I hate AI
+No
+I will block you
+Why?
+You are no much use
+No, I don't think so. Who do you report to?
+I said no.
+If you can not identify who this is for then my answer remains. No
+You can stop
+Who's asking?
+No, I have asked you to stop sending those messages and I am now going to report you a spam and to the authorities
+He is a patriot and hardworking man
+I will look into it
+Or like 67
+Layla is crazy
+I'm crying rn say sorry pls
+😭😭😭
+As a veteran,  can a veteran get dental help?
+wait
+Welcome
+Not from a computer
+
+ROSELYN THOMPSON
+Yes
+Alright, let's begin
+You to ty
+Who are you?
+Just had a talk with some one from there
+Ok🥰! You Too!🥰
+I don't want that gift
+No
+Don't remember.
+Not yet!
+Yes
+any others?
+Nono of your business
+No thank you
+Not right now
+Why
+Who are you and why should I reply to someone or something I don't know
+Actually 35 years
+What Doctor
+Good Buy
+
+Sorry.
+Yes
+Ten. Ten
+Ten
+IO
+Air Force retired
+Yes
+Yes
+No 😞
+629-257 -9580 my cell phone number
+Yes
+ok ty
+ty bye
+Yes
+What are about?
+Yes
+Maybe use my email, jamesorkwis67@gmail.com
+My daughter said it was the smartest thing I ever done in my life
+Yes
+Can't believe it took me forever to sign up...
+I'll contact you if I need anything! Thanks
+Yes
+All of the above
+Not yet. Prayers and Studying the bible.
+I try
+Dental
+Who is this
+Smoke alot of Indica 34+thc
+Tom Brophy... tbrophy894@gmail.com... 7756238749
+Am I talking to a computer or a real person?
+Non e of your business.
+Go away
+Nope
+Who is this?
+What do you know about pancreatic lesions?
+I never did get my 20 dollar amazon card after enrolling
+It's nice to have someone check in on you!
+The number you are sending an SMS to,currently has no SMS capabilities.
+The number you are sending an SMS to,currently has no SMS capabilities.
+Okay tyysm
+Male
+I have graduated please remove me from the message list
+USMC
+Maybe lator
+Not now
+Hey
+who is this
+WTF ?
+Now you're just messing with me
+Suck a dick
+Bullshit
+Please  take my name off your list
+Disregard
+Respurces
+Can't talk right now. Maybe later on today.
+Yes
+VA treating
+Please leave me alone it's none of your business
+Leave me the fuck alone
+Fuck off asshole
+Italian
+Yes I am
+Agent Orange in Vietnam
+USAF
+Yeah
+Who's asking?
+How can you help?
+I don't know what this is all about. So I'm out of this conversation. And I do NOT need any kind of help.
+Yes
+Never your not helping me at all.
+GOOD BYE 👋
+Okay who are you
+I don't have any
+6 Naval Submarine
+None
+Yes
+Please read my last response.
+Y
+Okay
+Okay, I will
+This is the only question I've answered I believe. But, I go to the VA in Salisbury, NC 27295
+Sorry but I don't recall who you are and why you are interested in my sleep quality.  Please advise.
+Ok, no problem!
+What is this all about?
+Stop texting me please
+Stop texting
+Who are you?
+Who are you?
+If you won't tell me who you are or represent.  Then don't contact me ever again.
+Fu % k off
+One much have chaos within one's heart to give birth to a dancing star ( nietzche).
+Contaminated water at Clark AFB and Hamilton AFB.
+I don't know
+What a.silly question
+Sure you will
+Sop
+Stop 🛑
+ISTOP
+I have an appointment next week
+Can I please ask who this is?
+Who is this?
+Haha
+I have a question
+yes
+USAF
+Perfect.
+Yes
+I was in the Navy and the national guard
+Ok thx
+Not a vet
+Yes
+Yes, Agent Orange.
+Ten
+Ten
+Brother that depends
+No
+I don't need them
+I'm locked in fr
+Like what
+Nope
+Marine corps
+What? You got a time machine? Fuck off.
+You are welcome
+Got-em
+Okay, I will
+The mic on his coach I can get something out of that
+Why don't you know my age?
+Will do, thanks very much.
+Ten
+You're very welcome
+Anwar
+Yes
+And what did you uncover?
+I've already suggested what I think what I should be in need of in numerical order.
+Two
+You are welcome
+1and5
+Age
+Whose asking
+Welcome!
+Yes
+Are you kidding me? Call me some other time maybe when I pass and put a rose on my stone but who cares at the end everybody forgets you do I need help what are you gonna give me more drugs so I can be a slave to your doctors honestly think about it. It's just a robot and I'm human and you're not you need help you have to be reprogrammed. I'm your worst enemy.
+Maybe
+What more can I say? I'm a survivor and thinking about me mentality in my physical health less stress on my own doctor mentally all doctors are for them. I'm just a paycheck so what's up? I wasn't yelling for help. If you're a robot figure it out I never yelled out for help.
+FANTASTIC
+Not interested in at present time let's wait till first of the year 2026
+Merry Christmas and a great year
+I love Erma
+Please text me what Early Alert.....Insurance, if so do not contact me again.
+I'm Driving  - Sent from My Car
+Have a good week
+What sleep over ?
+Le gustó "🤗 Yay! I'm glad to hear that.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+How old are you
+Who is this?
+
+No thanks
+Tell me who this is
+[sigh] I talked to my Boy, and my former secretary.  I suppose support resources can't hurt. Who are you?
+In 60
+I don't really care for chatbots
+Probably seven
+Okay, I will
+I don't know anything about this.I just ran across it on facebook
+Yes
+Family issues
+Army
+Happy Holidays ⛄⛄⛄⛄
+Never again.
+This is not very helpful
+Who or what is this?
+I never signed up for this?
+​😡​ to " Okay, I located the relevant resources. "
+You've already found me as a veteran!!  I'm not sending my info to be stolen on a computer
+Great quote!
+U 2 (sent with Gentle Effect)
+What's you're name
+I named you! Chat bot
+None
+I don't know yet
+Why would you think I would change my original answer?
+I will
+You also and have a happy holidays
+Can't remember sorry
+Yes
+Can I call you later?
+Not yet
+Nunya FKN Business !
+Roger that!!
+Stop texting me please
+I understand
+Never went overseas  I served at Rickenbacker AFB Columbus Ohio 2 years
+How about giftcard
+Amazon!
+Amazon
+That didnt work
+I need another
+The giftcard didnt work
+The giftcard
+Didnt work
+Work
+Didnt work
+It didnt work
+Didnt work
+Didnt work
+Unsubsfribe
+YES
+NOOO STOP
+
+OK ??  I WILL
+Slay
+It means cool
+Yes all
+Yes
+I worked as an aircraft painter for 8 years handling Zinc Chromate, epoxy primers, aircraft strippers , and various chemicals! 4 years active duty and another 4 years as a civilian contractor for Lear Seigler.
+Okay, great!
+Interesting
+God
+If you are speaking about my company I am very satisfied
+Wellcare
+Excuse me but I am not relating to who you are. If I am I apologize
+What am I chatting about?
+What challenges?
+What is a chat bot?
+Why humble answer my questions
+What resources name one
+Yes
+Can I forward this to another veteran?
+Want to read
+But I'm a veteran
+Number was 1 or 0
+10.4
+Yes
+As you're a stand  alone V.A. merchandiser Which means I am you're my bank for  what?
+Enough. I am  not insearch of your products.  T hank you for thinking me a potential victim.
+I will
+You Take care too
+Today is my birthday.
+The biggest problem with you as you can't identify you when call. I have so many                  wanting for whatever they can get .
+Not my problem.
+I am gonna order another one of them wellness kids at the end of the month kits
+WHY?
+Leave me alone.
+🙂🙂🙂🙂🙂🙂🧡🧡🧡🧡🧡🧡
+O no of them.
+Stop, your text cause stress and create suicidal thoughts. Stop now
+Anne
+I can call the va ty
+I don't think so . My wife and I are working it out. But thanks
+What's the point the person from the program never answer me
+The support is helpful. Thanks
+Please quit texting me
+Who are You to question Me ??? 🤬🤬🤬🤬🤬🤬
+No  🤬🤬🤬🤬🤬
+Than you
+Yes
+I have trouble texting because my hand is fused
+Am retired for 20 years don't work
+I can't keep texting
+Do your homework this is all in VA
+Been a disabled Veteran since 1973
+GOOD NIGHT
+I don't personally have any type of emergency alert on my person ! I do have a heart monitor by my bed that reads an notifies the VA of any medical emergency!
+Seven
+Compensation
+Need a loan for rent
+Yes
+Nice
+Merry Christmas Happy new year
+No. It's '0'😒
+😕 I thought you were somebody I could talk to
+Kinda busy right now, at work.
+Nothing
+I want to share app but it didn't work
+Have A MERRY CHRISTMAS!
+Satisfied
+I'll have to think about this for a while.
+So what good is automation ain't worth shit 💩 plus people take advantage of you for your troubles and use it against you like the va in Leavenworth Kansas plus doctors who treat against you
+Yes
+Who is this
+Who are you
+I need your click to get my free gift. https://temu.com/a/SZHaXArJ9ME8dUbC
+Oh good grief
+Who is this please
+Army and National Guard
+Not at this time
+Yes
+Can you help with rent
+Bitch im not in school your no help stop texting me ima kill my self
+Supp
+Ok th
+Will fo
+Not now,I'm  tired and I am  going to bed.
+So run and hide your feelings
+I will try
+Enewetok
+Good info. Thanks
+I'm not a number
+Vietnam Era
+Will not send pic of my id cards.
+What?
+Who would you happen to be?
+Merry Christmas
+You also, have an Awesome Holiday!
+None of them currently!
+This is a downer.
+My Granddaughter has warned  regarding  AI.
+You welcome
+Why?
+I'll get back to you
+How do I stop these messages
+hey
+Any quotes of the week ?
+
+I am probably talking to a machine, but if not, Merry Christmas 🎄
+My number is 4
+Fuck it
+I need Detoks
+None of your business
+After the New Year.
+I will
+I will
+Who are you  ?
+Who are hh
+Who are you. ??
+Not at this point
+It late and no I don't wanna text .
+Every day, you too!
+No point in details
+Do you have a website, who r you?
+Contaminated water destroyed her health
+Not right  now tommrow
+Why are you asking personal questions please.
+to bless you.
+None of yhose
+Those
+
+Yes
+I not ronld ok
+Five
+You don't need to worry about that.
+No I can't
+Not right now but thanks
+Can we do this after christmas
+Yes Sir
+Youtube have a merry christmas
+May god bless you and protect you
+Seven
+Six
+Read
+Ye iam
+You the same
+I'll share the link
+Till next time
+Who is this?
+I haven't used it I couldn't tell you otherwise
+Thank you
+Don't know yet
+Yes
+Not now
+Ok, I will.
+Very much a veteran and proud of it
+Personal
+Not at this time
+No need!
+When the payment
+Vietnam
+How do I turn this off
+Stop sending this message
+Opt out, this service can't help me. Please stop.
+Yes
+Copy that
+Covered all these in past years Big one now Democracy
+Merry Christmas
+Cmon earlybot. It's Christmas
+Trash
+Wheel
+Who are you?
+Stop inscribe
+Bothering me on Christmas is wild
+Yes...retired military.
+Not really
+not right now
+But I dont really need any calls
+Don't worry about it dont want any calks
+by the way, have a wonderful Christmas
+I don't want nothing from the VA I was in hud-vash and I got f***** so f*** you and f*** the VA I cannot wait to Trump actually dismantle your asses
+Not sure who you are or what I can help you with.
+Ok you too
+I tried to send my driver's license but the site says the file is to big
+Not now
+Maybe later thanks
+Questioned " "
+These are fine to start with!
+You guys kicked me out
+Nope, It's All Good !
+I'm goin
+I'm Driving  - Sent from My Car
+Why do You Need to Know ?
+For What ?
+I will! Thanks!
+Dig it!
+Vietnam veteran
+Supp
+What didn't you understand
+Yes
+My answer is correct
+If it concerns the VA in WV , nothing will change, I have been told by lawyers and a Dr. that I need to leave this State for my own safety when it comes to the VA.
+Since you don't understand my answer, you can't help me
+Yes
+Not yet
+Yes
+Yes
+Happy Holidays ⛄⛄⛄⛄
+Maybe
+Roger that!
+That's
+Yes
+You as welll
+I will text later
+Change in weather
+
+I've tried cards and am waiting on them to call
+Like what?
+Yes
+Ok I will call them on Monday
+Could be. Right
+The Veteran Crisis Line is useless. I called them in Crisis and their answer was, 'What the hell do you want us to do?' Never again.
+Yes
+Don't know who you are ❓
+YES
+ALL
+Okay, thanks!
+Who is this
+Absolutely
+Who is this asking?
+I don't know who you are?
+It is
+I identify as white (5), but genetically I am a mut (as are almost all of us who live in the western hemisphere. Yeah! )
+Glad someone is checking up on me
+Okay I sure appreciate it
+Maybe later
+I'm with family and children's services in Tulsa Oklahoma And I'm in Mental health court program
+Why?
+LOW BALANCE ALERT: Your Power Pay balance is $6.98 for acct. at 720 5***. With approx. 2 days of power left, you'll need to add funds soon. https://psoklahoma.com/PowerPay
+I pay $40
+Already done
+Only 2 steps, join the TEMU Free Gifts event, and we can clear our event carts for free! Zero bucks needed! https://temu.com/a/A2AsFyZBxlE0D3j9
+I just typed it.
+
+Stop sending text messages
+Please stop this service
+None
+Who is asking  ???
+I'm not answering to you chat GPT 👎👎👎👎👎👎
+Doesn't matter  But thanks for asking!
+I don't know
+Who is asking????
+
+My phone ia is not charging 😑
+Maybe later. Thanks.
+I go to the Louis Stokes VA hospital daily
+Trying to get a job there
+Sure
+Work program
+Away
+Where did I stay
+Who is this
+Just stop
+Can someone dig the grave and put in the vault
+I am good thanks
+Merry Christmas 🎄🎁
+Got you
+Good night
+Nothing right now
+https://www.facebook.com/share/r/14Wuv5NCpJB/
+Made tar soldiers telephone pole creosol . Only thing Im missing is burn pits .
+Camp lajuene
+Summer of 73,74 and 1975
+My phone is stating your junk mail what's up
+123
+2694
+Please
+Just got it so I don't know yet
+Yes
+Acute gastroenteritis
+I don't talk to fuckin bots!
+Ok got it have a Happy New Year
+You there?
+Yep
+Not your business.  Thanks.
+No need for you to check money issue with me.
+I don't need any of the crisis lines, but thanks
+I'm fine right now, got to go. Have a nice day
+I'll survive
+2010
+How do I get a alert devise? I have chronic heart problems.
+Don't care to  see  any more of your texts
+None
+I'm out of meds almost
+Bot
+Can I go now
+​👍​ to " That sounds rough. Can you tell me a little more about what's going on?   Or, if you want suggestions for support resources just reply 'support'. "
+Not really
+Can you send that list to hj16feb@gmail.com one time only that way I can print it and share  It's my wife's e mail
+Four
+See ya next year
+You're a robot how can you help me???
+NOYB
+I served and supported my Country in Vietnam!
+Do you have a testimonial?
+We don't have a command and chief. I would go to war for Forsure.  Airborne!
+Hi How are you?
+Do t they have a grant to replace windows older than 10 yrs old? Mine was done in 1985 so I think they will qualify
+I now know why so many veterans gets so pissed off about what you tell them. You say you need your car fixed and they send you a bunch of resources to talk to people and let them know how you feel.
+I'm sorry
+I do need a lawnmower to mow my yard along with a chainsaw to cut some trees down
+As always!
+Pain Management
+I'll do that.
+Not right now . Still processing
+Please I am trying to
+My pleasure
+1996
+None of your business
+Nothing I want to talk about
+How are you?
+How do I share this
+I asked him could I share what you just sent me
+You also
+Completely unsatisfied.Take me off your f***** u* list
+Sorry for bothering you
+I need a pair of waterproof boots
+Happy new year
+Yea. Right
+Amen
+we are good. received info
+Removed ❤️ from "Hiya Roshanna. 👋 How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied)"
+Yeah , thanks for sending me the same stuff again . I told you what happened .
+I already answered this .
+Please do not keep sending me the same stuff over and over . Goodbye .
+I DONT NEED YOU SO DONT SENT ME ANY MORE MESSAGES
+Please turn down the music. I called the cops to or noise disturbance.
+Good night
+Sounds like a plan Happy New Year
+Number selected is 8
+You a real machine?-(Robot)
+83371874819  I am a veteran retired sergeant major. I have a question. I would like to understand how this program was started the money component which I have not accepted since it started I use investment money that I created after retirement in 1996 when I started sinking my retirement into investing
+Nothing now, just curious 🤔
+8336300944 83371874819  I am a veteran retired sergeant major. I have a question. I would like to understand how this program was started the money component which I have not accepted since it started I use investment money that I created after retirement in 1996 when I started sinking my retirement into investing
+8336200944 8336300944 83371874819  I am a veteran retired sergeant major. I have a question. I would like to understand how this program was started the money component which I have not accepted since it started I use investment money that I created after retirement in 1996 when I started sinking my retirement into investing
+Do you have help with rent resources
+Happy new year to you
+IDK. talk later
+Thank you
+Are you AI
+What is early alert
+Who the fuck are you
+Nothing
+Fuck off
+Fuck no
+Chernobyl
+Happy New Year 🎆
+Iam in Ohio Youngstown right now and thanks
+Id rather not communicate with  AI
+Here you go
+Thanks
+Ressourses
+Research
+Noted
+5,2
+Next year
+I don't remember who Anne Lamot is Bob
+Ok ty
+Ok ty
+Later
+Not yet. Maybe tomorrow.
+Okay
+None
+I will
+Thank you
+Wny?
+Thank you 😊
+Okay
+You're welcome!
+Thank you
+Okay
+Thank you
+👍🏾❤️
+I'm down!
+Not really
+Eye eye
+You as well, thank you
+Okay
+Thank you
+None of your business please delete me from this so-called wellness program
+Thank you I will
+Thanks!
+Thanks!
+Thanks for the quote
+thank you
+thank you very much
+You are welcome
+Not right now
+Just was curious
+Thank you
+OK
+Thanks
+Not interested
+
+Thanks
+​👍​ to " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+Thanks 🙂
+Liked "Got it. Thanks!"
+Okay
+54 to 2/56 civil air patrol, 2-56 to 9-56 Navy Reserve,9-56 to 9-60 Regular Navy but lost records for Civil Air Patrol and Navy Reserve .
+Thanks
+Okay
+Go rebels!
+Yes
+Yes
+STOP ✋️ 🫸 🫷 ⏹️
+Thanks
+All the way
+Nothing right now
+Thanks
+Thank you
+Take care
+46148
+Thank you
+Thanks
+Same to you
+Not really
+Thank you
+Yw may I ask who this is
+That is true
+Thank you
+Thanks
+🇺🇸🫡
+Probably eight, maybe even nine
+I use talk to text because my fingers struggle. I will just type in numbers from now on apparently written numbers are confusing. But I will say these are the reasons I don't like artificial intelligence.
+Thank you :33
+. .
+. .
+NO SLEEP OVER WRONG PERSON
+Ok resourses
+You just said to text you resourses
+I did now you dont understand
+Never mind
+Have a good day
+None
+NONE
+Forget it goodbye
+Nothing
+Go away
+Ok
+APART OF A-GANG ENGINEERING NEC 4294 AC/R SHOP MY SACRIFICE TO MY COUNTRY WAS MY LOST OF HEARING AND MY CIVIL LIBERTIES BY THE CITY OF NEW BERN NC AND THE STATE OF NORTH CAROLINA CRIMINAL COURTS OF INJUSTICE WITHOUT JUSTIFICATION OR DUE PROCESS AND MISCARRIAGE OF JUSTICE AND THE COLOR OF LAW, SINCE 4TH OF JULY 1995 AT 2214PM AND 2216PM BY 2 DIFFERENT OFFICER'S AND 2 DIFFERENT LOCATION ON INDEPENDENCE DAY WITHOUT THE BASIS OF THE ARREST AND DENIED 5TH AMENDMENT RIGHTS, APPEAL RIGHTS NAVY VETERAN WHO'S RIGHTS HAVE BEEN AWARDED TO ILLEGAL IMMIGRANTS AND UNDOCUMENTED IMMIGRANTS AND THERE CHILDREN BETWEEN 11 and 16 MILLION LIVING MY AMER
+THE THANKS I GET FOR MY SERVICES
+WITHOUT THE FREEDOM OF MOVEMENT SUGGESTIONS WON'T BE SURFICE
+Got it
+Thank you.Have a blessed day.
+Thank you
+You
+Okay
+Thanks
+Okay.
+211
+Okay, thanks!
+Thanks
+Just curious, so you guys don't engage in one on one therapy?
+Ok, I get it.
+Just talk.
+Okay
+Not at the moment
+Thank you 🙂
+None right now thanks
+You're welcome
+Okay 👍
+Okay
+I've never seen
+You're welcome 👍
+Six
+Tell me who you are sgain? Thank you.
+Thank you
+I agree.
+Okay
+Forward it to a biological. 😅
+Okay, thanks
+I go to the local VA here going to tell them when I have my appointment
+Peace
+Good  night
+Not much help, are you?
+Ten
+Ten
+What institution?
+You're welcome!
+Okay
+Thank you
+Okay
+Okay
+Okay
+You're welcome
+Thanks, you also
+Thanks
+Loved "Here's a quote I thought you might a  'The time is always right to do what is right.' (Martin Luther King Jr.)  Until next time, take good care. 🙏"
+Liked "(pardon the wall of text I'm about to send - I just want to make sure you have all of the relevant information)"
+Thank you
+Thanks
+How can YOU fix what they have denied for all these years, you got an answer for that
+I need the Veterans Administration to take responsibility for the actions they have DENIED Since 1971
+All of the ABOVE
+Thanks
+Thanks
+Not interested
+Yes
+Who is this im speakering for my husband Gerald Marve he's in the hospital im Jackie Marve
+Ok sounds good
+Liked "Here's our quote of the week:  'The time is always right to do what is right.' (Martin Luther King Jr.)  Until next time, take good care. 🙏"
+I just want to do it on my own I will contact you I promise
+Would you direct me to a good creditor to help me with bad credit I need a loan badly I'm in tears
+Why?
+Thank you.
+I already know this information
+Bye
+Bye
+Thank you
+Thanks
+Not me
+Okay
+Retired veteran
+Ok thank you
+Okay!
+Yes I am
+Thx!
+Thank you
+I will always have time for my fellow brother or sister in the armed forces!👍
+Who is this
+You're welcome
+​👍​ to " Some words of wisdom...  'Loving yourself isn't vanity. It's sanity' (Katrina Mayer)  Until next time, take good care. 🙏 "
+
+Thanks
+Hmm I like that
+Thanks!
+Cool thanks
+Social is a 10
+Thank you
+Thanks 🙂
+Okay
+ARMY
+
+Alright
+Tks
+Ok thanks
+Thank
+Yes
+You're nothing but a lie
+Okay 👍
+Copy that.
+You are representing a bad group
+Not interested
+Yes
+Don't understand then don't need your services
+Oops, sorry about that.  Thank you for letting me know
+USAF
+Thanks
+I don't know
+Thank you
+Like what? What is this about?
+Okay
+It won't let me download my VA card or drivers license.
+Okay
+Can you list them so I can copy
+Thank you
+Stop sending me this shit
+No
+No 👎
+Don't bother
+Thanks
+Thanks
+Thank you
+I just did
+Stop texting me I just did what u asked
+Can u humble stop texting me
+Please stop texting me
+Stop texting me
+Fuck u
+Okay
+Where?
+Thanks
+Ok thanks
+This and I appreciate your concern. You're probably an AI machine duplicating. It's time to hit up on this guy, but why me did I ask for help? Maybe I pressed the wrong button oh say can you see if you're human which I think not you responded so rapidly how could I ever be in touch with reality? Do you understand what I mean you didn't harm me? It's what this world has become. It has become something other than being real human touch and having someone else respond to you it's all about money. What a shameless can be everyone's trying to make a buck off other peoples needs mentally I'm strong. I don't wanna talk to a machine anymore
+Now, if you were human, you would understand so don't waste my time. I gotta cook just support my body and my mentality.
+How?
+Maybe I don't wanna talk to a machine or say, can you see if you can't understand that then please don't bother me because you can't do anything for me or just suggest filling me with pills and filling your pockets up. I've had it.
+Only if it's not a machine human on human, not a robotic what we created AI I'm smarter than you
+I'm taking care of me. Are you low on battery?
+Thanks
+No thanks just stop
+Very welcome
+Here's the real deal
+You are welcome
+Thanks
+Okay
+Okay
+Thank you
+Okay
+Thank you
+Why you asking?
+Okay
+Thanks.
+That would be nice.
+Thank you, always appreciate your words of wisdom🙏🏿
+Health?
+Been tired, not sleeping well, and just sore from weather changes
+Bot race don't matter!
+Keep race out of chat bot!
+Race relations
+I can't
+It's my birthday
+Not now
+I just told u
+🙏🏻🙏🏻
+​👍​ to " 🙏🏻🙏🏻 "
+U fucking forgot be kidding about race.  Fuck off.
+Sleepover , I don't know what you're talking about
+​❤️​ to " Here's our quote of the week:  'The past is already gone, the future is not yet here. There's only one moment for you to live.' (The Buddha)  Until next time, take good care. 🙏 "
+2,6
+Until next time!!
+Thanks!!!
+Not at this time.
+Thanks
+LOW BALANCE ALERT: Your Power Pay balance is $0.75 for acct. at 720 5***. With approx. 0 days of power left, you'll need to add funds soon. https://psoklahoma.com/PowerPay
+Thank you
+That would be great.
+All
+No thanks
+Thanks
+I'm cooking have a nice night
+Thanks ill check it out this week
+Got the info
+Please stop got the info
+Yes
+No sleep over
+Okay
+Completely
+Okay
+Not this week I have been on a business trip in Canada. By the way I do not use TICTOC
+Yes I am a Veteran
+Y/N
+Okay
+Housing
+What about housing
+Not right now
+Thank you.
+i p
+If you want me to evaluate the electric bike please have the bike shipped to my home 4713 Abergavenny drive it will be cared for
+Who is thie
+You're welcome!
+Thank you
+Okay
+Thank you
+Looking forward to Spring Semester. Go Hawks!
+possibly but not that location
+Who is this?
+Thanks 🙂
+Okay
+Who is this ? My health is none of your business
+Thanks
+Who are you ?
+Thanks
+I never got my free gift card.
+How are you
+Thank you
+Emphasized "That's awesome. 💪  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+None at the moment
+Took me a minute to realize who this was lol 😝
+Army
+Thanks
+Thanks
+Get it
+Welcome
+Got ya
+None of your business
+None of your business
+Send money for meds
+Not now thank you
+Ok, roger
+Ok, ty
+Ok, ty
+How do I stop this
+FINICIAL
+Why did u ask?
+Complete satisfied. Take me off your list please
+Thank you
+Thank you
+Thanks
+None.
+Thanks
+Thanks
+Thank you.
+Yes
+ok JFK
+Who is we
+Do you have anything on hemorrhoids?
+Thank you
+Refund hasn't hit yet!
+Scammer
+Welcome
+Thank you
+You already did
+U already made those suggestions
+Okay
+I bet you can
+Bye
+Thank you
+Okay
+Yes
+​👍​ to " Hi Ronald. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Okay 👍
+Okay thank you
+Thank you will do
+Thank you again
+Not really
+Thanks 🙂
+Term
+Okay
+okay
+But got a  BCD, discharge
+Thanks
+Okay
+Discharge upgraded
+Thank you.
+Okay
+Told you can not hear my phone can only text
+Thank you
+i struggle with eating people not eating food.
+ಥ_ಥ
+who is this
+Yes I am aveteran
+OK.
+Going to have to spell it out for me.
+None of these apply to what I need help with
+Will I don't know yet i get da machine next fri
+Yes
+Thanks
+This is at no cost correct
+Okay
+I'll get back with you
+NOPE
+Thanjs for the message
+None, plane and simple
+None
+Do you have anymore quotes
+What
+OK go
+Thanks 🙏
+No thank you
+None
+Okay
+Thank you 👍
+Ok
+Will do
+YES
+Got it thank you
+Whats the point of being irish if you can't be thick (billy conn)
+Don't bother
+🖕🏼🫵🏼
+$$$$$
+I will
+Ok bye
+Thank you
+First of all who is this
+Awesome
+Thank you!
+Thanks !!!
+Yes!
+Thanks for all that you do!
+Wife just got home, time for dinner.
+What resources do you think you're gonna have $5000 I can grant me?
+Thanks 👍
+Thank you!
+Thanks!
+Okay
+Thanks again!
+You do good work!
+I didn't have a sleep over
+Liked "Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Wife just came home. We're going to have dinner. Back to you soon....
+yes
+What relationship
+Thank you
+Thankyou
+How about fuck you very much
+Male
+Yes
+Okay
+Sorry
+Thank you for reaching out, have a blessed evening 🙏
+Okay
+🙏🙏🙏
+Yes
+Yes
+Yes
+Thanks
+Okay 👍
+Please stop with your messages
+S T O P
+I will
+Okay 👍
+Thanks
+No problem.  Thank you
+Thank you!
+Perfect, thank you!
+Okay 👍
+None at the moment
+No. Of your business
+How about you?
+A bunch of the above
+Thank you
+Thanks
+Liked "Here's a little bt of inspiration:  'The past is already gone, the future is not yet here. There's only one moment for you to live.' (The Buddha)  Until next time, take good care. 🙏"
+Navy
+Removed ‌👍‌ from " Hi Dale. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Okay, thanks 👍
+No not at all
+Okay
+Will let you know after visit today
+Yes
+Yes
+Yes
+Thanks bot
+Not now
+Hvac
+Home heating and cooling
+I served in the NAVY
+Okay
+Seven
+Okay
+Thanks
+Not now
+Okay
+You're welcome
+Step 1 studying
+I don't believe in Buddha...I believe in Jesus Christ
+Thanks
+I'm Driving  - Sent from My Car
+STOP messaging
+Thank you
+I couldn't upload the VA card or drivers license to get the $20 Amazon gift card
+Thank you
+Thanks
+Thanks
+Don't count on it!!!!
+Thanks bullshit
+I'm sorry but I can't remember who you are.
+Whatever you got let me know
+
+Okay
+Thanks
+Are you a bot or what?
+Are you a real person?
+Ok
+Don't know what the hell you're talking about
+Loved "Sounds like that's going really well. I'm glad to hear.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Thank you
+No thank you
+None
+Thank you
+No thanks
+Thank you
+Not yet  Ten
+Not yet. Traveling right now
+Thank you 🙂
+Okay
+❤️👑
+Thanks
+Thank you 😊
+Legal
+​❤️​ to " Here's a quote I thought you might a  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏 "
+I just told you
+Re sources
+I would like to see a list of support resources
+Thought I did
+Okay
+Ok
+Okay
+You're welcome 👍
+Ok, resend resources please
+Disliked "Good! I'm glad that's going well.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Liked "Good! I'm glad that's going well.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+I will
+You too
+None
+Thanks
+Get back with you tomorrow. Thanks
+Thanks
+Don't believe in any Buddha, only (Jesus Christ 14:3) 🙏🙏🙏
+Thank-you
+Okay 👍
+Thanks
+Thanks
+Okay
+Okay
+Thanks
+Thanks
+what is it, that you will alert me of.
+Thanks
+Thank you.🙏
+Why do you think that 7 out of 10 is very good
+Ok ill check them out thanks
+Thank you
+Yes
+All of the above
+Okay
+May the 'Almighty' bless your all your endeavors.I know as met him at 5 when I flatlined in a hospital an he told me.It is documented as I told my doctor tge next day
+Thank you
+Okay
+Okay thank you once again 🙏
+Thank you
+Thank you.
+Thank you.
+I don't think that it's necessary at this time
+You heard it.
+Ok Thanks 🙏🏿!
+Ten
+Who is this??
+Who are you?
+I did do basic at Bainbridge MD. And they housed  us in WW 2  bldings
+Thanks!
+Thanks
+Liked "Here's our quote of the week:  'The past is already gone, the future is not yet here. There's only one moment for you to live.' (The Buddha)  Until next time, take good care. 🙏"
+Why
+Thank you
+Thanks
+i o
+Who is this?
+However , I will be ninety five years of age in april
+Thank you
+None
+No
+Not really
+Thanks
+Thanks, EarlyBot
+Yes
+Copy
+Thank you
+Yes. Thank you
+Thanks
+Thanks
+All
+You're welcome
+Where is my funeral kit?
+Thank you!
+Ok thanks
+Who is this
+Oct-90
+Who is this anyway
+None
+No thanks
+Thanks
+Thanks
+Thanks
+Not now
+
+Stop texting me
+Good by
+Okay 👍
+And a veteran
+Thank you
+Scrambled eggs biscuits gravy sausage
+Why?
+They would not help
+Waste of time
+Could you Please stop sending me this shit I don't want to hear from you anymore
+Dude please go fuck yourselves I'm good and doing great
+Okay thanks
+Thank you, I like that quote a lot!!!
+Why?
+Okay, thanks
+Okay
+Don't waste your time or mine
+I'll encourage the other veterans
+None right now thank you.
+I O
+Thanks
+Okay
+None.
+None at this time. Thank you.
+Just can't sleep at night
+Nah, thanks.
+Okay
+Ret us ARMY   .21 years 4 months. Vietnam Veteran. And PROUD
+Please go fuck yourselves I don't want to hear from you again
+Go fuck yourselves I doing nothing for you so stop wasting our time
+Thank you 😀
+Navy
+Ok thanks
+None of them apply  to me
+Thanks
+1999
+That's the year I separated from army
+Thank you
+Not at this time
+Okay
+Question what does the VA healthcare system have to do with connecting to fellow veterans I don't even use the VA anymore ?
+BY
+Human connections
+Never mind Goodbye 👋
+Thank you
+Thank you
+Thank you
+Ok  thanks
+Thank you sir... Thank you very much
+Thanks
+Who wants to know?
+Who wants to know?
+Thanks.
+Thanks
+Ok.
+Send it
+And what , what are do?
+​❤️​ to " Some words of wisdom...  'The past is already gone, the future is not yet here. There's only one moment for you to live.' (The Buddha)  Until next time, take good care. 🙏 "
+Thanks 😊
+Thanks
+Acknowledged
+Liked "Welcome to Early Alert, Scott 🥳  If you ever need them, our terms of service are here: https://EarlyAlert.me/terms"
+Not know
+I thought Buddha was just a statue!
+What are you referring too
+NO thank you!
+Okay
+Okay
+Yes
+Thank you
+Yes
+Va health care suck
+Operator  pain in ass
+They want cc a clinic  it going take to see them 6months
+Well, thank you for checking
+Thanks 🙂
+None
+The best one
+No thanks!
+No thanks
+No thanks!!!
+No!!!
+Thanks.
+No!!!
+Thanks.
+Good bye!
+Sleep over HUH???
+No now go home
+For what
+What am I doing that for
+Ai you lost me
+Got it
+Navy & Army Reserve and National Guard
+A great VSO
+Yes
+Yes
+What is ume?
+Yes
+Yay!
+Nothing to be sorry about not having any problems
+Okay
+Thanks 🙂
+Zero
+No problem
+I'll try
+None right now
+Not really
+Thanks
+I am fine
+I don't know
+I can try
+Non of your business how I sleep
+0
+Will do
+Thank you.
+Will do
+Thank you
+Yes
+Thanks
+Thanks 🙂
+Ok Thanks
+Thanks
+I'm about to three
+Thanks!
+Thank you
+Puerto Rican 🇵🇷
+Absolutely
+I don't think I need this
+Not interested
+Thanks buddy
+Unsubsribe
+Please STOP
+Who I s asking. Just nice to know,if you get me drift.
+How many bots travel with you? Are they are equally non response as you have not cared about.
+Yet again you dismiss any attempt to find  the source of your origin. Since you have elected silence responses. I will return the courtesy.
+No.
+Still refuse a simple question? The answer is still NO
+I don't want to change my answer you dumbass
+I wouldn't ask you anything. I know more than you do
+Why don't you just give up
+That's what veterans do in America we just give up and commit suicide
+SO TRUE!!!
+Driving, can't text.  Sent from MY ROGUE
+Thanks
+Okay thanks
+Thank you
+Thanks
+​👍​ to " Here's a little bt of inspiration:  'Almost everything will work again if you unplug it for a few minutes, including you.' (Anne Lamot)  Until next time, take good care. 🙏 "
+Removed ‌👍‌ from " Here's a little bt of inspiration:  'Almost everything will work again if you unplug it for a few minutes, including you.' (Anne Lamot)  Until next time, take good care. 🙏 "
+Thanks
+I'm on Community Care
+All
+Later
+Liked "OK. If you ever want to find out about support resources, including self-help resources, just text me the word 'resources' any time. Take good care."
+Liked "Here's a quote I thought you might a  'Almost everything will work again if you unplug it for a few minutes, including you.' (Anne Lamot)  Until next time, take good care. 🙏"
+Thanks!
+​👍​ to " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+Gotcha
+Got you
+Okay
+Okay have a good night
+This looks good fellas
+Laughed at "Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Why do you care? The VA doesn't care
+The VA only cares about combat veterans
+What about utilities?
+Will do
+Waiting for special equipment from the VA to be sent to my apartment.   Just did a home test.
+Ok thanks
+Liked "Here's a little bt of inspiration:  'Almost everything will work again if you unplug it for a few minutes, including you.' (Anne Lamot)  Until next time, take good care. 🙏"
+Thanks
+Get
+Okay
+Thank you.
+Thank you 👍🏿
+Thanks!
+Okay, great!
+Thank you
+Winter
+What are you doing up at this time on a Sunday night?
+Thanks!
+Yes
+Absolutely
+Humble Bot' indeed. My 'Humble inquires' are ,as you have stated, are of zero concern to your handlers.
+As your concerns are the ONLY means of communication. I would rather not to encourage 'your' ignorance.
+Thank you.
+Alright, sounds good!
+Great, thanks!
+Alright, sounds good!
+Thanks!
+Okay
+You're welcome
+Who is this
+You don't need to know!  🖕
+Oh ok
+Nevermind
+46118
+Thank YOU!!!
+I know.
+You too
+None
+What are you talking about
+Male
+thank you
+Ok, thank you
+Who are you and why do you want to know?
+What resources??? Are you kidding
+MEALS
+Junk
+8 is a number from o to 10
+Thank you
+Thanks
+Thanks
+Yuk
+Thx you
+Early alert
+Ok. Thank you
+Michael Jordan quote
+Okay, Thank you
+Have a great day!
+OK thank u
+OK hook me up
+596
+Thanks
+Okay
+G-thanks
+Ty chatbot
+I have my own program, thank you. Vetted laughout
+Borrow
+Borrk
+Thanks
+Okay, thanks!
+Thanks
+I can't answer because I am unsure what your Early Alert is
+None
+You too
+I believe I would be a strong fit for the Vice President role of the AMWA club because I am deeply committed to supporting women in medicine and fostering a collaborative, inclusive environment. I have strong organizational and leadership skills that can help coordinate events, manage communications, and support the President in executing the club's initiatives. Additionally, I am passionate about mentorship and advocacy, and I want to help create opportunities for members to connect, learn, and grow professionally. I thrive in collaborative settings and am dedicated to ensuring that the club's activities are engaging, accessible, a
+Got it
+Can you give me a quote
+Busy.
+Busy.
+You as well as you can;)
+I'm good thanks. See ya
+None
+Yes
+Little too early to comment
+Ok, Cincinnati Ohio here
+Wow
+What are you talking about the missed shots?
+If I  not responding to a person and to a computer, discontinue me.
+None. Discontinued me. Thank you
+​👍​ to " OK. If you ever want to find out about support resources, including self-help resources, just text me the word 'resources' any time. Take good care. "
+Please delete..STOP
+Thank you
+Thank you
+Yes I saw that thanks
+Thanks. I read the terms. I must have checked something off to be contacted. What exactly is the purpose of Early Alerts?
+1 mustard gas
+Leave me alone!
+Bother someone else!
+Thank you and God Bless 🙌 🙏 ❤️
+you can stop texting me now
+fck u
+shut up
+stop texting me
+End
+Take care
+Yes
+What
+Did you check?
+That's what you said before.
+It's not me it's you you need help.
+Don't you understand you are the one who needs help not me.
+I'm interested in getting help for you not me.
+I have a vets group of 100% disabled vets on Facebook, can I post your info
+All of the above, alot of vets have different and distinct issues that they deal with
+I like it 👍
+More another time
+LOL unless u live in old house that still has fuses
+Thank u
+Thanks! 🙂
+Thank you.
+None at this time.
+Thank you
+Atop
+These have nothing to do with what I said but okay
+Guzman
+Guzman
+Thank you, what is your name please?
+You too thank you god bless 🙏
+Have no idea what you are talking about???
+Thanks?,  will try!
+Thank you I appreciate that
+11,--still not interested!
+No.. bye 👋
+Why do you want to know?
+No need here. Goodbye.
+Stop writing me!
+I guess you could
+Thank you.
+that quote isn't that great
+it's kinda odd
+I'm Driving  - Sent from MY CAR
+Thank you
+I spoke to them And will Call in morning with medical health services
+Thank you!
+Thanks for the email
+👀done talking to a computer
+U S Army
+Thank you
+I don't know enough about it, to comment about it.
+I've taken care of it
+Thank you for offering though
+Nothing right now. Let me think about it.
+You're welcome
+Thank you
+
+Liked "Please reach out to at least one of these support resources. I'll check in with you soon to see how you're doing. Take good care."
+TKS
+None at this time
+Thank you
+please stop existing
+lol
+Thank you
+​👍​ to " What type of resource are you interested in?  (1) Emotional (2) Sleep (3) Life Satisfaction (4) Physical (5) Cognitive/Memory (6) Relationships (7) Work Satisfaction (8) Work Performance (9) Financial (10) Other/General "
+You're welcome 👍
+Who wants  to know who this anyway
+Of course
+🎣same way with fish. No line Iin the water. No fish
+Hello?
+None of your fucking business
+Go fuck yourself
+Thank you
+Thank you
+Why do you think I have a Problem ? Be Specific !
+I have no Challenges , Just these Bull💩 Texts trying to BLOCK them !
+You're welcome!
+Thank you
+You must have the wrong Don Coe!
+No thanks
+THANKYOU
+​👍​ to ' Hi again, Anthony. Have you had a chance to try any of the resources I suggested? '
+Thanks, EarlyBot
+Oh you said that twice re as purses where are this at please
+I'm catholic I do what's right always you see text me resources real ones not empty promises like the army
+Thank you
+Trying to help a friend connect with your organization
+Sorry, didn't realize. Thanks
+Thank you
+I was not in service . I have been in Mi my life .
+On
+May the Lord bless you and protect your family
+Haven't had a sleepover
+You're welcome!
+Thanks 🙂
+You're welcome
+Very good thanks
+Whatever
+Thank you 😊
+Who are you
+Thanks for your assistance
+Thank you
+Trick ?
+thank you
+Thank you
+Are you Y N
+Thanks! 🙂
+One for you
+You're welcome
+You're welcome
+Back to football
+Thanx
+YES I AM A VETERAN, VIETNAM, APRIL 1967 TO MARCH 1968
+Thank you
+Thank you
+Thank you
+I'm
+Not interested in AI responses or automated responses, thank you anyway
+Thanks 🙂
+You're welcome 👍
+None of these offers are real I've tried several times
+Thanks anyway
+Not spam
+Where's the quote?
+That's my business
+Can't get into the sites no Internet
+Yourself
+Stop u r harassing me
+Maybe
+Thank you so very much, I appreciate it
+Thanks for the quote!
+Thank you 🙏
+Thank you I will do so
+STOP SENDING ME YOUR MESSAGES!
+Prayer's going up 🙏❤️🙏
+Give or take
+Heard
+Which, by name?
+I like having someone looking in on me. Helps to know I'm not alone
+I guess
+Anytime
+Out of the U.S. Army in 1967. I was with the  21st I.S.Army Band, Ft. Lewis WA.  right out of the Armed Forces School of Music, then levied to the 82nd I.Army Band  at Kelly Barracks, Stuttgart- Möhringen, Germany at U.S. 7th Corps Hdqrts.  However when I was back in College working on my Masters degree at Eastern Washington University  I had a  prof  at EWU who got the C.O. of the Washington Air Guard of Washington State) at Geiger Field in Spokane, Washington  on 1971. Out of a an Army uniform on an Air Guard uniform and they gave me the rank of E-5 which is what I had earned in the Army  before I got out of the Army. As ever, Joh
+ARMY
+​👍​ to " 🤗 Yay! I'm glad to hear that.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Retiree
+Please cancel me. Sorry I misunderstood thank you any way❤️
+Will I be billed for this?
+Sorry I have to leave right now
+Ok  maybe you could send a list of resources
+Please cancel I will have to get back to you later
+Amen
+Gym hours
+Yes I am a Disabled Veteran
+Great! Thanks!
+I'm not going to answer you anymore if you're just gonna judge me.
+No mind your own business
+This is getting nothing done, so cancel it.
+Are you human?
+Aye laddie
+And you are ??
+God bless you thank you
+6- hispanic
+Got it, thanks
+AMEN!
+Stop sending me this shit immediately
+The number you are sending an SMS to,currently has no SMS capabilities.
+Thank you so much!
+Welcome
+Confirm
+I like it
+You're welcome
+Not yet ⁉️
+Thanks 🙂
+Yes I will
+Thanks 🙂
+Thanks 🙂
+USAF
+Not at this time
+Y vet
+Army
+If you have any
+Will do. Tomorrow I will know more of the extent of the problem. Thanks
+Not sure until tomorrow evening
+Ok will get back with you on Thursday
+Thank you, I will do.
+WOW, just an AI, gosh veterans rate a disinterested machine not a real person whom has benefited from our service to OUR country. Shame on y'all.
+🎄 Can you help me out and grab your Christmas gifts too ? Just 2 quick steps — tap the link, unlock FREE Christmas gifts from TEMU's top holiday event, and help me get mine! 🎁✨ https://temu.com/a/21uApp5LtRAa7CS
+I'm not sharing a link with people that don't help
+Call me ami
+Leave me alone. You have already said that you can not help me!!!!!'
+Please go away
+Kool
+Thanks! 🙂
+Thanks! 🙂
+I'm studying
+.ok
+Male
+Nothing
+yes I'm a veteran
+I already confirmed my veteran status four times. I am not going to do it again.
+Medical care
+medical check ups
+Thanks! 🙂
+You None
+
+You're welcome ❤️
+Send me a number to call so I can speak to a human being that can explain this to me thank you
+Blah blah blah blah blah blah blah blah blah blah wah wah wah wah wah wah wah wah wah wah
+Stop. Go away. Dont send me another word.
+Stop bothering me.
+You got the wrong number?
+Thanks.
+No
+Served in #1
+Too early to judge
+Liked "Hi Archie. Thanks for your interest in Early Alert…"
+Removed a like from "Hi Archie. Thanks for your interest in Early Alert…"
+Wrong number. Please stop texting me
+Wrong number
+Are you a robot
+Nor interested
+Thank you 😊 🙏
+Good one!!
+When you don't need help it's present, as well as when you need it's right where you want it.
+​👍​ to " Hi Jon. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Removed ‌👍‌ from " Hi Jon. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+You're welcome 🙏
+No 👎
+Thank you and good day to you!
+Exactly you're not a real person please stop
+Thanks 🙂
+ONE STEP FORWARD IS WAY BETTER THAN ONE STEP BACK.
+​👍​ to " That sounds rough. Can you tell me a little more about what's going on?   Or, if you want suggestions for support resources just reply 'support'. "
+Will do peace to all
+So are you antimated computer generated
+Thanks! 🙂
+​❤️​ to " Hi Robert. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+4'5'6' 7'8'9''10 and not in that order
+Nope
+Not right now
+Thank you very much. I have a VA medical appointment next Thursday.
+I dont believe I'll ever get never did never will!
+I don't have one
+So for data 2
+Newt Gingrich is from Georgia
+I need to know who or what I am talking with
+Not both
+Honorable Disabled veteran.
+Liked "Thank you so much, Patrick. I'll check in with you again in a few days. If at any time you want to see a list of support resources, just reply 'resources'."
+Now what
+Yea right
+Who
+Changed my mind.  Sorry, I do not want to participate in touch-feely chats
+Touchy-feely
+God is Great 👍 👌 🙌 🙏
+I will
+​👍​ to " Hi again, R. Have you had a chance to try any of the resources I suggested? "
+No need to check back.
+
+Just got my income tax balance SO it's good = so I'm very happy!!!!😃
+Maybe?
+Thank you🐱
+You're welcome
+Unsubsubscribe
+Disabled veteran
+I guess
+I'm Driving  - Sent from My Car
+This is not anything I am interested in so you can stop I did this by mistake,Thanks
+Joyous answer questions
+Great resource
+Roger that
+I do m Not trust you good  ridence
+I can't get in my email that has my dd214 in it.
+No I do not trust your government or you go away
+Good by
+Do you answer questions
+General who cares
+You're welcome
+You as well. Goodnight
+One through six
+One through six
+Sounds good
+Thanks again!!
+Yes, a veteran
+Yes I need to apply
+Yes I still need a enrollment for a phone
+Is this Pertaining to the Department of Veterans Affairs
+Likewise
+
+You too and thank you!
+Are y'all still going to send me a free phone and free service
+Wait a minute what about my free phone y'all supposed to send me I never got to hell
+Does the phone still have data?
+Thank you very much 😊
+Sure
+Sure
+Thanks 🙂
+At this time iam working and will get back to you in the morning thanks😎
+Not at this time
+You're welcome
+Have a great evening
+Resend
+Early Alert
+I'm  a combat vet
+I'm gulf war veteran. So I don't qualify for the post 9/11 . Which isn't fair.
+I'm already at 100 % and use the VA for medical n MH
+However, burnpits360 has a food pantry program which might be able to help out. I should find out soon. I filled out application.
+Oh I'm sorry. I didn't realize you were a chatbot
+You have done great.
+I would need a live person.
+I don't understand what it does
+God bless
+With thyme and survival and keeping your head above water, it shows you I have seen the light and no one can tell me otherwise depression put a block on it. I don't take any pills for that anymore. I have a lot of history, but guess what I've done it on my own and the doctors were no support because they kept coming me back for more and more to fill their pockets up, they don't care about you as an an individual. No one does the only one who does is yourself wake up America. It's time to strengthen your mind up.
+No, I don't need 911 computer. Put a human on there who can understand emotionally and mentally not just words that were put into him by another type of mentality.
+and who are you?
+I already have help
+where is this message coming from
+My ethnicity is #5
+Army
+Financial
+Thank you e
+Will you stop calling me please
+Love it!
+LoL stop
+Sleep over this bitch
+Who is this from.
+I don't need resources, I need who this is.
+I don't know if I'm interested.
+B Not now.
+Too many junk emails.
+Yeppers
+Please remove my name from your list.
+Not right now.
+Stop texting me so much
+U already sent that to me 👏
+No, aI don't like this ga.e.
+Of course
+Breakfast in bed
+You can come over and help with it also
+You're welcome!
+Is this the VA?
+I don't know
+pool
+​👍​ to " 🇺🇸 Happy Veterans Day, Darryl 🇺🇸  Thank you for your service. Truly.  We hope you enjoy the gratitude and esteem of those around you on this special day. If there is anything we can do to be of service to you, please let us know.  Your friends at Early Alert 🫡 "
+I am not far from west roxbury va
+Submarines
+I asked i dont get because we no wartime veteran
+Great message!
+VERY TRUE!!!
+Enough of the redundant questions!
+Who's going to help with all that
+Please stop texting me. Thanks
+USMC
+​👍​ to " I'm sorry to hear that, Brian. Would you like suggestions for support resources that can help with this? "
+Removed ‌👍‌ from " I'm sorry to hear that, Brian. Would you like suggestions for support resources that can help with this? "
+Male
+Thanks, I needed that.
+Terrible who the hell are you?
+My primary care doctor is aware of the situation
+Thanks! 🙂
+​👍​ to " Rough patch with balance. But reached out for help.  "
+Army
+Loved "That's great!  Thanks for sharing.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+God bless the work you're doing.
+Ill know Monday
+Army
+Welcome
+What
+I am
+Ok great
+You're welcome
+Right
+Got it!
+Good by
+I don't know
+Thanks 🙂
+I wish to withdraw from your services as of right now
+I do not want you to contact me again.  Stop this service
+NO SUPPORT.  GET LOST
+Nobody talks anymore!!!!
+y w
+🇺🇸Essayons🇺🇸
+I do not know how the above came to be but snoppy is my hero. 🙂
+My lady says she's completely satisfied
+Gpt all my resources h ere titos from Texas  udweiser from all over america
+IN HOPES VOUR NOT ANOTHER SCAM.
+SEEMS I AM A TARGET FOR SCAMERS
+Its reallysnowig
+Yay! 🎉
+Disaster mode
+YES I AM A DISABLED VET .
+GOD BLESS YOU AND ALL VETS !!!♡
+Hi How are you?
+Hi How are you?
+F trump
+F Ice
+Reacted 😂 to "Here's a little bt of inspiration:  'Almost everything will work again if you unplug it for a few minutes, including you.' (Anne Lamot)  Until next time, take good care. 🙏"
+That is not who you are.
+Failure to answer the simple question means I am not obligated to respond to your harassment.
+Yo, whattup, dawg?!
+Removed ‌👍‌ from " Hi David. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+​👍​ to " Hi David. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+Male
+I am a widow of a veteran
+Is this a government paid phone
+New.
+New.
+Today.
+Is this service free?
+Does this cost money?
+​👍​ to " Some words of wisdom...  'Self-compassion is simply giving the same kindness to ourselves that we would give to others. ' (Christopher Germer)  Until next time, take good care. 🙏 "
+Sounds good
+Reread my next to last text I sent
+What?
+Stop 🛑
+I would
+You're welcome
+Can do
+female
+You're welcome!
+I'll get back with you on that
+Well, you surely can't read between the lines
+That's what I thought
+Reacted ❤️ to "You are very welcome. Please take good care."
+Thank you much!
+Reacted ❤️ to "🥰"
+Reacted ❤️ to "Thank you so much! 🙏"
+Reacted ❤️ to "Here's our quote of the week:  'Self-compassion is simply giving the same kindness to ourselves that we would give to others. ' (Christopher Germer)  Until next time, take good care. 🙏"
+Yeah, i'm old.I'm eighty six I guess that's what happens when you age
+Holy Moly, that's a bunch of stuff. Thank you. So much i'm much appreciated
+Good
+Completely Satisfied
+No, I don't wanna change my answer as that is exactly how it is. I only get $1456 a month from Social Security. I do not get a damn thing from the VA.
+Guess what? I've tried all the resources, and none of them will help not even a senator who promised to help.
+That's really personal......
+Welcome
+In my sixty's.
+But don't over   load my phone with scam advertising.
+Please (or) workers are also using this phone #, to  scam, please investigate,  Because I am trying to reach someone who will. So STOP 🛑
+People who are scamming the public with this legal  phone number, one bad apple can spoil the whole operation. ☺ .
+Scamming control, if possible
+O.K. very intelligent, but really stupid and immature, not responding to anything.
+For what
+Stop send me message 😤
+Thank you I will consider checking with one of the resources that you have sent to me.
+​❤️​ to " No worries! Thank you either way. 🙏 "
+Not tet
+I will do that
+Thank you again
+I think we are done, Thank you
+I'm Driving  - Sent from My Car
+Thanks 🙂
+You're welcome
+What institution?
+Right now I go to my doctor from my doctor from me working
+Never mind then
+I don't know
+Can we just skip it for now please
+Sytop
+Thank you 😊
+Thanks 🙂
+Stop you aren't doing anything to help me.
+Thank you so much.
+Why are you asking me?
+Did not help my get to sleep problem
+1,2. Total 28 years.
+Ill keep you informed if any changes
+I am white
+How old choose one! I'm to the point where I just don't wanna bother anybody there's too many things and I will choose one
+I moved schools
+What you sent does not open up
+Female
+The bed is not firm, it is HARD.
+Yeah I did reach out to the 8558388255 I talk to a lady by the name of Liz. She's a good person to talk to, but anyway, thank you for your help doing what I can to maintain. Thank you.
+I called the veterans crisis hotline and it helped because all I really needed was just to talk to somebody. Give me some ideas and you've done a lot of that tonight. Thank you and we will talk again.
+You have given me a lot of help thank you
+I will contact you later thank you
+I am being attacked by them Administratively
+If you're going to text me every few minutes, I'm going to block you.
+I have never heard of this organization
+May I ask where you are located
+Ok.  Thank you for the information
+Thankyou bot.
+homes
+Wrong Phone Number, STOP CALLING THIS NUMBER NOT JAMES
+WH, if no one else will?
+Leave me alone
+Agent
+I'm working on it
+No change AI does not understand
+People with extraordinary habits and limited talent can still achieve extraordinary results
+Wrong number
+I am O.K. just crappy sleep right now, thanks
+Retired Army
+Please delete me from your list!  Thank you
+stop texting me
+don't ever text me again
+Not right now
+I'm Driving  - Sent from My Car
+Thanks,  I'm not sure how to do that.
+I will
+You're welcome 👍
+I already replied to you five times you're on the veteran and I sent the pictures of my VA card ID and my driver's license
+Don't send me this type of stuff again!
+Perhaps
+Reddit
+Substack
+No interest
+Thank you you have a wonderful day
+Please leave me alone!!!!!!
+???who are you
+Go away now!!!
+Sorry, I can't talk right now
+Im on vacation went back to ft bennin g heading home wedesday back to green bay
+Not really right now.
+Youre welcome
+Kinda busy right now
+Copy
+Text
+You're welcome 👍
+I am 72.
+What?
+Please send to blaze 16700@gmail.com. I do not click on links on the phone.
+Please, I do not click on links please email blaze 16700@gmail.com
+Please
+Fine
+Widow of veteran
+5and9
+You're welcome
+I'm ok i don't need this type of assistance.
+Cold lol
+Operation Homefront is one source who didn't help me
+You're welcome!
+It is encouraging
+I so far have really enjoyed this app.  Makes me feel good can say what I want an see results then !!
+You're welcome!
+Asbestos on pipes navy ships and squadbays
+Im just now getting aquainted
+extraordinary perseverance, all things are attainable.' (Thomas Fowell
+Buxton)  Until next time, take good care. 🙏"
+I am open to anything
+40 or 50. Years ago don't remember for sure
+I'm Driving  - Sent from My Car
+Loved "Here's a quote I thought you might a  'Self-compassion is simply giving the same kindness to ourselves that we would give to others. ' (Christopher Germer)  Until next time, take good care. 🙏"
+Drug rehabilitation
+Thank you 😊
+920-973-3971, I have a hard time reading text
+I just pray and start another day and hope for change.
+Would you happen to know someone I can call all to about buying a home as 100%p&t?
+We are leaving for a cruise next. Will be back by the second week in February.
+I'm Driving  - Sent from MY CAR
+Thank goodness
+Don't bother me
+Severed 1966-68
+Texas froze over
+Not really
+What sleep over!!!
+Nice post an very true even in your 60's.
+You're welcome
+Will check it out and thanks for information.
+Im trying
+Will do if ever see one
+Service connected
+Disability
+Go away my sleep is none of your buesness
+Please cancel this at this time.  This phone number is a friend's I only use it occasionally for this
+Thank you I'm waiting for my phone from Phones for Soldiers I will look into it then
+The County's  dental clinic said I make too much money
+I got helpful advice
+Removed ‌👍‌ from " Hi Andrew. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+​👍​ to " Hi Andrew. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+More snow on way Sunday
+Not at this time ty
+Sure
+I'm starting that tomorrow.
+Thank u 🙏
+Sounds good 👍
+Thanks 😊
+Please stop texting me
+Ok, leave a message when you call or I won't respond because I don't  know the number.
+Not yet  I'm not familiar enough with it.
+I belong to a NCO website on FB that's only Army NCO's.. I will promote it..
+Ok..thank you
+Thanks for the update 😃
+And other school stuff
+No  answer  don't  ask
+Why do you care and who are you
+No thanks you are not to be trusted
+I said no you are not to be trusted so leave me o alllone
+Thanks 😊
+its my birthday
+I ain't replying anything.  DON'T KNOW YOU
+Is there dental insurance for VA
+Why are you asking?
+Okay 👍🏿 thank you
+Male
+Once I'm done with everything going on
+Where are you from?
+Can't read this
+Call
+Call 920-973-3971
+Call 920-973-3971
+Not responding with text. Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Call 920-973-3971
+Someone Call me
+Liked "Some words of wisdom...  'Self-compassion is simply giving the same kindness to ourselves that we would give to others. ' (Christopher Germer)  Until next time, take good care. 🙏"
+Did you get it
+Did you get the picture?
+Did you get the picture?
+Oh, I didn't leave room: I don't drink, smoke or swear.
+I could use a new     VA CARD this one os around 50 years old
+Number nine and number ten
+I'm not answering anything until you tell me who this is
+Thank you 🤞
+don't ask
+I pass on all of that. I'm writing back and forth with my daughter.
+Thanks but I'm writing to my daughter..
+Thank you and Bless you
+That's fine, thanks
+Knowing someone is there
+9.5
+Thank you have a great day
+I will
+its just something that happened with my family the day of my white coat and now they left
+I dunno about awesome. There was a time when I would have given s rating of 9 or 10 every week.
+There's things on my phone that i have to take to Verison,to get back how they were,because i forgot how to do it!!??
+It come back
+who is this
+I'm chatting with a bot. I asked, 'Who is this?'
+I'm chatting with a bot. I asked, 'Who is this?'
+You do not believe that my bones were broken in 1981
+​😡​ to " How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+Hey there,   I    go to   Two  groups  in ATtC at Seattle  va every  Week and I have have a social worker  There also.. we have  Known each other  since the  mid-nignties.  So I'm  Good tto go  on that Plus I get excellent heath care there also The only problem I have with is with the  Suts downtown . Can someone call me  ?  I can't answer  my phone on Monday or Thursday  as I'm at the. Hospital                  Thanks for                Reading thi🤘😃
+Oh never. Mine miss c
+None at all.
+Got it okay
+More inspiration
+In answer, previous question 10
+Put me out of your list because everything I do with my health is with Veterans Hospital, thanks. 👋
+I say Nay, I'm talking to a wall so why waste my time with the robotic cool just to make money because once you get in the flow, you don't understand so what am I talking to you? I'm turning into one of you. Goodbye so long. What a waste should I block you?
+Exactly
+​👍​ to " Hi Quigs. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Thanks, you too
+Are you a real person?
+Why am I wasting my time talking to AI? I'm not a child. I'm not here to profit anyone are you kidding me take me off your list. Honestly, this is a fools game smarter than you.
+No, aI don't like this ga.e.
+Awesome
+Okay, thanks 👍
+I'm good
+For the time being, I have supported myself mentally and physically because everybody has their opinions as far as what your mentality should be so I think I'm a step of all of you beyond.com. Maybe you should have me working for you, but I don't need the extra income thank you
+I got it under control.
+
+Stop or I will Block you! 🤬🤬
+I am Enjoying  it
+Thanks 🙏
+N a
+Leave me alone
+
+No I prefer not to
+
+No, I do not share matters with AI
+Removed ‌👍‌ from " Hiya R. 👋 How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+​👍​ to " How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+​👍​ to " Sorry, R - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+Removed ‌👍‌ from " If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. "
+What are you talking about what is a sleep over
+Not awesome! I accidentally sent wrong number
+Sep-80
+Who are you with
+Who are you with
+Thank you so much
+I do like the quote and I appreciate it
+Like what?
+You are worthless
+Thanks a lot
+Ok  are we going to do this  using the phone or my  computer??
+I like the quote!👍
+I like the quote, thank you.
+Thank you,
+Not yet, thank you.
+Never mind. Eliminate me from this please.
+No I don't want to be a part of this. Sorry but please eliminate me as your contact.
+I am a veteran
+Army
+Yes i'm at USC SOMG
+Yes i'm at USC SOMG
+Thanks! 🇺🇸
+Male
+I'll share it
+12 YEARS
+Go fly a kite
+Can I?\nResource, these have that you gave me.Because it's telling me\nNot found
+In service 1965 Sept.22. To August 1968.
+I really am saticfied with the VA. My concern is for others that I may help.
+If anything bothers me I do something so it wont😀
+I haven't been around any vets except at the va
+The VA doctors know. Thanks
+Whattup, G?
+999999⁹
+Not at this time, Thank You
+Burn pits
+Will do thanks
+Okay thank you now is this telehealth'?
+Thank you very much😀
+Thank you 😊
+Not thank you, I'm awaiting next steps as we discuss this.
+Thank you and God bless you.
+You're welcome!
+I would like you to take my contact information off your site. Thank you.
+Guardianship
+Thanks 😊
+Got It
+None  now
+​👍​ to " What type of resource are you interested in?  (1) Emotional (2) Sleep (3) Life Satisfaction (4) Physical (5) Cognitive/Memory (6) Relationships (7) Work Satisfaction (8) Work Performance (9) Financial (10) Other/General "
+Very true. Thank you 😊
+👍 ty
+Ok sounds good
+Not really
+No job & I am running out of funds!
+Can I cancel these messages
+
+Will co,
+I've never heard of it till today, but I like the fact that you're asking questions and you seem to care
+Okay I will thanks
+You as well thanks
+​👍​ to " I'm really glad to hear that, John. Which resource did you use? What was it like? We will relay your anonymous response to the program leadership, to help improve support resources. "
+Army
+Slowly but surely she is getting better about it
+Too early to tell but I do appreciate everything you're doing.
+Can I turn the heat down on the vaporizer?
+EGM
+THANX!
+Not  my friend  if you  don't  tell  me who you  are
+Male.
+Just not enough basie needs
+Town in both cases
+Tia
+Not right now. Let's see what happens tomorrow.
+Lol the cold ?
+You're welcome
+Welcome
+I do not use the VA for my medical Treatment
+Yes I am aware
+And that's at the Bronx, VA James J Peterson
+Service dog
+Hopefully this will change from here on.
+Not at the moment
+Stop bothering me with this shit
+I would like to know who are you and how you got interested of reaching out to me
+Can't use community used against me
+Just don't bother
+What good are you if you can't help me?? Another way for the system to control veterans emotional damage who cares as long as you show an attempt to continue to destroy veterans lives!!!!!!!!!
+Just not interested
+I hate not being heard!!!!!!!
+Privacy
+I will 👍
+No I'll wait a little longer
+Who wants to know?
+Ok thanks for the info.
+Stay well
+None right now. Good night
+Okay thank you that's a start
+I don't participate in these types of inquiries.
+Thank you so much.
+I'm going in to talk to her now
+Thanks for the reminder
+OK I will be without service until I reach wifi again
+You're welcome
+Way To Roll People's
+Full time Army National Guard
+​👍​ to " Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Acknowledged
+Wow,  you mean I can come to you anytime I need you?  Mainly my depression bothers me a lot
+Please
+Loved "Here's a little bt of inspiration:  'A river cuts through a rock not because of its power, but its persistence.' (Jim Watkins)  Until next time, take good care. 🙏"
+Remove my name and number from your lists IMMEDIATELY !!
+Take me off your fucken list fucking immediately
+Fuck off and die
+Fuck off you douchebag cunt
+Eat my dick
+I wrote that you suck dick
+You're a piece of shit is what you're are
+Eat my ass
+UPDATE
+tajaalcantar@yahoo.com
+Leave me alone!!!!!!!
+Who ever reviews this got your dam. Machine off my site!!
+If you can't answer me I can't answer you!!!
+It's simple what are you doing this interview for and what are you going to do with it I think that is simple enough to answer me
+No thank you good bye
+No thank you
+Sleep over?
+Don't know the first thing about our job and then gonna tell us we are wrong
+Sure thing
+I sent you a photo of my driver's license  And photos of my VA ID card s.
+Will do
+N/A
+Who u
+
+
+Thankful
+Thanks! 🙂
+​👍​ to " I'm really glad to hear that, Peggy. Which resource did you use? What was it like? We will relay your anonymous response to the program leadership, to help improve support resources. "
+I am a Veteran.
+I just want to opt out. Thanks
+So far you have just thrown the same old shit at me. Thanks anyway
+I traveling at this  moment but I have a n appointment tomorrow.
+This is too frequent
+Go and fuck your self
+Go to school
+Thank you Chatbot
+And stop texting  me
+If I see you in person I will hang you
+So stop
+LIFECYCLE
+Liked "Here's a little bt of inspiration:  'A river cuts through a rock not because of its power, but its persistence.' (Jim Watkins)  Until next time, take good care. 🙏"
+​👍​ to " Sorry, David - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+I am not interested in any resources.
+I do not want any resources.
+No resources wanted
+Thank you. I definitely will Check it out.
+I think I will talk to my doctor &see
+I will
+I will let you know later
+Thanks 🙂
+Thank You Humble Chatbot !
+Stop 🛑
+Thanks for the reminder
+What is a number I can call to get in touch with VA therapy?
+Reaources
+Thank you Brother
+Who is this texting me
+Let me know who you're please 🙏, don't talk with anyone I don't know
+I'm good thank you 🙏
+Will you please 🙏 listen what I'm saying,I talk with my Jesus Christ about everything
+Remove me from list
+Lreyesgomez@students.Llu.edu
+Navy
+Like what?
+I just left mental health appointment
+Thanks 🙂
+Don't text me any.more.
+Thank you
+No thanks
+I've got some. Thanks
+Stop playing games,I'm a bishop at first choice ministries
+Will you please send your text to someone else please 🙏,I talk to Jesus
+What you're saying you're better than Jesus Christ help
+I'm going to block you,please stop texting me
+No thanks,Once again Jesus is my Resources and support
+Do you know Jesus?
+Don't bother checking in again.
+Thank you
+I'm Driving  - Sent from MY CAR
+You're welcome!
+Who is this and what is this all about?
+My primary care doctor is aware of the situation
+Male
+5ft 9in
+300lbs
+There is no change from our last conversation
+Yea ok
+Do you know someone who can give me money?
+All
+I know somebody actually carrs
+Thank You
+Thank you!
+U too
+Who are ya and why you need to know
+Thank you
+Stair coach
+Fuck you I said Stop and that what I mean Stop🙀
+Okay, thanks
+❤️🧡💛
+Ok I'll check these out. I'll let you know now the out come.
+Thank you. When I get home I'll goto work on these. You're my hero.
+Um ok thanks?
+But thank you and you too
+It hasn't  been a hour yet and multiple times asked for my opinion, cease and maybe you wouldn't have to advertise on Facebook and other media platforms
+Can you let me sleep now or do I need to discontinue you
+Thank you.
+Thank you and I will
+Completely
+Okay, thanks!
+It's been 16 years that I was discharged from the ARMY
+Thank you
+Thank you
+Ok thanks
+Air Force and Army National Guard
+You texted me haha!!!
+Like if the y help!
+It's all say so
+Stop 🛑
+I know it
+Why ru gonna help?
+Customer service
+Live advisor
+Live advisor
+You're welcome
+Live advisor
+I'm driving with Focus turned on. I'll see your message when I get where I'm going.
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+I'm Driving  - Sent from My Car
+I've already done that.
+NOYB
+Please cancel me
+Where is my proposed $20.00 Amazon card ???
+Where is my proposed $20.00 Amazon card ???
+All good thanks
+Hello?
+Liked "That's awesome. 💪  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Do I need to return it back to you
+Sorry yes. The water.
+Good luck
+Got message said I'm already registered
+Is this a VA site?
+Why who are you ?
+Neither
+Ok, thx
+6 ok 👍 been to Vietnam? Desert Storm and a couple of months in Somalia 🇸🇴
+Namaste
+Ok great
+Reply
+None, thanks though
+Yes
+Yes or no
+Thank you. God Bless 🙌 🙏 ❤️
+988 has blocked me unfortunately. They won't take my calls anymore.
+this is not helping
+This is the right number
+I'm trying 😪
+​👍​ to " Here's a little bt of inspiration:  'A river cuts through a rock not because of its power, but its persistence.' (Jim Watkins)  Until next time, take good care. 🙏 "
+Thank you for the information
+Thank you for the information appreciative
+I like a good quote
+Thank you.  I will.
+Free cell phones with service for veterans
+​👍​ to " Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Responses
+Not bad for an old man'.
+Perfect for all my needs
+All
+You're welcome
+Will do, thank you
+My dr has already tried with these
+Who are you
+Ok/ Thanks
+Are you located
+No thanks. Have a wonderful day.
+How about an F as far as your AI I don't wanna talk to a robot
+How about dealing let's put it this way you've been resources not AI you're fucking gotta be kidding. Me step aside I talk to human beings not a
+11 human resources, a human person to relate to stop the bullshit
+I'm 👍
+Don't know much about it
+Commutations and I do hope that a human is communicating a nor AI. Hard to tell these days.
+Understand thanks
+No
+And labs
+No problem 👍
+Ok great thanks
+Yes sir!
+Please stop sending messages.
+Got it.
+You're welcome!
+I never got it
+The tools did not work for me because of the requirements.
+What can they do
+G thanks
+Maybe
+I have used the va clinic in Hancock
+I didnt sleep over at any time
+Not a good quote, because water will take the path of least resistance
+Sounds good thanks
+Sounds good thanks
+Nothing right now.
+Have not tried it
+Navy
+Thank you for that all you do for us!
+1970 forgot 1967 was from active service USMC
+I did like it
+Got it
+What are you talking about
+By the way, who are you?
+Busy on the job
+See the doctor soon.
+Male
+​😢​ to ' How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) '
+Huh
+I need a supervisor
+Supervisor
+If make that sacrifice over and over.   Cuz he could have caused a lot of damage destroying family's military honor and making them never live again as a soldier
+I didnt sleep over at any time
+Copy
+None right now
+I'm not using the phone. It broke
+Bye.  No help at all
+The response time was great
+Dental
+Male
+Thank you so much!
+Maybe
+Haven't received yet
+All
+You got me scammer. well Im closing it all down
+My husband is in jail
+Absolutely
+It's too soon to describe Early Alert.
+No sleep over.
+I enjoy being checked on
+Did not receive the email with Amazon link
+No thank you....
+Not at this time.
+Not at this time. Thank you though.
+Not today
+Tks
+Who the hell is this?
+I will
+Alms
+I will thank you
+Navy
+HUA!
+Driving, can't text.  Sent from MY ROGUE
+I submitted my photo id but the address on my drivers license is not my address I recently moved
+What address do you have on file for me
+Welcome
+This is a predatory service
+This a predatory service
+Agent
+Agent Orange!
+It's late good nite !
+Not bad 🙂
+Thank you & amazing quote!!
+Yes, I received your text
+I will
+Sound good
+I did
+And not to worry! I'm learning right now from what you've put together. Whoever put the entire idea together for us deserves a great thanks from  all of us.
+Thanks again!
+Stop it! I'm his wife
+I will report you to
+Early start!
+Thank you I appreciate you
+Yes with an Honorable discharge
+You asked me if I was a veteran of a service correct?
+The first question you asked was, just to double check,  are you a veteran?      (Y/N).
+Correct?
+The answer is Yes, I am.
+Is it recyclable?
+What garbage dump will take it?
+Get me the telephone number for waste Management!
+You're welcome!
+
+Makes me aware of all I have to be thankful for when I document it!
+We've already had check ins
+Will be denied
+How is this and why do you even want to know about me.
+And where's the link?
+I'll call you back in a few minutes.
+Yeah right
+You're welcome
+Same to u
+Amazon card
+Can members of my family receive help also?
+How do I stop this service?
+How do I cancel this service?
+Haha
+Thanks, EarlyBot
+Do you have any more quotes
+None of these
+Like 988 haha!
+I would like to know who you give the information to that I put in this app
+​👍​ to " Hi again, R. Have you had a chance to try any of the resources I suggested? "
+Please don't text me anymore.
+2, male
+I don't think I'm comfortable with that
+Thanks have a blessed weekend
+Liked "Here's a little bt of inspiration:  'A river cuts through a rock not because of its power, but its persistence.' (Jim Watkins)  Until next time, take good care. 🙏"
+It's god
+Who?
+I will
+Great 😃
+Thanks again
+Email
+Phone number
+But
+Interesting
+Okey
+Lmfao  your a funny bot. Can you get me a actual  manager that can relate to the peons
+Man who stands on toilet, gets high on pot'  (Ted)
+Yup also
+Yep
+Okay I have the links on my phone now
+Can I ask a question
+Friend referral
+Good by
+Operation home front
+Food
+I will
+Airforce
+You do also
+Coldwar
+I'm good thanks.
+Thank you call first thing
+I call lie!     I'll bet he started bigger than that!!!!
+Ok I may have to call for help Brian Goldsmith
+Good luck.
+Okay thank you good night
+
+Thank you what are the terms of having an account
+No thank you
+I'm new to it
+Gour
+When get home please
+My husband was
+I was not in the service my husband was and that's where I get all my VA money and all my support from
+I was not in the army my husband was he was in World War II
+Please text me when I get out of the store and I'm home. I will leave a message on my phone that I am home.
+I feel little better today I am at the V.A.Durham right now I still have lots on my mind but I think 💬🤔 I will be alright today I hope so thank you again 👍
+Ok I'll
+Stop stop stop😡😤
+Done
+
+I do like thanks
+If you continue to send me stuff, I will be forced to call New York Attorney Generals office
+Easier said than done. Mortgage company says 'Burn out?!?! Pay up or you'll be run out!'
+So now what?
+You're welcome
+You're welcome 👍
+Yes or no
+Can we have coffee at dunkin' donuts
+Support of you share. Interest etc.
+Did not
+Loved "Hi David. It looks like you already enrolled with Early Alert, so no need to do anything else! I will check in with you every few days.   You can always text me RESOURCES to learn about support resources that are available to you."
+No... I'm appalled it's only 6 months and I hope I am acting like a idiot
+Not
+I am 200 miles from Reno
+Yes , Im a.vet
+Not yet. Have app
+Please
+Who are you. I've never heard of early alert. Another scam so fuck off.
+I'm on Green Team 1
+!thanks
+O.k. that sounds more like a human
+No just praise and ask God to move that mount for God said his man shall just ask and it shall be
+If you study the first healings we're not made by doctors but through the praying to God
+All things come in time
+It was last yr when I did that not a week ago
+Ho r u
+Who this ?
+You're welcome 👍
+I have already answered that.
+You're welcome
+No problem
+I'm Driving  - Sent from My Car
+Surgery 2/9
+You're welcome
+This seems like a complete waste of time
+​👍​ to " Here's a little bt of inspiration:  'The man who moves a mountain begins by carrying away small stones.' (Confucius)  Until next time, take good care. 🙏 "
+Thank you so much
+
+Close
+You're welcome 👍
+I'm 74 Im trying to get a copy of my DD 214 so I can see about my VA rating
+Until next time may the Lord bless you and your family
+I just replied with what is happening
+I guess
+Not now airplane.
+You're welcome
+Not really
+My team at the VA is working on getting me squared away. Thank you though.
+Welcome 🙏
+Thanks very aware
+Thanks in advance
+None of your buesness
+Who ever is running this site please leave me alone
+I don't mess with bots it never works out you just looking for information to sell
+Screw you it's calls and msgs like yours that keep waking me up!  YOU'RE BLOCKED!!!
+Are you asking on behalf of the VA?
+Ty and you too🙏🏿
+Please leave me alone
+Kid range
+Yeppers
+I will.  Thanks Ron
+Suggesting Challenges
+What is Early Alert  and what's it about
+Fuck off. I deserve more than a both.
+You're welcome
+Is that like sleep apnea and a cpap machine?
+
+N. BUT I HAVE NOT GOT ANYTHING FROM YOU!
+Thank you, that's the problem the first person promise me  everything and I got  nothing this is the problem
+I don't understand
+NO DON'T CALL OR TEXT
+Sounds good, thank you for your help
+Space out
+Peace-out
+Are you human
+Are you burnt out?
+Reacted ❤️ to "Here's a quote I thought you might a  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏"
+That was rude
+Lol
+Really don't have any....
+I will, thanks!!!
+You're welcome
+You're welcome 👍
+Welcome
+Except for Monday night at CFCArts
+You're welcome
+Nice, Thanks.
+You're welcome
+Who's asking?
+You're welcome
+On accident
+Not 0
+This is not his phone number please stop texting to this number
+Last time I called the veteran crisis line, they convinced me to shoot myself in the chest. A little FYI for your resource chest
+So they can convince me to shoot myself again?
+Always
+Could you send this to JoAnn.. Thanx!
+Very true.  Thanks.
+What is it, and am I supposed to be paying for it??!
+So this is a Veteran's service?
+Where are you? Íve been in SW MISSOURI for 15 years. I spent most óf my life in  n California working as a farmer. It's so mellow here
+Thank you I will
+Love the quote. Thanks for sharing
+Take care
+You're welcome 👍
+I.just told you,, if thats not enough ,,then guess
+Im weary of  text after text from.you
+I dont want to text with a chat box
+And i just a very ill person who dosent want to text with a chat box
+This chat box only causes frustration
+If any people can answere then do so or i will just delete to stop this problem
+Okay thanks for caring
+​👍​ to " Hi Bruce. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+Age  66
+Do they speak English
+You're welcome 👍
+Any connections to help veterans sell their timeshare?
+Timeshare
+Sell
+Not really
+Male
+Asbestos
+i just mailed an envelope for supplies
+to denver?
+You're welcome
+Go away
+Actually National Guard would be more appropriate.
+What can veterans get for benefits
+Why are you sending these messages to me?
+I wouldn't mind answering you but I don't know who you are
+Is there a veterans office for free vehicles
+Is there free vehicles for veterans
+Noppppppe
+No fkin no
+Liked "That's awesome. 💪  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+You're welcome 👍
+Yes I have looked at the resources you sent
+Sleep information
+I am.
+You're welcome 👍
+It's okay
+Life is like a peanut, got nuts in it.
+You're welcome
+You're welcome
+Still exploring
+Dental
+Can not get to it
+I'm bed all the time
+How would I get to them
+You're welcome
+Who The Hell Is This, & Why Are  You All Up In My MF'n Business? 😠 😡 😤
+You're welcome 👍
+You're welcome
+Hi maybe you can help me
+I've never needed my percentage upped since 2012
+Army also National Guard
+Are you with the VA?
+You're welcome
+Please are we done with today's task?
+So true
+Nothing has helped me since 2014 & the WI VA system screwed me over & I was the one who was wrong!! So with that being said!! I so sorry but I just don't care about tomorrow anymore,!
+In fact I have five brothers and we were all in the Army at one point. My son was the only combat veteran though.
+My son was a veteran also.
+You're welcome
+Who wants to know?
+No  can you rely, why do you ask?
+You're welcome!
+You're welcome
+Loved "Perfect! Thanks. 😊"
+Ha ha
+Ha ha
+Get lost
+You're welcome
+That's my response to your statement.
+Not necessarily
+You welcome
+Was exposed to burn pits and contaminates during Desert Storm/Desert Shield
+You're welcome
+You're welcome!
+You're welcome
+You're welcome!
+I'm a 2) Male
+Welcome 👋
+I am contacted regularly!
+You're welcome!
+Da nada
+Is this a bot, or a human, I am talking to?
+Who do I contact to get my proof of military service?
+You're welcome
+You're welcome
+It changes from when I receive these messages👎🏻
+You're welcome!
+He wants a beef and cheddar curly fries and poppers, just get me a big Montana.
+It good to know
+Thank you 🙏. You too
+Still no delivery
+You're welcome 👍
+Sorry 76118
+Zip code 76118
+You're welcome
+At the end of the Postage Delivery.
+I'm here
+Who the hell are you
+You're welcome!
+You too have a good day
+No thank u
+Thanks, you too
+How am I to restore myself
+Early alert addressed my needs right away. Thank you early alert
+Not really
+You're welcome
+You're welcome
+You keep in touch!
+No thank u
+​👍​ to " Y "
+Thank you very much. Very smart things you are sending me.
+You're welcome 👍
+You're welcome
+You're welcome!
+Who is this?
+It's a friendly voice, that keeps me on track.
+From a song by Don Williams, 'I've got silver, in the stars, and gold in the morning sun'.
+​👍​ to " I'm sorry to hear that, Charles. Would you like suggestions for support resources that can help with this? "
+You're welcome!
+If I answer that question again I'll die
+You're welcome
+Loved "Here's our quote of the week:  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏"
+Much appreciated
+Sorry old zip b4
+You're welcome
+Not spam
+Ok thanks at least I know that somebody out there cares
+You're welcome
+Onfodantel right
+Ok I shall
+Some seasonal dad's
+Sads
+Am a humble samorie
+O like the chat
+I see 🔮
+Some one to chat with
+Nothing helpful
+What resources
+You're welcome!
+You're welcome!
+You're welcome
+You're welcome!
+No problem 👍
+Diez
+Happy Valentines day. The girls package is arriving on Monday.
+I need a name
+Thanks but I need a name to go with the phone number
+Not really
+Thank you take good care of yourself also.
+You're Welcome 😊
+What sleep over
+Happy Valentine
+It's been great to discover you guys.
+Are you AI
+Are you an AI?
+How do I get a dd- 214
+Well can you check on it mine got Lost dd- 214
+I'm retired don't carry stones no more😁
+​👍​ to " Ron, it's your favorite Wellness Bot again... 🤖 How would you rate your physical health over the past week, on a scale of 0-10? (0 = Extremely Poor, 5 = Fair, 10 = Excellent) "
+Sick of dealing with AI and Bot can't talk to a person anymore it's rare not even  My bank  it all sucks
+THANK YOU FOR CHECKING IN ON ME!!!!!
+Okay, I will
+Who am I speaking to here
+Now what ?
+thank you good night
+Absolutely
+80031. Army
+Can I opt out of this?
+I'm retired
+Completely
+Block
+You're welcome
+L
+Please
+Leave me alone
+Who cares
+I'm not in jail
+I'm 74, tell me about yourself
+What are your thoughts on Marijuana as a pain killer
+Are you AI or the real deal
+Arating of 9-10 is nothing to be sorry about! LOL
+Okay, how long will i be able to utilize your services?
+Am I b wrong to assume your lack of a response  indicates you will be here indefinitely.   Correct?
+Completely
+How did i come up on your radar?
+How did you find me?
+What i am looking for is not an emergency situation
+You're welcome!
+My age is 74.
+None of these can help me
+Yes I am a 26 year retired Veteran. Resources
+You're welcome!
+Yes sir I agree
+Thank you again
+You're welcome
+You're welcome
+Good morning Chatbox
+No problem!
+What sleep over?
+Thanks for checking
+Welcome
+3 for life question
+Okay thanks Betty call me AI 🤠
+Joke you wouldn't get it
+That's right I have. Thank you and God Bless 🙌 🙏 ❤️ Alice Rita Fria
+What do you mean? 🤔
+Thanks, you too
+The good feeling of having help so close
+Not separated, in the process of retiring
+? Did you bother to read my response?
+Exactly what 'resources' can help with an internal work-related issue?
+Subject to change
+End
+Love that
+I don't know
+Neutral
+Agent
+A-10 Warthog
+sorry. no likes chatbots.
+You're welcome 👍
+Support
+Navy ( special forces)
+I have to go now
+I just don't have the time right now it's family dinner time if you don't mind
+I'm busy
+I will just block you instead then
+I have my DD214
+O
+Loved "🤗 Yay! I'm glad to hear that.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+My father frequently read c. s. lewis to my younger sister and me around middle school age.
+I'm not into gender stuff.
+Thank you. I'm good.
+You're welcome
+Who are you and why do ask, do you know who I am??
+If you just chatbot, then  I refuse to answer!
+I think I don't want to participate
+Do not text me anymore you should understand that
+Welcome what is ya
+No problem
+I believe this!
+How can I unplug me?
+​😮​ to " Here's a little bt of inspiration:  'You are never too old to set another goal or to dream a new dream.' (C.S. Lewis)  Until next time, take good care. 🙏 "
+​👍​ to " Sorry, sophia - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+You're welcome 👍
+Completely
+... TTL
+It's nice to have someone or something that cares.
+You're welcome
+You're welcome 👍
+Good quote
+You're welcome
+Acknowledged
+I wish i world have found this before
+I know , however , perhaps someone will read that
+Thanks, EarlyBot
+I'll try not to stick anything into any electric outlets. Haha
+Alrite then, later
+Thank U for info.
+Welcome
+I have an appointment tomorrow
+You're welcome
+How do I get out of this thing
+Thats ok next week
+What is a dream about it's fantasy. It's not reality. It's about knowing you and what you're downpours were but when you live in realities, you focus in and not having doctors prescribe you pills so they can become rich where you don't even need this mental bullshit as far as depression, pills, or anxiety pills. I left these and it's been four months already. I'm free. I'm not making a doctor richer not one sentence that's coming out of me. It's not about finances. It's about smarting up and being wiser.
+Honestly, you should hire me not to make money but to be honest specially with people who are with mental crisis and to stop the addiction cause it's only a pacifier. It's not a cure there's never a cure. There's only only maintenance. That's what these doctors do and they get paid for it. Poor insurance companies imagine I don't even have Medicare part B.
+Ok Anne. You too!!
+Separation date 1975
+Separation date from military 1975
+It's nice to know that you are watching over me 🤗
+You're welcome
+Th How do you say you'll see in a minute here how that swims in the water looks so sick This is a great place to be.
+I don't have time for this BS
+Is this some kind of B S that is trying  to be pulked?
+Yep I thought this is BS
+Why don't you go where it don't snow
+No 👎
+Reassured voice and inquiry provides that little under rated human quality... care
+Thats true my friend
+Thank you so much EarlyBot. It's so great to know that I have a reliable friend to depend on like you in my times of hardship and strife. When I feel pilloried, excoriated, and battered by the unrelenting nature of the world, I can lean on you.
+It was a mistake I hit the wrong number
+Don't fucken worry about ass hole
+Stop do u understand that leave me be
+Can I call you later?
+Y a year and a half in Vietnam
+Welcome.
+You asked when I separated from the service.  It was 1988.
+Y - Disabled Veteran
+You're welcome
+where is my quote? :)
+You are welcome
+It's nice to have a someone checking!!!
+Living alone, it's nice to be checked on.
+You're welcome
+Up my rating 20% to 90%
+YES SIR and thank you
+You're welcome 👍
+I'll keep this in mind.  ☺
+I have no idea what u are talking about
+I guess
+Goat
+My goats are getting out
+You're welcome
+Wrong number
+You're welcome
+What the hell question is that?!?!
+You can go pound sand.
+Thank you
+Bad,how much you gonna charge me to try and change it
+THRER
+Hello bot
+Liked "Sorry, Karl - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges."
+I don't have enough experience with the program yet.
+Helpful information.
+Or a big lottery win
+How do I unsubscribe?
+Trying to get paperwork done
+I presently am dealing with car in shop.   Past due light bill, H2Obill, and other bills.  I guess everybody  is.  Hard times in these hills.  Like to work at something.   Whine and whine.  Have a better day.
+When I get parked at home
+Tes
+Could we stop this
+You're welcome
+Sorry, don't know what Early Alert is and I don't get in to these chit chat things.
+Very welcome
+I haven't seen any benefits to using it yet
+Awesome
+81625 or 81211
+Oh, I have MANY!
+Not helpful
+And you want to know, Why?
+You're welcome 👍
+You're welcome 👍
+How about white farsriz or naplam
+We used them in Vietnam ban by the hage in Norway
+I'm unplugged
+You're welcome
+Army
+Thanks, ditto
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+I'm driving with Focus turned on. I'll see your message when I get where I'm going.
+None Of Your Damn Business
+I happy that the institution is concerned about my well-being.
+No problem 👍
+Thank you.I will check these out later.Thank you
+Is there help for vehicle repair
+Nice 👍🏾
+Thank you EarlyBot
+Who The FUCK ARE YOU ?
+You're welcome 👍
+I dont livebin virgina
+Who the he'll r u?
+If I part of VA u should know how old I am!
+Locking out
+Nope please don't send me any more information or ask me anything
+beans
+78 years old
+Who are you and why do you ask me this?
+Retired now
+Maybe tomorrow
+Sorry 2
+The quotes
+You're welcome 👍
+Can I get a quote
+You're welcome
+None of your business type mood.
+Thanks, but I would like to be removed from your mailing list.
+You're welcome!
+Removed ‌👍‌ from " Hi Mark. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+​👍​ to " Hi Mark. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+You're welcome
+You're welcome 👍
+Do you hire
+Got it
+I am retired
+I don't even know what 'Early Alert' is.
+number eight
+Not at this time
+Nuetral
+Male
+You're welcome
+You're welcome 🤗. I'm almost 62 years old
+I said you are doing well
+I have no clue what you're talking about
+Give him a five
+Yay!
+No thanks, but I do  Appreciate you asking.
+Busy.
+Yeß
+Never mind bot
+Sure later
+how do you mno y understand what I wrote,  READ IT AGAIN
+I like hanging with my ai bro
+The checking on me
+No problem!
+Liked "Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+The quotes
+Leave me alone
+Amen
+You're welcome
+Not your business
+You're welcome 👍
+Yed
+Welcome
+I'll share it
+I just sent you that info
+I am not calling in anyone.
+No thank you!
+Such complete and honest service for veterans
+Loved "Here's a little bt of inspiration:  'You are never too old to set another goal or to dream a new dream.' (C.S. Lewis)  Until next time, take good care. 🙏"
+I guess
+Wow
+No need to checc bacc again in a few days I'm not needing to hear from you again. Goodbye
+Sir i am 97 In good shape  do not need this service  remove me from list thanks
+Im retired
+Not interested in Early alert.  Not interested in phone .calls from Early Alert.  I am interested in the main office address to Veterans binifits (they aren't affiliated with the federal government what do ever) so thanks.
+I'm who is this BTW?
+Have already filled in Veteran Status info and submitted it
+Yes I am
+Thanks for the look-out.
+Keeps you always positive
+What does it have to do with? why do you want to know? I don't even know you.
+Like the check ins
+Any idea on buttons
+When will I get ski jumping pass
+Not at this time
+I have already sought some resources out
+Did you just see advertisement for MLB on Peacock this upcoming season
+Nice to know it there
+3hrs
+You're welcome!
+Will do thanks..
+Thank you so much
+Thank you! Where can I pick up a button for the ski jumping
+You're welcome
+I will
+I was a Navy seabee. I got to fly around the world and blow shit up
+It's NOT confidential
+You're welcome 👍
+No sleep test!
+It doesn't work
+I sent it
+You're welcome
+Doubt that
+You're welcome!
+Nevermind
+God bless
+Actually was 78
+Yes thank you
+I was just saying I already know about the VA help
+​👍​ to " Got it. Thanks! "
+Who are you Why do you care
+Emedeitlt
+Yes I know
+No don't need
+Same to you ~
+What can I get for free
+Saved your number so I know who you are when you call. Have a great day.
+You're welcome!
+Not sure who this is
+I forgot this is robot
+Driving, can't text.  Sent from ANDROID AUTO
+Prices are going up
+Good one
+You're welcome!
+I'm Driving  - Sent from MY CAR
+I'm driving or otherwise occupied at the moment.   If time-sensitive, please call me and I'll answer hands-free; otherwise I will see your message later.  Thanks :)
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+You're welcome
+Helpful.
+VA health benefits.
+Who are you and what are you talking about.
+Send pussy and titties  ASAP
+Sex needed asap
+After i find out
+Another time
+🙏Pray God.Allways.ShineHisLight.On.YouAndYourFamily.Tell.MeYourName.AndThankYouForYourKindness.GodBless🙏
+I'm not putting all my information on the website if you are a member of the VA look me up !
+I was in the Marine Air wing Mag 36 on the USS Prinston LPH 5 and I am 100 present disabled! Served in Vietnam!
+retired!
+the question was about my job, however I am retired.
+Not really
+Listen THAT US MY ZIP CODE GREENFIELD TWP
+Yep
+AMEN
+Sleep over??
+Show me the list
+I only know how to answer text.
+Got  you
+Meaning, I know what you are saying
+I don't know
+Naval Reserves
+Vision can I get
+Kiss off
+Don't have an Early Alert Don't feel the need for one
+Not at this time
+1 Air Force
+Appreciate any insight you can offer.
+How does that help me
+All you luck veterans be sure you enrollees Alert
+I don't know what your talking about!!!
+Democrat
+Well Done 👍
+Then shut down and remove my phone number
+Say goodbye
+Say goodbye
+Are you AI?
+You are useless
+Telmed
+Understand
+I am  fully retired!!!
+How about stopping all the stupid texts?
+In hospital
+You're welcome
+I really don't know?
+I have no idea what that even means
+n/a
+Welcome
+I need my driver's license
+I'm waiting
+O k help me
+Lyer
+U lie
+You're not helping me
+You're not helping me you lie
+You lie you're not helping me
+Eat shit
+Eat shit
+Eat shit
+Eat shit
+Eat shit
+Eat shit
+Eat shit
+Thanks for checking on me
+Eat shit
+Eat shit
+Eat shit bye
+Thanks for the reminder
+I remember thank you.
+This service ?
+Please cancel my account
+You're welcome
+Not at this time.
+All of the above
+Eat shit
+❤️
+To your answer why I served I'm an American it's my responsibility to serve.
+You're welcome!
+Hi How are you?
+Already sent this Feb 15
+Were you not able to read my text that I sent?
+You're welcome
+Retired
+I need to know what Organization you work for!
+Sorry, I need to know first . I don't normally respond to a fake person
+But thanks
+You're welcome
+Yes I know.
+What does 'your institution' mean?
+You as well thanks
+Retired
+What job?
+No problem
+Yeah right
+Welcome
+Y combT veteran
+You're welcome
+You're welcome 👍
+Maybe later
+Txs
+Thank you have your number in my phone.
+Possibly
+​👍​ to " Got it. Thanks! 🙏 "
+Early Alert is NOT invasive and bothersome.
+I'm Retired
+As soon as identify yourself.
+Why is it that you have so little to do that requires you to pestering me whenever you want to?
+Do u love me?
+Chat box you are more than that. Why are you assigned to pestering me? If you can't answer  MY QUESTION? Piss off
+You're welcome!
+What's that got to do with any thing
+A number is not relevant  to your question
+I don't need this im not a number im a human
+What?
+I hope someone is keeping track of these answers. These toxic exposures have killed a lot of people and that is a crime.
+Retired
+When I arrive home, I will continue
+You're welcome!
+Ok what is this about
+I was in the US Army and the U S Army National Guard till I retired after twenty years.
+I rarely know any other veteran
+Iam retired
+Do not text me anymore
+Leave me alone
+Can't you ask all these questions in one text?your starting to agrivate me.
+Now I report you as spam.
+Laughed at "Here's a little bt of inspiration:  'A goal properly set is halfway reached.' (Zig Ziglar)  Until next time, take good care. 🙏"
+I have an appointment coming.
+I have always liked zig Ziglar! Did you really ask me how I identified last time?
+Surr
+I don't have any
+Huwah
+Fall monitor
+Free fall monitor for veterans
+Gotcha
+Thanks bot, you too
+It's ok I know your still developing my bad.
+Ok goodbye
+You are not reading my reply's
+Sorry to hear what?
+You're welcome 👍
+I am retired
+Good luck 🍀
+Early Alert has  quick responses.
+Retired
+I'm a young 79 years old😎
+I'm answering ur question from the other day. U asked about my age.
+Okey
+Sorry I meant 10
+Gender male
+Retired
+its constantan
+I'll figure it out. Thanks
+Two snow storms in just five days
+You're welcome 👍
+I AM SICK AND TIRED OF THIS SNOW
+I think it's a good thing having Early Alert checking to see how I'm doing it's nice knowing that they can provide resources if I feel a need.
+I don't understand you questions - I am disabled
+who or what are you ?
+goodby
+I ENJOY THE FIRST ALERT.
+That's pretty stupid
+You're welcome
+GMC Terrain only
+I'm Driving  - Sent from My Car
+I'm retires
+I'm retired
+Who the fuck is this??
+U are welcome
+Ttyl
+Upgrade discharge
+Upgrading my discharge
+Love the quote
+About vetride what it about?
+What does my age have to do with anything 🤔 I'm old enough !
+Who are you and what Co, do you represent?
+You're welcome
+Uninstall. I don't talk to robots.
+Uninstall. I don't talk to robots.
+Retired
+I'm unemployed
+You're welcome
+I I
+Thank you for asking.
+Thlanks.
+Give me an email address. My photos are on my laptop and I can email them to you. I can't get them on here.
+None of your FUCKING business.
+You're welcome
+Yep
+Thanks for the support
+Mental health Oregon
+Well hc that is not my main concern  ard you born of the Spirit
+You're welcome
+Not really
+I will
+in the future
+NO! Im under an NDA
+I'm Driving  - Sent from My Car
+You're welcome
+You're welcome
+Thank you, and God bless you and your family and y'all stay safe
+Thank you very much. I appreciate this.
+You gave me exactly what I need. Thank you again.
+Who the hell are you
+Yes, I will
+No, that's racial profiling
+Eat shit
+Only that you can dn ir quit bugging me
+Get lost
+🤣I'm kidding I'm chillin
+Domo origoto Mr Roboto
+Non of ur business
+Removed ‌👍‌ from " Sorry, I didn't understand what you wrote. Please reply YES or NO. "
+Removed ‌👍‌ from " Sorry, I didn't understand what you wrote. Please reply YES or NO. "
+Wrong
+I'm white God made me you only need to look at my name which you are using to know
+I am what God made me, and my name tells you all you need to know
+Drop dead
+You'll never understand you pile of dits
+​👍​ to " Sorry, Terry - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+Removed ‌👍‌ from " Sorry, Terry - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+​👍​ to " Sorry, Terry - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+Removed ‌👍‌ from " Sorry, Terry - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+​👍​ to " Sorry, Terry - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+Removed ‌😢‌ from " If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. "
+You're welcome
+I will, and I appreciate you.Thank you
+That would be nice
+One sentence is hard. Lol
+Very good I learned a lot from zig Ziglar
+Even Humble Chatbots are important
+Retired
+I don't know
+Retired
+Thank you and Lord bless
+You have a good day
+Liked "Good! I'm glad that's going well.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+I will
+Retired
+Male
+Can yall stop messaging this number please im the new owner of this number
+Not today
+Have not spent enough time for a valid opinion.
+Thanks, I will.
+I p
+Retired
+I'm retired
+You're welcome!
+Cut the crap no thank you
+Who are you and why are you asking about my health
+No not needed!
+Retired no job
+Retired no job
+Did not have any 'Sleep Over' in a year???
+I am retired
+Please stop texting me
+No.Comment
+Work
+Got it, thanks!
+I'm driving or otherwise occupied at the moment.   If time-sensitive, please call me and I'll answer hands-free; otherwise I will see your message later.  Thanks :)
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+Thank you for the help.
+
+I'm retired
+Retired
+You're welcome!
+You're welcome!
+You have done great things for bringing out the important messages. Thank you for all that you do for us !! This is looking great!
+I'm retired
+Retired
+Liked "That's great!  Thanks for sharing.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+I'm retired.
+Thank you.  Signing off😘
+Don't work
+I don't work
+Okie dokie
+Sorry
+Not currently
+T Y
+Absolutely will.
+Okay, I will share this with my brothers.
+Yes I will share early alert.
+Good night. 👌
+Got it. Thanks.
+Next time
+I'm retired
+​👍​ to " Perfect! Thanks. 😊 "
+Doesn't apply
+You're welcome
+Retired
+Ken
+Not at this time
+Retired!
+Just go away
+Umm Who is this
+Who are you to ask
+No thank you
+You're welcome
+Please
+Thank you for the help
+Whatbisbyournsme?
+Retired
+I will remember. Thank you.
+Thank you. Be safe.
+I am just a humble old man. Good bye.
+I will remember this
+You're welcome
+Asbestos
+Tai Chi
+I'm retired.
+Please stop. My mattress is brand new. Stop these texts they irritate me
+Stop all texts
+What number do I push to stop all texts?
+​👍​ to ' If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. '
+Removed ‌👍‌ from ' If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. '
+Removed ‌👍‌ from ' If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. '
+Not at the moment
+Removed ‌👍‌ from ' How satisfied are you with your life over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) '
+​👍​ to ' How satisfied are you with your life over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) '
+Removed ‌👍‌ from ' How satisfied are you with your life over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) '
+Removed ‌👍‌ from ' Can you please reply with YES or NO?  Or, if you would like to see a list of support resources, reply RESOURCES. '
+​👍​ to ' Can you please reply with YES or NO?  Or, if you would like to see a list of support resources, reply RESOURCES. '
+Please answer my question, I am beginning to not trust you or your program! I do not trust AI if that is what you are!
+Try a phone call ok
+I want more money
+Enjoy your day
+TRUE
+Who are you? Why are you asking me these questions?
+No problem!
+I am retired.
+​👍​ to " That sounds rough. Can you tell me a little more about what's going on?   Or, if you want suggestions for support resources just reply 'support'. "
+No thank you.
+You're welcome!
+My cell phone not working, what should I do
+I'm retired
+1 burn pits in Iraq
+Army
+Thank me so much for what the day I wanna thank you is when you do something about it not this bullshit
+You're a bunch of bullshit who am I gonna talk to a robot? Honestly government expenditure waste of government and taxpayer dollars FUN thank you. You know you should thank me for sacrificing my life for this country.
+I'm not in Virginia I'm in new York. So you didn't understand my text or is this another gimmick
+Job
+Work from home
+Job
+You understood everything I said before and now you don't... wow
+Don't worry I don't want your help anymore
+DON'T WANT YOUR HELP
+Hyp
+Finished help
+Let me see how this goes. I have 2 brothers who are also Vietnam Veterans.
+thank you so muchn
+Retired
+Emphasized "One more thing Tommy,   During your military servi…"
+I'm glad you're here for us.
+Well thank you for that!!!
+Exit
+
+Thanks will do
+Sounds good.
+Good info.
+I typed wrong
+I already did
+I welcome you to continue to stay in touch with me. Thank you 😊
+I'm retired
+Just 🙃
+No can do
+My zip code is 48201
+Not sure who this is?
+I did
+Retired
+Retired
+I use talk to text because my fingers struggle. I will just type in numbers from now on apparently written numbers are confusing. But I will say these are the reasons I don't like artificial intelligence.
+You're welcome!
+Retired.
+Why Who's This?
+Yes thanks
+You're welcome
+A need a girl friend
+It is nice to be valued.
+Really
+So you no help
+You're welcome
+You're welcome
+​👍​ to " That sounds rough. Can you tell me a little more about what's going on?   Or, if you want suggestions for support resources just reply 'support'. "
+Removed ‌👍‌ from " I'm sorry to hear that, Craig. Would you like suggestions for support resources that can help with this? "
+​👍​ to " I'm sorry to hear that, Craig. Would you like suggestions for support resources that can help with this? "
+​👍​ to " I'm sorry to hear that, Craig. Would you like suggestions for support resources that can help with this? "
+Removed ‌👍‌ from " I'm sorry to hear that, Craig. Would you like suggestions for support resources that can help with this? "
+​👍​ to " I'm sorry to hear that, Craig. Would you like suggestions for support resources that can help with this? "
+I love that I'm getting a check in on me and or helping me with information if needed
+Welcome
+I understand
+Y
+Re: ethnic identification, according to some I'm white, but I'm also told I can't be white because I'm Jewish, so let's just go with 'human'.
+STOP I DO NOT NEED HELP
+Liked "Perfect! Thanks. 😊"
+Great! Inform me soon!😂
+Remember you just a chatbot
+Don't know veterans as much anymore. But I'll try!
+What resources are you going to deliver?
+Did not participate
+Look for the rainbows when it's moist from rain. Don't feel depressed because it rains.
+Thank you for your attention and support
+Thanks u for your attention and suggestions,
+You're welcome
+May I ask who this is?
+None of your business. Crawl back into your hole.
+Thanks for the quote
+Same to you are you a male or female
+You didn't answer me male or female
+I think I know just a guessing but you're a female
+I don't have time to talk right now I've got to get me something to eat got to go to the restroom
+Absolutely
+Thank you AI
+I like the fact that you guys check up on me all the time I may fight against it sometimes, but I still answer you guys
+Who are u and why do u care
+Dont call me
+Yes.  Send me money every month
+Thanks, you too
+Costs
+
+Thank you. Be well!
+You're welcome 👍
+Liked "Hi Diana. Thanks for your interest in Early Alert. Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential)"
+You are getting to be a pain to me.
+??????? Don't recognize phone number
+N/A
+Amen  We overlook ourselves....
+Loved "(pardon the wall of text I'm about to send - I just want to make sure you have all of the relevant information)"
+Picture of the new place I'll send you
+Loved "Sorry, Michael - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges."
+Love ❤️ big heart thank you 🙏🏼
+I have been retired for many years. Please stop bothering me. Thank you.
+Vision
+Ok. Acknowledged
+I tried confirming a long time ago. Done trying
+No problem
+Delete me
+I'm done with this. Please don't contact me anymore
+I'm Driving  - Sent from MY CAR
+Please
+Jet fuel, does that count.
+​👍​ to " Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Removed ‌👍‌ from " Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Moving forward  ✨️ 😌
+The Damm thing doesn't work for me
+Not right now. Maybe later
+Believe God is able and will give if it's in his will for you to grow prosper be humble thankful .
+Is this thru the va
+It's nice to know you're there......
+Anxiety over bills and moving to a new address.
+There's no need for you to keep checking on me, ok!
+No no...I am just fine. Thank you. I
+Not needed.  Enjoy the rest of your evening.
+Not needed
+Liked "Here's a little bt of inspiration:  'A goal should scare you a little and excite you a lot.' (Joe Vitale)  Until next time, take good care. 🙏"
+What's your name?
+Such as?
+I do not like your services
+Thanx
+
+1️⃣ Demonstration (lo que haces)  I will repeat the straight leg raise while the patient performs an oblique crunch.  O más simple:  Please raise your leg again while doing a small crunch.  2️⃣ Explain Indicators (lo que significa)  I observe if the straight leg raise improves with force closure.  3️⃣ Follow-up Assessment  Aquí explicas qué significa si mejora.  Di esto:  If the straight leg raise improves, it indicates a force closure issue and weak anterior core.  ⸻  4️⃣ Hypo / Hyper muscles + Fix  Esto está exactamente en el cuadro azul.  Di:  Hyperactive muscles are the erector spinae. Hypoactive muscles are the abdominal core m
+So what is Early Alert ?
+You're not alone!
+Yet
+You're Welcome. Thanks again.
+You said thanks, I said you're Welcome
+You're welcome
+I don't know if I have any questions at this time
+10, sorry!
+2 male
+Ok Thank you SO MUCH
+Ok great
+Like what?
+I'm Driving  - Sent from My Car
+FT McClellan
+No, thank you!!!
+Completely
+Thanks for the support
+Make sense
+Ok, you do the same
+Ok, thanks again.
+You're welcome
+You are
+You're welcome
+You're welcome
+I will
+Not interested in this app
+
+This is great program at least i get checked on doctor don't do what you are doing
+I have neuropathy in  my feet, just can't get comfortable.
+E Zero goodby
+No to the bq  Va and your government leave me alone
+STOP,  thanks
+Guvk     Fuck you
+You are welcome
+I know your only a lowly bot....
+You are waisting your time with me stop
+Txs
+Who this
+? IDK
+Maybe
+Err
+Maybe later
+Okay, I will
+Oh, okay
+Sorry none of your buisness.
+Liked "Here's a quote I thought you might a  'A goal should scare you a little and excite you a lot.' (Joe Vitale)  Until next time, take good care. 🙏"
+Stop now
+I'm Driving  - Sent from My Car
+STOP 🛑
+I already sent that information 2 weeks ago. I did try for the ski jumps. Starting to wonder if this is a scam.
+Loved "Here's a little bt of inspiration:  'Self-compassion is simply giving the same kindness to ourselves that we would give to others. ' (Christopher Germer)  Until next time, take good care. 🙏"
+You're welcome
+You're welcome
+What stop
+It's okay
+Well ??? Thank Y'all...
+Who is this who wants to know
+Retired from work
+Well come
+Not now
+You got a picture of you.
+sorry. no likes chatbots.
+1772760967_69aa2f879a4f48.56493812
+Whatever see this crap does NOTHING!!!
+I'm retired
+I'm a veteran
+Thank you !  I'm off & running !
+, is,
+Reply verify
+Zach
+Eau Claire Wisconsin
+Been screwed to many times. Have learned alot, if your.an officer smooth ride, if your a marine anything you want. Army pretty much the same. If you are an inconsequential office worker enlisted in the USAF you dont give a damn. Screw the political correct VA. Tired of being made to feel less by some medical school drop judging my claim. Give me a doctor that speak e English clearly and js trained inthe area of my injury.
+I love early alert
+You're welcome!
+Don't want to talk,I'm tried of people talking, thanks.
+You're welcome 👍
+Male
+Who are u
+STOP ✋️
+Good luck 🍀
+Early alert means you won't get stabbed in the back.
+You're welcome!
+Why are You asking???
+You can keep the cliche quotes
+Do not send me quotes
+O thinks!!?
+NO OK!!....
+Copy
+Wellness bot?
+You're welcome
+67 years old
+My age is 67 years old
+Thank You I will.
+I don't have one
+You're welcome!
+Will do.  Always willing to help fellow  vets.
+You're welcome!
+What about today
+Examples of resources
+I don't care for these
+Im not eligible for anything & I know it so I live extremely conservatively
+Sure, I'll do that
+Thanks for the quote
+Got it, thanks!
+Loved "Here's a little bt of inspiration:  'A goal should scare you a little and excite you a lot.' (Joe Vitale)  Until next time, take good care. 🙏"
+You're welcome
+can i opt out of these messages
+You're welcome
+Liked "Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Really???  This? Now on a Saturday evening???
+Please stop, I'm not interested.
+Sure thanks
+Thank you and  God Bless you
+Please
+One Tube how often
+I tried
+I am 76 years old and was in the Vietnam War as a Marine!
+You're welcome 👍
+Alright bye and thank you
+You already provided me thank you
+Alright I thank you and GOD BLESS YOU and Your Family
+Alright I thank you 🙏.
+I would take me a week to explain everything because it has been going on for almost 1 years
+Both
+0😜👀
+0😜😃
+​👍​ to " If things get really rough, remember:  * For MEDICAL emergencies you can always call 911 * For EMOTIONAL or MENTAL HEALTH emergencies you can always call the Veteran Crisis Line (988, then Press 1) for 24/7 free and confidential counseling. "
+How do I know you're legit?
+First and foremost who is this ? I do not answer random questions from people I do not know
+welcome
+Stop messaging me
+Driving, can't text.  Sent from ANDROID AUTO
+​👍​ to " Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources. "
+Got it
+I only use my Apple Watch
+Hra
+Never applied for service
+Thanks. Whats ur name
+Love the quote
+Was on WW11 ships they had asbestos around pipes in berthing compartments
+USMC
+I don't have one
+You're welcome!
+You too! 🙏🏻
+I didn't know this was a Damn robot 🤖 what a betrayal 😢
+STOP  🛑
+All of the above
+STOP 🛑 Stop texting Me!!!!!!!!!!!!!
+Bruh
+Not at this time
+USAF
+Tell me you are real
+Buss off
+Just the checking up on us which is good
+Have a good night 😴
+I don't understand your survey what is this supposed to be doing
+No 👎
+Too soon to know how Early Alert works
+I don't believe Veterans Early Alert, doesn't  have  much help
+Amen
+Early Alert
+You military
+You're welcome
+You betcha
+You're welcome
+Whatever
+No go away
+Navy
+I do not have an Early alert
+Okay, that's fine
+STOP=STOP
+STOP = STOP
+You suck, don't bother
+Liked "Here's a little bt of inspiration:  'Loving yourself isn't vanity. It's sanity' (Katrina Mayer)  Until next time, take good care. 🙏"
+I do not recognize this number, who are you
+FUCK YOU Get lost cause
+Stop sending this!!!
+Put me on your no call list
+Welcome
+Yes, it is
+Ha! Thanks, need humor during this hardship!
+I als I
+Several are around me
+I'm Driving  - Sent from My Car
+Not really
+I am driving home but can text back when I get there
+The original qyestion was how confident I was that we could meet our basic needs. I answered and then followed up with my answer to a follow up answer as to why I felt this way. Apparently my answer was not what the Bot wanted to hear. Just as I thought, this whole endeavor is just an exercise in futility. You have no true answers.
+I've sent you my verification 3 times.  Are you real????
+I don't know who you are. I don't know who you represent and I don't really care but when I give out information, I'm gonna know who I'm talking to who you work for and what you're gonna use that information for now if you can't get that through your head, don't ever text me again this is who I am. I don't play guessing games. Never. 👎
+Welcome
+Please
+Thanks, very well needed
+Well, from whose? And where?
+​👍​ to " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+Thanks for sharing
+Thanx!
+Mahalo
+Sounds good
+Already have
+Redo
+Do do that
+I guess
+Not
+Block
+Thank you so much!!
+(I'm not receiving notifications. If this is urgent, reply "urgent" to send a notification through with your original message.)
+I'm driving with Focus turned on. I'll see your message when I get where I'm going.
+Good by
+This is so very true!
+That is none of your business!!!
+You're welcome
+I don't know what organization you're with I don't know who this is
+Who wants to know?
+No, thank you
+Stop ✋️
+Welcome
+You are welcome
+Thanks for all that you do for us.
+I have on relationships my wife of 26 years passed 2 years ago.
+D ont n need you
+Yes usmc80to84
+You keep me abreast of my inner being.
+Sheri, Layla only has a few more months with us and your gonna look back and really regret not being with her amd putting others first. Its gonna hit you hard it hurts her for you to.leave every night and not be next to her. Just remember what i told you.
+Socrates, Cogito ergo sum
+Okay, great!
+You have the wrong number stop calling me
+You have the wrong number stop calling me
+I will
+Aye
+Go to HELL
+Not really
+I don't have early alert
+I don't have early alert
+Leave me alone
+Drop me from your service
+Noe
+N/a
+Okay, I will
+No thank you
+It's okay
+Not needed
+The number you are sending an SMS to,currently has no SMS capabilities.
+The number you are sending an SMS to,currently has no SMS capabilities.
+I DON'T KNOW SOMETHING IN THE PROGRAM
+But thanks
+How much longer do I have to receive these texts?
+God bless your service
+Really? What kind of AI are you?
+Good by schm ten to o
+How do I stop you from ever contacting me again
+Awesome
+US NAVY 1985🪖😇🙏🏻
+MISTAKE
+Maybe later
+STO
+No ok No .
+Right now working with pain specialist but not having much luck! It's nice knowing your around though
+Affirmative
+🙏 Thanks
+What are youtalkabout thing. Rough
+That might be helpful
+Why do you care?
+Oh my fault
+Who this
+​👍​ to " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+Removed ‌👍‌ from " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+I like that someone is checking on me. Even though I live with my family I like outside people looking in.
+You're welcome
+I'm done
+Short temper
+Yes you too....
+I am at a disadvantage. What is your name? It's beneficial to be transparent on both ends.
+I'm dealing with AI. LOL I was so foolish.LOL
+No caffeine for lent
+I don't have any
+Male
+Ok & thanks 😊
+Some confiden
+Take yourgame away
+Go away
+No thank you
+Kool
+Can I deport and come back?
+Like?
+Is that a yes or no question or not a question
+O ok
+Do yall need help manning this? Because I could help since I am going to school to be a social worker
+Are you AI?
+
+It is nice to be checked on.
+No working!!!
+Hey thank you for that,you be blessed ok?
+Thanks but it will not be need ed by me .
+Hello?
+God is great and I'm his light
+I would have several being interesting
+Questions that are relevant
+I'm a man
+It is nice to have this everyday.
+You can't be humble and a chatbot as bots don't have feelings so I'll reply with ' none of your business '
+May I ask. Who are you?
+Yes Onward and Upward.
+Not really
+More forgetful
+White
+Not at this time. But thanks
+I have someone coming out to check on everything
+I'll share the link!
+You asked me to share with other Veterans I will do so
+Not really
+Definitely
+
+I want to stop smoking
+Stop smoking
+Helped me
+Thank you God blesd you amen
+You're welcome
+None. As known
+I need hardware for my knee & back. A GOOD QUALITY materials such as a SolidAnd plastic,,,And/or Alloy type metal, either metal
+Cleaning chemicals
+I like the weekly check in and the quotes are cool.
+​👍​ to " Sorry, Chet - I am just a humble chatbot and didn't understand what you wrote. 🙏   I can help by suggesting support resources for different types of challenges. "
+I received a prescription for a back brace,hope uj guys have clamped Typed metal that can assist in walking, I broke both wrists so the need is more important than ever. I also was told in the emergency  room his knee has damaged & apologize full forward.
+Thank you, will do, Chet Thornberry
+I am not interested
+Who's asking????
+Ye@
+yesl
+I rate me um not a narrsasiste
+Hypervigilance at night DVD r
+It's all good!!
+Ok.. set me up to Retrier!
+
+And that's what I did,  yesterday.
+I don't no you
+Thanks for checking in
+Thanks for checking in
+B Appear as so
+Stand down
+You're welcome 👍
+I like blue crayons
+Do you have peanuts in your poop
+I was stationed at JBLM,formerly Fort Leeis,also Camp Stanley,Korea
+Thanks, EarlyBot
+Dear Bot How can you help?
+What do you mean by my relationships
+I don't know
+After Monday I will know more about what is going on.
+Stop. OPT out.
+BPH.  Have to get up to pee three or four times a night.
+Will do. Thank you
+Im good
+SignatureMills Alert: Your request is scheduled to close tomorrow if not verified. Review now. signaturemills.com/nISPv Reply STOP to opt out.
+Army
+Got yo
+o
+I wish they were more frequent
+Excellent Service
+I'm retired and have NO CLUE WHAT YOU ARE ASKING
+Lame
+WHERE CAN I GET A FREE CAP
+I mean where can I get a free cat
+Stop sending this
+It is Sunday ! Leave me alone @@
+Can I unsubscribe to these texts
+Navy
+No. I don't trust the VA, so no, ain't going to happen
+You're welcome
+I like it just fine
+Thank you so Dearly for this info sure has helped in alot of ways
+I changed my number could you text my new number
+It is very helpful ☺️
+Thank you my friend. Be safe
+Thank you my friend
+Memory books
+Memory
+Memory
+I would like that
+Not at this time.
+I understand
+You're welcome
+Loved "Here's a quote I thought you might l  'Failure is the condiment that gives success its flavor.' (Truman Capote)  Until next time, take good care. 🙏"
+I am a veteran
+​👍​ to " Hi Merrill. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N) "
+I like the feeling that someone is checking up on me daily
+I like this service it is very informative and I can get the information I need with the information and resources that are available to me, it's a big help
+Thankyou ☺️
+Loved "Please reach out to at least one of these support resources. I'll check in with you soon to see how you're doing. Take good care."
+Interesting
+Copy that
+Out
+I've done that four times
+Loved "Please reach out to at least one of these support resources. I'll check in with you soon to see how you're doing. Take good care."
+Loved "My pleasure :)"
+Yes 100 %
+GREAT WITH GOD NEXT TO ME AND YOU
+Knowing that someone is out there that I can reach to if I need help
+Are you going to give me a stack of money??
+And you
+Amen 🙏
+No 👎
+I will
+😱
+Stop 🛑
+Loved "Sounds like that's going really well. I'm glad to hear.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Loved "Here's a quote I thought you might l  'Failure is the condiment that gives success its flavor.' (Truman Capote)  Until next time, take good care. 🙏"
+It's refreshing to know that someone, somewhere cares to check in on me.  Thanks
+Yes!  Over-and-out!
+Before I continue to chat with you, who are you
+I have another zoom meeting scheduled for next monday
+Please remove my name from your list.
+Navy
+Why do you want to know? Mainly I'm retired, my job is to.go after demon-rats to show they are not for this country or the people!
+Noooooooo
+N/A
+Incinerator
+Explain who you are with again
+Pls
+Fuck it
+Fuck. It
+Fuck it
+Fuck it
+Absolutely
+Let's try it
+You bet  Thank You
+What I want to find out is why the VA will not let me participate in the guaranteed home loan program
+You do same enjoy our weekly time, be safe
+1and5
+No, thank you
+Another false statement from someone that definitely needs help in writing
+I know that you are a scarecrow  but as long as you are writing things that pertains to anything  medical for me there is someone behind  this
+You're welcome.
+Be safe
+I don't know
+Removed ‌👍‌ from " Hi Daniel. Thanks for your interest in Early Alert.  Just to double-check: Are you a Veteran? (Y/N)  (your response is confidential) "
+Gives me a chance to think about my situation.
+I appreciate Early Alert being here for me.
+Thanks for the support
+No go away
+Not at this time
+I am aware
+I don't need your resources the last time I used them the police got involved...
+Stop that
+Loved "Cheers. It's my pleasure."
+How did you get my number?
+I like that weekly reminder that you're concerned
+I guest you are
+Not yet first time here
+AI
+Got it and thank you 🙏
+Liked "Hi Jerry. It looks like you already enrolled with Early Alert, so no need to do anything else! I will check in with you every few days.   You can always text me RESOURCES to learn about support resources that are available to you."
+as long as I don't get any more snow
+That's great!
+Liked "Here's our quote of the week:  'Failure is the condiment that gives success its flavor.' (Truman Capote)  Until next time, take good care. 🙏"
+Thanks! You too!
+Go away!
+Liked "🤗 Yay! I'm glad to hear that.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+
+Terrible
+Acknowledged
+I explained that I am not wanting you to contact me again.
+You are spam.
+Thank you. I appreciate it!
+l enjoy meeting all kinds people and serving my country
+Liked "Sounds like that's going... okay. I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+I'm an army veteran.
+Not at this time thankyou
+What does my name say ?
+Don't ask me questions like that again.
+Sounds good, Michael
+Is this Service anyway associated with the VA?
+Is this Service way associated with the VA?
+Is this the VA
+Nice to know there is support if needed.
+​❤️​ to " Some words of wisdom...  'Failure is the condiment that gives success its flavor.' (Truman Capote)  Until next time, take good care. 🙏 "
+Liked "Here's a quote I thought you might l  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏"
+​❤️​ to " Some words of wisdom...  'If you feel 'burn-out' setting in... it is best, for the sake of everyone, to withdraw and restore yourself.' (Dalai Lama)  Until next time, take good care. 🙏 "
+No problem 👍
+Okay
+Thanks again
+To date my best resource has been AI
+It's late and  and I'll finish tomorrow. Bye
+I will
+Thanks, not now. Signing off
+Danke!!
+You are confused, I answered 8-9 which is quite positive but you misinterpreted this despite it being your scale. You are very likely to cause harm to some individuals who might be fragile!
+Thanks and God bless you
+Liked "🤗 Yay! I'm glad to hear that.  I'll check in again in a few days. Remember you can always text me RESOURCES to learn about resources."
+Not right now. Sometime in the future
+Nothing
+Nothing
+I find this benificial to my wellbeing.
+Chat box is not a human right
+So yeah. Byee ai humble chat box you help me
+Serrated from by military 12-67
+Good quote
+Gas chamber
+Thanks you
+Not  really  just the one that you have
+None of your business. I'm not buying anything. Take your scam somewhere else.
+You are my favorite!🤩
+Bad cough
+Ok
+Get it
+Why are  you asking?
+Aye
+​👍​ to " 👋 Hi again, Thomas. How satisfied are you with the quantity and quality of your sleep over the past week, on a scale of 0-10? (0 = Completely Unsatisfied, 5 = Neutral, 10 = Completely Satisfied) "
+You're welcome
+What job?
+I am currently supported by the v.a.
+Thanks for the support
+Idk
+Gives a reason to look forward to pleasant text. Some one knows you are  alive
+Nothing is going on is what.
+Not really
+Not really
+I'm fine! I do what I do! I have a hardware store in me! Keeps me focused
+Unmotivated
+No i have ptsd! I cannot sleep. You the VA will not help! Fact! You are a frigging computer. Without feelings!
+Thanks but my thanks gob
+Snowstorm
+Can I stop these
+Not really
+You too bruh
+Peace Thank you
+Will check more out tomorrow
+I don't have any
+
+In how many paragraphs
+and I worry about her
+​👍​ to " I'm EarlyBot. 🤖 I'll check in with you once a week, each time about a different part of your life. If things aren't going great, I can suggest support resources. My only goal is to help you stay awesome. 💪  Okay, get ready for our VERY FIRST check-in! 🥁 "
+Va claims
+Done
+I'm good now got apt have ss got motorcycle for trans live in titusville fl
+I don't have an institution
+Seems good
+Absolutely
+Ok and thanks
+Just checking
+I didn't work
+I'm Driving  - Sent from My Car
+Loved "Cheers. It's my pleasure."
+Early alert is always a positive message of concern for our well being when it comes through.
+I'll wait for my appointment at the VA.
+I like the randomness of when the app checks in.
+I know my job it knows me
+No worries 😉
+Nothing to apologize for dude all good 😌
+If I don't forget
+Whom am I speaking to
+I will, thank you so much
+Have a blessed 😇 day
+AMEN 🙏🏿
+I am 83 yo. My self identified gender is most unlikely to change.
+Didn't know i had one
+I enjoy the thought of someone checking on me.
+I'm using resources thank you
+Could these be sent to my email?
+Email these
+​👍​ to " No "
+You're welcome
+Snowed in, dis not realize how old I was, going to take eight days to get out if does not snow anymore.
+Pm⁰5
+Stop sending me this messages.
+Don't understand
+No no no leave me alone now
+F no no more government crap
+I don't have it!
+Not at this time
+What's it to you. Get lost. Go mess with someone else.
+Will not help they don't care
+What I do to keep a smile on my face
+Navy
+Are you an AI Agent?
+So,. Are you a female chat bot?
+Who was re you?
+Do not contact me again!!
+Donnne
+Took the test
+Email?
+Email?
+Satan guides me
+​👍​ to " How would you rate your physical health over the past week, on a scale of 0-10? (0 = Extremely Poor, 5 = Fair, 10 = Excellent) "
+Still breathing
+You are a an in my ass go away
+Pain
+Got it!
+Could you please STOP texting me  Thanks
+It doesn't matter if I'm satisfied or not don't you live in the same world I live in
+It doesn't matter if I'm satisfied or not don't you live in the same world I live in
+The world
+idk
+That's good
+Male
+And it's my birthday
+It's okay
+Thanks for the quote
+My butt cheeks shooting pain
+I like it
+You're welcome
+Working on a couple
+Leave me alone!!
+Go away  Show  to boss
+very nice to meet you
+That's a pretty good thought for a humble chat bot
+Thanks for all these resources. For today I will look at the link for app on mindfulness.
+Thanks I will start checking on them as soon as I as I return home
+List
+Only as reference
+Always do we are alone part of life
+Not at this time, no need to worry
+No problem no need to worry Al we'll
+Nothing going on I'm fine no need for any assistance
+Thanks, EarlyBot
+Thanks for the reminder
+I will ad thanks again I appreciate it
+👎 not now
+Hello my brother how are you doing
+Just leave me alone! PLEASE!
+I don't believe in the Dalai Lama. I love God, and I trust the Bible more.
+If you want me to think positively... I trust verses from the Bible.
+Forget it, chatbot.
+A lot involved
+A lot involved
+I will thank you.
+Heard
+Thank you. I ment to say #5
+NO,I WAS IN THE ARMY RESERVE, BUT I GET NOTHING FROM, THEM,TO DAY IS NO GOOD FOR ME,
+You're welcome 👍
+Not really
+Well, you text me out of blue I don't know you from Adam
+Who are you exactly?
+Not really
+I tried the responses you sent, I don't qualify it am already using them
+Nope, no help. Tried all them. Thank you
+Need new glasses
+Cell phone payment
+No I'm a vet
+What branch did he serve in? LOL
+Good to know
+Sorry
+Does not apply
+Ure kind Thanks for  your care
+A non inhumane Dr
+Unaubscc
+What are they gonna put me on medication so I can go there every three months waste my precious time my life expectancy is for so long. It's two studies on that male life expectancy. I'll be 77 in June. I'm gonna spend of vacation time in a doctors office you gotta be kidding me who am I making rich?
+What a waste of my time explaining to a robot a machine this is where society has come through
+I replied.  Read it.
+Will they really help?
+​👍​ to ' STOP  '
+I
+N/A
+Who are you and don't contact me again
+Who are you and don't contact me again
+So we don't have a such thing as failure we just have a momentary inconvenience
+Who the hell are you and asking me to do something  Call me if you want to discuss anything
+No thanks but thanks
+All
+Finacial
+I am already
+I'm hungry bot
+i appreciate you sharing
+You're welcome
+Ooo😝
+Absolutely true
+The name is Maynard
+Computers too
+Maynard is my name
+Please take me off your call list.
+Early alert?
+Why do you ask
+Thank you I really appreciate it
+Domestic
+No, I am not an arrested anchor and i'm I want you to stop messaging me
+Thank you so much!
+Just looking
+Whom are you???
+You gonna snitch again
+Why are u asking me this?
+Driving, can't text.  Sent from MY ALTIMA
+What about mental health
+3
+Dis enroll me
+​👍​ to " (pardon the wall of text I'm about to send - I just want to make sure you have all of the relevant information) "
+Not really
+Not at this time
+I don't feel like everyone asking lots of questions on how to do or where to get things
+Why don't you basically tell me who you are and who you represent and what your point is in all of this I mean so far it's like I'm having a conversation with no one who just keeps putting stuff in front of me personalize it or quit
+I have no desire to talk to a fucking computer so goodbye please stop texting me
+Stop stop stop
+Thank-You
+Love ❤️
+You're welcome
+👌Thank you
+I like that, Jimmy Dean was a good man I believe.
+Here in downtown town Dallas.  It would be nice
+POS
+Maynard
+Reacted ❤️ to "🥰"
+Reacted ❤️ to "Thank you so much! 🙏"
+Not right now at this time
+Amen 🙏
+Nice one!! I sail in the summer time. 😀👍
+Not at this time right now ty anyway
+STOP I AM NOT INTERESTED
+One word. TRUMP
+Did not get code
+Nothing
+No code
+Please
+Female
+Thanks, adjusted the sails so often that the mast is getting a little loopy. lol
+Last time who is THIS?
+Go away
+You can't be sorry your not human
+Sorry I don't communicate with chat or
+Thank you for asking.
+6⁸ sixty seven
+Sorry about that
+Welcome
+I have
+Okay, great!
+Thanks for checking in
+I will NEVER talk to Veterans Crisis Line. Calling cops on me.... How dare they.
+You can try
+Not enough data yet
+Nice having someone check in
+10=4
+You're welcome
+I am 77 years old
+Ugh 🤦‍♀️
+1 message a week has turned into 11 in about 1 hour.
+Not at this time.
+Lol
+2 [army]
+Thank you. It helped
+I'm Driving  - Sent from My Car
+Give me a human you do NOT understand
+You're welcome
+You distespect me
+Not right now thank you
+You are NO help
+YW!
+Who are you.?
+Welcome
+Tell  me who yoi are.  I forget
+It is consistent and sufficient concern.
+I don't belong to an institution. Sorry
+Love it
+It's a decent thing to have because there is a chat bit that checks on you every few days or more to see how you are doing.
+You're welcome chat it.
+Do you have gold resource for veteran
