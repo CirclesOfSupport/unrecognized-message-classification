@@ -4,7 +4,7 @@ IMAGE_NAME ?= gcr.io/$(CONTAINER)
 .PHONY: build
 build:
 	gcloud builds submit --tag gcr.io/classify-unknown-messages/classifier
-	gcloud run deploy classifier   --image gcr.io/classify-unknown-messages/classifier   --platform managed   --region us-central1   --allow-unauthenticated   --port 8080
+	gcloud run deploy classifier   --image gcr.io/classify-unknown-messages/classifier   --platform managed   --region us-central1   --allow-unauthenticated   --port 8081
 	gcloud run services update classifier   --region us-central1   --set-env-vars SECRET_TOKEN=easy_alert
 
 .PHONY: test
