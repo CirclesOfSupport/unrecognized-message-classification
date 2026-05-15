@@ -1,6 +1,6 @@
 name: definitely_triage
 description: Messages that are likely to require triage and should be reviewed by a human.
-priority: 1
+priority: 2
 
 keyword_rules:
   - name: alert_words

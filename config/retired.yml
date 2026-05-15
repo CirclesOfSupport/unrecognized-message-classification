@@ -1,0 +1,23 @@
+name: retired
+description: Messages that indicate that a user is retired.
+priority: 10
+
+keyword_rules:
+  - name: retired-exact
+    description: Standalone reciprocal or polite responses
+    match_mode: exact
+    keywords:
+      - retired
+      - im retired
+      - i am retired
+      - no job
+      - no job retired
+      - not working anymore
+      - i dont work anymore
+      - retiring
+
+regex_rules:
+  - name: retired_status_variants
+    match_mode: include
+    description: Variations of someone indicating they are retired, no longer working, or out of the workforce
+    pattern: "^\\s*(?:i(?:\\s+am|\\s*['’]?\\s*m)?\\s+(?:now\\s+)?retired|i\\s+(?:have\\s+)?retired|i\\s+recently\\s+retired|i\\s+am\\s+no\\s+longer\\s+working|i\\s+don(?:'|’)?t\\s+work\\s+anymore|i\\s+am\\s+out\\s+of\\s+the\\s+workforce|i\\s+left\\s+the\\s+workforce|i\\s+am\\s+done\\s+working|i\\s+hung\\s+up\\s+my\\s+(?:hat|boots)|retired\\s+now|officially\\s+retired)\\s*(?:!+|\\.+)?\\s*$"

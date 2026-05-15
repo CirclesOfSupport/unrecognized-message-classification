@@ -1,6 +1,6 @@
 name: symbols_emotes_reactions
 description: Messages that are emoji-only, emoticons, or reaction-style replies such as iPhone tapbacks.
-priority: 6
+priority: 1
 
 keyword_rules:
   - name: reaction_exact
