@@ -1,6 +1,6 @@
 name: thanks
 description: Messages that express gratitude, appreciation, or thanks.
-priority: 3
+priority: 4
 
 keyword_rules:
   - name: thanks_keywords_and_phrases

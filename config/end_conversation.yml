@@ -1,6 +1,6 @@
 name: end_conversation
 description: Messages that indicate the conversation is ending, including farewells, signoffs, polite declines, short closure acknowledgments, and driving-related auto-replies that imply the user cannot continue texting.
-priority: 4
+priority: 5
 
 keyword_rules:
   - name: end_conversation_exact

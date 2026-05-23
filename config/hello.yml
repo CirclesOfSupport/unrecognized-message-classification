@@ -1,6 +1,6 @@
 name: greeting
 description: Messages that contain only a simple greeting and nothing more.
-priority: 5
+priority: 6
 
 keyword_rules:
   - name: greeting_exact
@@ -15,36 +15,6 @@ keyword_rules:
       - heyyy
       - hello
       - yo
-      - sup
-      - wassup
-      - good morning
-      - good afternoon
-      - good evening
-      - morning
-      - afternoon
-      - evening
-
-name: greeting
-description: Messages that contain only a simple greeting and nothing more.
-priority: 5
-
-keyword_rules:
-  - name: greeting_exact
-    description: Standalone greeting messages
-    match_mode: exact
-    keywords:
-      - hi
-      - hii
-      - hiii
-      - hey
-      - heyy
-      - heyyy
-      - hello
-      - helloo
-      - hellooo
-      - yo
-      - yoo
-      - yooo
       - sup
       - wassup
       - good morning
