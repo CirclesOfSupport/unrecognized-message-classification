@@ -1,5 +1,5 @@
 name: giftcard
-description: TODO
+description: Users inquiring about gift cards or gift codes incentives
 priority: 8
 
 keyword_rules:
@@ -15,6 +15,6 @@ keyword_rules:
 
 regex_rules:
   - name: amazon_card_basic
-    match_mode: include
     description: Amazon card mentions (including implicit gift cards)
-    pattern: "\\b(?:amazon\\s+(?:gift\\s*)?(?:card|code)s?|gift\\s*(?:card|code)s?)\\b"
+    match_mode: include
+    pattern: '\b(?:amazon\s+(?:gift\s*)?(?:card|code)s?|gift\s*(?:card|code)s?)\b'

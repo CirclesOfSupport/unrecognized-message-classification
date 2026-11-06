@@ -1,0 +1,9 @@
+name: program_questions
+description: Questions about the Early Alert program itself (what it is, how it works, who runs it).
+priority: 11
+
+regex_rules:
+  - name: program_questions_regex
+    description: Bare questions about the program's purpose, cost or why it asks (e.g. "why do you ask", "what is your purpose", "how much does this cost"); resource requests stay in triage
+    match_mode: include
+    pattern: '^\s*(?:why\s+(?:do|are)\s+you\s+(?:ask(?:ing)?(?:\s+me)?(?:\s+(?:this|that|these\s+questions))?|want\s+to\s+know|need\s+to\s+know)|what\s+(?:is\s+it|do\s+you\s+mean|(?:are|r)\s+(?:you|u)\s+talking\s+about|do\s+you\s+do\s+with\s+this\s+information|is\s+(?:the|your)\s+purpose)|how\s+(?:much\s+does\s+(?:this|it)\s+cost(?:\s+me)?|does\s+this\s+work|do\s+you\s+work))\s*$'

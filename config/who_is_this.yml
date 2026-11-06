@@ -26,7 +26,7 @@ keyword_rules:
 
   - name: who_is_this_phrases
     description: Common natural-language variants asking sender identity
-    match_mode: phrase
+    match_mode: exact
     keywords:
       - who is this
       - who are you
@@ -44,24 +44,122 @@ keyword_rules:
       - who is asking
       - who r u
       - who are you
-  
+
+  - name: clarification_exact
+    description: Short standalone clarification questions
+    match_mode: exact
+    keywords:
+      - huh
+      - why
+      - what
+      - when
+      - where
+      - what is this
+      - whats this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what is this message
+      - whats this message
+      - when is this
+      - where is this
+      - why this
+
+  - name: clarification_phrases
+    description: Common clarification phrases
+    match_mode: exact
+    keywords:
+      - what is this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why are you texting me
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what does this mean
+      - what is this message about
+      - what is this in reference to
+      - what is this regarding
+      - is a chatbot
+      - is a chat bot
+
 regex_rules:
   - name: who_is_this_basic
-    match_mode: include
     description: Basic standalone who-is-this questions
-    pattern: "^\\s*(who\\s+(is|s)\\s+this|whos\\s+this|who\\s+are\\s+you|who\\s+dis|who\\s+this)\\s*$"
+    match_mode: include
+    pattern: '^\s*(who\s+(is|s)\s+this|whos\s+this|who\s+are\s+you|who\s+dis|who\s+this)\s*$'
 
   - name: who_is_texting_me
-    match_mode: include
     description: Variants asking who is texting or messaging
-    pattern: "^\\s*(who\\s+(is|s)\\s+(texting|messaging|sending)\\s+(me|this)?|who\\s+texted\\s+me|who\\s+sent\\s+this|who\\s+is\\s+sending\\s+this)\\s*$"
+    match_mode: include
+    pattern: '^\s*(who\s+(is|s)\s+(texting|messaging|sending)\s+(me|this)?|who\s+texted\s+me|who\s+sent\s+this|who\s+is\s+sending\s+this)\s*$'
 
   - name: identify_sender
-    match_mode: include
     description: Direct requests to identify the sender
-    pattern: "^\\s*(identify\\s+yourself|tell\\s+me\\s+who\\s+this\\s+is|may\\s+i\\s+ask\\s+who\\s+this\\s+is)\\s*$"
+    match_mode: include
+    pattern: '^\s*(identify\s+yourself|tell\s+me\s+who\s+this\s+is|may\s+i\s+ask\s+who\s+this\s+is)\s*$'
 
   - name: stop_texting_who_is_this
-    match_mode: include
     description: Combined unknown-sender and contact challenge messages
-    pattern: "^\\s*(stop\\s+texting\\s+me\\s+)?who\\s+(is|s)\\s+this\\s*$"
+    match_mode: include
+    pattern: '^\s*(stop\s+texting\s+me\s+)?who\s+(is|s)\s+this\s*$'
+
+  - name: single_word_clarification
+    description: Standalone clarification words
+    match_mode: include
+    pattern: '^\s*(why|what|when|where)\s*$'
+
+  - name: what_is_this_variants
+    description: Variants of what is this / what's this
+    match_mode: include
+    pattern: '^\s*(what\s*(is|s)\s+this|whats\s+this)(\s+(for|about))?\s*$'
+
+  - name: why_am_i_getting_this
+    description: Questions asking why the user received the message
+    match_mode: include
+    pattern: '^\s*why\s+(am\s+i\s+getting|did\s+i\s+get|are\s+you\s+(texting|messaging)|did\s+you\s+text)\s+(this|me)?\s*$'
+
+  - name: what_does_this_mean
+    description: Meaning / purpose clarification questions
+    match_mode: include
+    pattern: '^\s*what\s+(does\s+this\s+mean|is\s+this\s+(for|about)|is\s+this\s+message\s+about)\s*$'
+
+  - name: when_where_short_questions
+    description: Short when/where clarification questions tied to this
+    match_mode: include
+    pattern: '^\s*(when|where)\s+(is|s)?\s*(this|it)?\s*$'
+
+  - name: not_general_wh_question_sentence
+    description: Exclude broader WH questions not asking for clarification about the text/service
+    match_mode: exclude
+    pattern: '^\s*(why|what|when|where)\b.*\b(i|you|we|they|he|she)\b.*\b(should|would|could|can|will|did|do|are)\b.*$'
+
+  - name: disengage_ambiguous_regex
+    description: Ambiguous brush-offs that should get the re-intro message rather than opt out (e.g. "i don't need you", "i don't want you", "i don't talk to bots")
+    match_mode: include
+    pattern: '^\s*i\s+don\s+t\s+(?:need\s+you|want\s+you|talk\s+to\s+bots)\s*$'
+
+  - name: identity_questions_regex
+    description: Bare questions about the sender's identity (e.g. "who's asking", "what company is this", "do i know you")
+    match_mode: include
+    pattern: '^\s*(?:who\s+(?:wants\s+to\s+know|s\s+asking|are\s+u|do\s+you\s+represent|am\s+i\s+speaking\s+(?:with|to)|is\s+early\s+alert)|can\s+you\s+tell\s+me\s+who\s+you\s+are|what\s+(?:is|s)\s+your\s+name|what\s+company\s+(?:is\s+this|do\s+you\s+represent|are\s+you\s+with)|how\s+did\s+you\s+get\s+my\s+(?:name|info)|do\s+i\s+know\s+you|i\s+don\s+t\s+know\s+(?:you|who\s+you\s+are))\s*$'
+
+  - name: bot_questions_regex
+    description: Bare questions about whether the sender is a bot or a person (e.g. "are you a bot", "are you real")
+    match_mode: include
+    pattern: '^\s*(?:are\s+you\s+(?:a\s+)?(?:bot|robot|human|real|real\s+person)|what\s+is\s+a\s+bot)\s*$'
+
+  - name: who_is_this_variants_regex
+    description: Whole-message "who is this" variants with "please" or a short lead-in (e.g. "who is this please", "can you please tell me who this is", "who is sending this message")
+    match_mode: include
+    pattern: '^\s*(?:(?:so|and|please|ok(?:ay)?|hi|hello|hey|excuse\s+me|sorry)\s+)*(?:(?:can|could)\s+you\s+(?:please\s+)?tell\s+me\s+who\s+this\s+is|(?:may\s+i\s+ask\s+)?who\s+(?:is|s)\s+this|who\s+are\s+you(?:\s+with)?|who\s+(?:is|s)\s+(?:sending|texting)\s+(?:me\s+)?(?:this|this\s+message|these|these\s+messages|me)|i\s+don\s+t\s+know\s+who\s+this\s+is)(?:\s+please)?\s*$'

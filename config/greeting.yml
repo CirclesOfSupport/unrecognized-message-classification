@@ -26,21 +26,21 @@ keyword_rules:
 
 regex_rules:
   - name: simple_greeting
-    match_mode: include
     description: Standalone short greetings with optional mild filler and optional punctuation
-    pattern: "^\\s*(?:ok(?:ay)?\\s+|well\\s+)?(?:hi+|hey+|hello+|yo+|sup|wassup)\\s*!?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?\s+|well\s+)?(?:hi+|hey+|hello+|yo+|sup|wassup)\s*!?\s*$'
 
   - name: time_of_day_greeting
-    match_mode: include
     description: Standalone time-of-day greetings
-    pattern: "^\\s*(?:good\\s+(?:morning|afternoon|evening)|morning|afternoon|evening)\\s*!?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:good\s+(?:morning|afternoon|evening)|morning|afternoon|evening)\s*!?\s*$'
 
   - name: polite_short_greeting
-    match_mode: include
     description: Slightly more polite standalone greetings
-    pattern: "^\\s*(?:hi+|hey+|hello+)\\s+there\\s*!?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:hi+|hey+|hello+)\s+there\s*!?\s*$'
 
   - name: greeting_with_name_like_followup
+    description: Exclude greetings followed by additional message content, except a bare "there" (so "hi there" / "hey there" match polite_short_greeting)
     match_mode: exclude
-    description: Exclude greetings followed by additional message content
-    pattern: "\\b(hi+|hey+|hello|yo|sup|wassup|good\\s+morning|good\\s+afternoon|good\\s+evening)\\b\\s+\\w+"
+    pattern: '\b(hi+|hey+|hello|yo|sup|wassup|good\s+morning|good\s+afternoon|good\s+evening)\b\s+(?!there\s*$)\w+'

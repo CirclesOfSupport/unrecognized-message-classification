@@ -22,10 +22,10 @@ keyword_rules:
       - you as well
       - u as well
       - you also
-  
+
   - name: reciprocal_phrases
     description: Common phrases expressing reciprocity or politeness
-    match_mode: phrase
+    match_mode: exact
     keywords:
       - you are welcome
       - you are very welcome
@@ -38,16 +38,26 @@ keyword_rules:
 
 regex_rules:
   - name: youre_welcome_variants
-    match_mode: include
     description: Variations of "you're welcome", including common spacing and emphasis variants
-    pattern: "^\\s*(?:you(?:\\s+are|\\s*['’]?\\s*re)?\\s+(?:very\\s+|most\\s+)?welcome|your\\s+welcome|yw)\\s*(?:!+|\\.+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:you(?:\s+are|\s*[''’]?\s*re)?\s+(?:very\s+|most\s+)?welcome|your\s+welcome|yw)\s*(?:!+|\.+)?\s*$'
 
   - name: you_too_variants
-    match_mode: include
     description: Variations of "you too" with optional ok/okay prefix and punctuation
-    pattern: "^\\s*(?:ok(?:ay)?\\s+)?(?:you\\s*(?:,?\\s*)?(?:too|to)|u\\s*(?:2|too|to))\\s*(?:!+|\\.+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?\s+)?(?:you\s*(?:,?\s*)?(?:too|to)|u\s*(?:2|too|to))\s*(?:!+|\.+)?\s*$'
 
   - name: reciprocal_phrase_variants
-    match_mode: include
     description: Variations like "you also", "you as well", "u as well", and "same to you"
-    pattern: "^\\s*(?:ok(?:ay)?\\s+)?(?:you\\s+also|you\\s+as\\s+well|u\\s+as\\s+well|same\\s+to\\s+you|likewise|back\\s+at\\s+you)\\s*(?:!+|\\.+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?\s+)?(?:you\s+also|you\s+as\s+well|u\s+as\s+well|same\s+to\s+you|likewise|back\s+at\s+you)\s*(?:!+|\.+)?\s*$'
+
+  - name: polite_reciprocal_regex
+    description: Short polite reciprocal replies (e.g. "no problem", "no worries", "you're welcome", "you too", "have a good day")
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?\s+)?(?:no\s+prob(?:lem)?|no\s+worries|np|(?:u|you)\s+(?:r|are)\s+welcome|y\s*w|anytime|and\s+you(?:\s+(?:also|too))?|you\s+(?:also|too|do\s+the\s+same|do\s+likewise|as\s+well)|same\s+to\s+(?:you|ya|u)|enjoy\s+your\s+(?:day|weekend|evening)|have\s+a\s+(?:good|great|nice|blessed)\s+(?:weekend|evening|day|one))(?:\s+(?:thanks|thank\s+you))?\s*$'
+
+  - name: blessing_signoff_regex
+    description: Bare blessing or service sign-offs (e.g. "peace", "shalom", "semper fi", "god bless")
+    match_mode: include
+    pattern: '^\s*(?:peace|blessings|shalom|semper\s+fi|hooah|oorah|namaste|(?:god\s*)?bless(?:\s+(?:you|u))?)\s*$'

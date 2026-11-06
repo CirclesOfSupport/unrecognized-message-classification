@@ -56,7 +56,7 @@ keyword_rules:
     description: Affirmative yes words and common spellings/abbreviations.
     match_mode: exact
     keywords:
-      - "yes"
+      - 'yes'
       - yees
       - yep
       - yup
@@ -111,51 +111,71 @@ keyword_rules:
 
 regex_rules:
   - name: short_acknowledgment
-    match_mode: include
     description: Short acknowledgment messages with optional mild filler
-    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|k+|cool|great|awesome|nice|fine|yes|ye+s|yeah|yep|yup)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?|o\s+k|k+|cool|great|awesome|nice|fine|yes|ye+s|yeah|yep|yup)\s*$'
 
   - name: repeated_acknowledgment
-    match_mode: include
     description: Repeated acknowledgment forms like ok ok or okay okay
-    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|k+)(?:\\s+(?:ok(?:ay)?|o\\s+k|k+))+\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?|o\s+k|k+)(?:\s+(?:ok(?:ay)?|o\s+k|k+))+\s*$'
 
   - name: acknowledgment_with_modifier
-    match_mode: include
     description: Acknowledgment with small conversational modifiers
-    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k|yeah|yep|yup)\\s+(?:sounds\\s+good|that\\s+s\\s+fine|thats\\s+fine|all\\s+good|cool|will\\s+do)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?|o\s+k|yeah|yep|yup)\s+(?:sounds\s+good|that\s+s\s+fine|thats\s+fine|all\s+good|cool|will\s+do)\s*$'
 
   - name: sounds_good_variants
-    match_mode: include
     description: Variations of sounds good
-    pattern: "^\\s*(?:that\\s+)?sounds\\s+(?:good|great|fine)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:that\s+)?sounds\s+(?:good|great|fine)\s*$'
 
   - name: fair_acknowledgment
-    match_mode: include
     description: Short acknowledgment phrases like fair, thats fair, or ok fair
-    pattern: "^\\s*(?:(?:ok(?:ay)?\\s+|o\\s+k\\s+|yeah\\s+|yep\\s+|yup\\s+)*)?(?:that\\s+s\\s+fair|thats\\s+fair|fair)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:(?:ok(?:ay)?\s+|o\s+k\s+|yeah\s+|yep\s+|yup\s+)*)?(?:that\s+s\s+fair|thats\s+fair|fair)\s*$'
 
   - name: i_am_okay_response
-    match_mode: include
     description: Responses indicating the user is okay
-    pattern: "^\\s*(?:(?:yeah|yea|yep|yup|no)\\s+)?(?:i\\s+(?:am|m)|im)?\\s*(?:ok(?:ay)?|fine|good)\\s*(?:thanks)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:(?:yeah|yea|yep|yup|no)\s+)?(?:i\s+(?:am|m)|im)?\s*(?:ok(?:ay)?|fine|good)\s*(?:thanks)?\s*$'
 
   - name: love_variants
-    match_mode: include
     description: Variations of love you, love it, etc.
-    pattern: "\\b(?:i\\s+)?love\\s+(?:you|u|ya|it)(?:\\s+too)?\\b"
+    match_mode: include
+    pattern: '^\W*(?:\b(?:i\s+)?love\s+(?:you|u|ya|it)(?:\s+too)?\b)\W*$'
 
   - name: its_im_okay
-    match_mode: include
     description: Variations of its okay, im ok, etc.
-    pattern: "^\\s*(?:(?:it\\s+s|its|it|i\\s+m|im)\\s+)?(?:ok(?:ay)?|good|fine|great)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:(?:it\s+s|its|it|i\s+m|im)\s+)?(?:ok(?:ay)?|good|fine|great)\s*$'
 
   - name: will_do_affirmation
-    match_mode: include
     description: Will do responses optionally prefixed by okay
-    pattern: "^\\s*(?:(?:ok(?:ay)?|o\\s+k)\\s+)?will\\s+do\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:(?:ok(?:ay)?|o\s+k)\s+)?will\s+do\s*$'
 
   - name: ok_plus_positive_reaction
-    match_mode: include
     description: Acknowledgment followed by a positive reaction such as ok cool
-    pattern: "^\\s*(?:ok(?:ay)?|o\\s+k)\\s+(?:cool|great|awesome|nice|good|fine)\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?|o\s+k)\s+(?:cool|great|awesome|nice|good|fine)\s*$'
+
+  - name: okay_sent_from_vehicle
+    description: Short acknowledgment followed by a car-system "sent from my <vehicle>" signature (e.g. "yes sent from my frontier")
+    match_mode: include
+    pattern: '^\s*(?:yes|yeah|yea|yep|yup|ok|okay|k|sure|alright|sounds\s+good|got\s+it)\s+sent\s+from\s+(?:my\s+)?[a-z0-9 ]{1,25}\s*$'
+
+  - name: ack_commitment_regex
+    description: Short commitments or deferential acknowledgments (e.g. "ok i will", "will try", "please do", "yes sir")
+    match_mode: include
+    pattern: '^\s*(?:(?:ok(?:ay)?|sure|yes|yeah)\s+)?(?:i\s+(?:will|ll)(?:\s+(?:try|do\s+that|do\s+it|try\s+that))?|will\s+(?:try|do)|sure\s+will|please\s+do|(?:yes\s+)?(?:sir|ma\s+am))\s*$'
+
+  - name: positive_mood_regex
+    description: Short positive mood replies (e.g. "not bad", "doing well", "so far so good")
+    match_mode: include
+    pattern: '^\s*(?:not\s+bad|pretty\s+good|(?:(?:i\s+(?:m|am)|im)\s+)?doing\s+(?:very\s+|really\s+)?(?:good|well|great|alright|ok|okay)|all\s+is\s+(?:good|well)|so\s+far\s+so\s+good|positive|outstanding|(?:very\s+|a\s+)?good\s+mood|great\s+mood)\s*$'
+
+  - name: light_reaction_regex
+    description: Bare light reactions (e.g. "lol", "haha", "wow", "amen")
+    match_mode: include
+    pattern: '^\s*(?:lol|lmao|rofl|haha+|ha(?:\s+ha)+|hehe+|wow|amen(?:\s+amen)?)\s*$'

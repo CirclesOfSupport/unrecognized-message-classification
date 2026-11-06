@@ -29,41 +29,46 @@ keyword_rules:
 
 regex_rules:
   - name: standalone_thanks
-    match_mode: include
     description: Short standalone thanks messages with optional mild modifiers
-    pattern: "^\\s*(?:ok(?:ay)?\\s*(?:,|\\.)?\\s*|well\\s+)?(?:th(?:a*n+k+s*|x+|ks+)|t+h+a*n+k+y+|t+y+|thank\\s*(?:you|u)(?:\\s+very)?(?:\\s+much)?|th(?:a*n+k+)?\\s*(?:you|u)|thanks?\\s+so\\s+much|thanks?\\s+very\\s+much|thanx|tks|thnks|tysm)(?:\\s*(?:!+|\\.+))?(?:\\s*[^A-Za-z0-9]+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:ok(?:ay)?\s*(?:,|\.)?\s*|well\s+)?(?:th(?:a*n+k+s*|x+|ks+)|t+h+a*n+k+y+|t+y+|thank\s*(?:you|u)(?:\s+very)?(?:\s+much)?|th(?:a*n+k+)?\s*(?:you|u)|thanks?\s+so\s+much|thanks?\s+very\s+much|thanx|tks|thnks|tysm)(?:\s*(?:!+|\.+))?(?:\s*[^A-Za-z0-9]+)?\s*$'
 
   - name: appreciation_phrases
-    match_mode: include
     description: Direct appreciation statements
-    pattern: "^\\s*(?:i\\s+)?(?:really\\s+)?appreciate\\s+(?:it|that|this|your\\s+help)\\s*(?:!+|\\.+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:i\s+)?(?:really\s+)?appreciate\s+(?:it|that|this|your\s+help)\s*(?:!+|\.+)?\s*$'
 
   - name: much_appreciated
-    match_mode: include
     description: Much appreciated variants
-    pattern: "^\\s*(?:very\\s+|so\\s+)?much\\s+appreciated\\s*(?:!+|\\.+)?\\s*$"
+    match_mode: include
+    pattern: '^\s*(?:very\s+|so\s+)?much\s+appreciated\s*(?:!+|\.+)?\s*$'
+
+  - name: no_thanks
+    description: Exclude refusals such as no thanks or no thank you
+    match_mode: exclude
+    pattern: '\b(?:no|nah|nope)\s+(?:thanks|thank\s+you|thank\s+u|thx|thnx|ty)\b'
+
+  - name: thanks_anyway_rejection
+    description: Exclude likely dismissive or refusal-adjacent thanks anyway phrases
+    match_mode: exclude
+    pattern: '\b(?:thanks\s+anyway|thank\s+you\s+anyway|thx\s+anyway)\b'
+
+  - name: sarcastic_or_rejection_thanks
+    description: Exclude likely rejection forms like thanks but no thanks
+    match_mode: exclude
+    pattern: '\b(?:thanks|thank\s+you|thank\s+u|thx|thnx)\b.*\bbut\s+no\s+thanks\b'
+
+  - name: thanks_whitelisted_tail
+    description: Thanks with an optional leading filler word and an optional closed-list ending (e.g. "yes thanks", "thanks for checking in")
+    match_mode: include
+    pattern: '^\s*(?:(?:ok|okay|yes|yeah|yea|yep|great|sure|alright|well|oh)\s+)?(?:thank\s+you|thanks|thank\s+u|thx|ty)(?:\s+(?:so\s+very\s+much|very\s+much|so\s+much|a\s+lot|much|again|bot|earlybot|sir|mam|ma\s+am|you|you\s+too|and\s+you\s+too|you\s+also|you\s+as\s+well))?(?:\s+for\s+(?:checking(?:\s+in)?(?:\s+on\s+me)?|asking|caring|reaching\s+out|that|this|(?:the|your)\s+(?:info|information|reminder|advice|support|help|link|message|text|resources|update|follow\s+up|concern|time)))?\s*$'
 
   - name: got_it_thanks
+    description: Acknowledgment plus thanks in either order (e.g. "got it thanks", "will do thanks", "thank you i will")
     match_mode: include
-    description: Acknowledgment plus thanks
-    pattern: "^\\s*got\\s+it,?\\s*thank\\s*(?:you|u)\\s*(?:!+|\\.+)?\\s*$"
+    pattern: '^\s*(?:(?:ok|okay|oh\s+ok|cool|got\s+it|gotcha|will\s+do|i\s+will|i\s+ll|i\s+know|sounds\s+good|sure\s+will|sure|yup|alright|good|great|awesome)\s+(?:and\s+)?(?:thank\s+you|thanks|thank\s+u|thx|ty)|(?:thank\s+you|thanks|thank\s+u|thx|ty)\s+(?:i\s+will|i\s+ll|will\s+do|i\s+appreciate\s+(?:it|that)|i\s+know|good))\s*$'
 
-  - name: cool_thanks
+  - name: thanks_wellbeing_reply
+    description: Short wellbeing reply followed by thanks (e.g. "i m good thank you", "doing well thanks")
     match_mode: include
-    description: Casual gratitude phrases like cool thanks
-    pattern: "^\\s*cool\\s+thanks\\s*(?:!+|\\.+)?\\s*$"
-  
-  - name: no_thanks
-    match_mode: exclude
-    description: Exclude refusals such as no thanks or no thank you
-    pattern: "\\b(?:no|nah|nope)\\s+(?:thanks|thank\\s+you|thank\\s+u|thx|thnx|ty)\\b"
-  
-  - name: thanks_anyway_rejection
-    match_mode: exclude
-    description: Exclude likely dismissive or refusal-adjacent thanks anyway phrases
-    pattern: "\\b(?:thanks\\s+anyway|thank\\s+you\\s+anyway|thx\\s+anyway)\\b"
-  
-  - name: sarcastic_or_rejection_thanks
-    match_mode: exclude
-    description: Exclude likely rejection forms like thanks but no thanks
-    pattern: "\\b(?:thanks|thank\\s+you|thank\\s+u|thx|thnx)\\b.*\\bbut\\s+no\\s+thanks\\b"
+    pattern: '^\s*(?:i\s+m|i\s+am|im|we\s+re|we\s+are|doing|all\s+is|it\s+s)\s+(?:very\s+|really\s+|pretty\s+)?(?:good|well|great|ok|okay|alright|fine)\s+(?:thank\s+you|thanks|thank\s+u|thx)\s*$'

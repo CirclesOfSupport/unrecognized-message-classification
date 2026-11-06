@@ -1,0 +1,19 @@
+name: scale_answer
+description: Replies that are literally scale options (satisfied / neutral / dissatisfied, confident, likely).
+priority: 14
+
+regex_rules:
+  - name: scale_positive_regex
+    description: Positive scale answers (e.g. "satisfied", "very confident", "somewhat satisfied", "likely")
+    match_mode: include
+    pattern: '^\s*(?:(?:completely|extremely|very|somewhat|mostly)\s+(?:satisfied|confident|good)|satisfied|confident|(?:very\s+)?likely)\s*$'
+
+  - name: scale_neutral_regex
+    description: Neutral / middle scale answers (e.g. "neutral", "somewhat", "moderately")
+    match_mode: include
+    pattern: '^\s*(?:neutral|somewhat|moderately)\s*$'
+
+  - name: scale_negative_regex
+    description: Keeps negative scale answers (e.g. "dissatisfied", "not satisfied at all", "not confident") out of this bucket so they go to triage
+    match_mode: exclude
+    pattern: '^\s*(?:(?:completely|very|extremely)\s+)?(?:un|dis)satisfied\s*$|^\s*not\s+(?:very\s+)?(?:satisfied|confident)(?:\s+at\s+all)?\s*$'
