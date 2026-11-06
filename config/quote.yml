@@ -7,30 +7,30 @@ keyword_rules:
     description: Standalone quote requests
     match_mode: exact
     keywords:
-    - quote
-    - quote please
-    - quote pls
-    - quote plz
+      - quote
+      - quote please
+      - quote pls
+      - quote plz
 
   - name: quote_phrases
     description: Common phrases requesting or referencing a quote
     match_mode: phrase
     keywords:
-    - have a quote
-    - need a quote
-    - want a quote
-    - like a quote
-    - get a quote
-    - give me a quote
-    - send me a quote
-    - another quote
-    - quote of the day
-    - quote of the
-    - words of wisdom
-    - nice quote
-    - great quote
-    - here's a quote
-    - heres a quote
+      - have a quote
+      - need a quote
+      - want a quote
+      - like a quote
+      - get a quote
+      - give me a quote
+      - send me a quote
+      - another quote
+      - quote of the day
+      - quote of the
+      - words of wisdom
+      - nice quote
+      - great quote
+      - here's a quote
+      - heres a quote
 
 regex_rules:
   - name: quote_short_request

@@ -7,34 +7,34 @@ keyword_rules:
     description: Standalone reciprocal or polite responses
     match_mode: exact
     keywords:
-    - welcome
-    - youre welcome
-    - you re welcome
-    - your welcome
-    - you are welcome
-    - yw
-    - you too
-    - u too
-    - u2
-    - same to you
-    - likewise
-    - back at you
-    - you as well
-    - u as well
-    - you also
+      - welcome
+      - youre welcome
+      - you re welcome
+      - your welcome
+      - you are welcome
+      - yw
+      - you too
+      - u too
+      - u2
+      - same to you
+      - likewise
+      - back at you
+      - you as well
+      - u as well
+      - you also
 
   - name: reciprocal_phrases
     description: Common phrases expressing reciprocity or politeness
     match_mode: exact
     keywords:
-    - you are welcome
-    - you are very welcome
-    - you are most welcome
-    - youre very welcome
-    - youre most welcome
-    - no worries
-    - its all good
-    - my pleasure
+      - you are welcome
+      - you are very welcome
+      - you are most welcome
+      - youre very welcome
+      - youre most welcome
+      - no worries
+      - its all good
+      - my pleasure
 
 regex_rules:
   - name: youre_welcome_variants

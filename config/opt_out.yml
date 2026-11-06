@@ -7,49 +7,49 @@ keyword_rules:
     description: Explicit opt-out commands sent as standalone messages
     match_mode: exact
     keywords:
-    - stop
-    - unsubscribe
-    - cancel
-    - delete
-    - opt out
-    - opting out
-    - end
-    - quit
-    - stop messages
-    - remove
-    - remove me
-    - not interested
+      - stop
+      - unsubscribe
+      - cancel
+      - delete
+      - opt out
+      - opting out
+      - end
+      - quit
+      - stop messages
+      - remove
+      - remove me
+      - not interested
 
   - name: opt_out_tokens
     description: Strong opt-out keywords appearing in a message
     match_mode: phrase
     keywords:
-    - unsubscribe
-    - opt out
-    - opt me out
+      - unsubscribe
+      - opt out
+      - opt me out
 
   - name: opt_out_phrases
     description: Natural language expressions of opting out
     match_mode: exact
     keywords:
-    - stop texting me
-    - stop messaging me
-    - stop sending messages
-    - stop sending texts
-    - do not contact me
-    - dont contact me
-    - do not text me
-    - dont text me
-    - remove me from this list
-    - take me off this list
-    - i want to unsubscribe
-    - i want to opt out
-    - i do not want messages
-    - i dont want messages
-    - no more messages
-    - no more texts
-    - leave me alone
-    - take me off your list
+      - stop texting me
+      - stop messaging me
+      - stop sending messages
+      - stop sending texts
+      - do not contact me
+      - dont contact me
+      - do not text me
+      - dont text me
+      - remove me from this list
+      - take me off this list
+      - i want to unsubscribe
+      - i want to opt out
+      - i do not want messages
+      - i dont want messages
+      - no more messages
+      - no more texts
+      - leave me alone
+      - take me off your list
 
 regex_rules:
   - name: stop_messages_variants

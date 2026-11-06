@@ -7,25 +7,25 @@ keyword_rules:
     description: Matches common expressions of gratitude and appreciation
     match_mode: exact
     keywords:
-    - appreciate it
-    - i appreciate it
-    - ok thanks
-    - okay thanks
-    - thank u
-    - thank you
-    - thank you very much
-    - thanks
-    - thanks so much
-    - thanks very much
-    - thanx
-    - thnks
-    - thx
-    - thnx
-    - ty
-    - tysm
-    - cool thanks
-    - got it thank you
-    - got it thank u
+      - appreciate it
+      - i appreciate it
+      - ok thanks
+      - okay thanks
+      - thank u
+      - thank you
+      - thank you very much
+      - thanks
+      - thanks so much
+      - thanks very much
+      - thanx
+      - thnks
+      - thx
+      - thnx
+      - ty
+      - tysm
+      - cool thanks
+      - got it thank you
+      - got it thank u
 
 regex_rules:
   - name: standalone_thanks

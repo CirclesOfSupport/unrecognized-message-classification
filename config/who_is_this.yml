@@ -7,91 +7,91 @@ keyword_rules:
     description: Standalone identity/unknown-sender questions
     match_mode: exact
     keywords:
-    - who is this
-    - who are you
-    - whos this
-    - whos texting
-    - who is texting
-    - who texted me
-    - who is texting me
-    - who are you texting
-    - who dis
-    - who this
-    - whos messaging me
-    - who is messaging me
-    - who is sending this
-    - who sent this
-    - identify yourself
-    - who
+      - who is this
+      - who are you
+      - whos this
+      - whos texting
+      - who is texting
+      - who texted me
+      - who is texting me
+      - who are you texting
+      - who dis
+      - who this
+      - whos messaging me
+      - who is messaging me
+      - who is sending this
+      - who sent this
+      - identify yourself
+      - who
 
   - name: who_is_this_phrases
     description: Common natural-language variants asking sender identity
     match_mode: exact
     keywords:
-    - who is this
-    - who are you
-    - who this
-    - whos this
-    - who texted me
-    - who is texting me
-    - whos texting me
-    - who is messaging me
-    - whos messaging me
-    - who sent this
-    - who is sending this
-    - who keeps texting me
-    - stop texting me who is this
-    - who is asking
-    - who r u
-    - who are you
+      - who is this
+      - who are you
+      - who this
+      - whos this
+      - who texted me
+      - who is texting me
+      - whos texting me
+      - who is messaging me
+      - whos messaging me
+      - who sent this
+      - who is sending this
+      - who keeps texting me
+      - stop texting me who is this
+      - who is asking
+      - who r u
+      - who are you
 
   - name: clarification_exact
     description: Short standalone clarification questions
     match_mode: exact
     keywords:
-    - huh
-    - why
-    - what
-    - when
-    - where
-    - what is this
-    - whats this
-    - what is this for
-    - whats this for
-    - what is this about
-    - whats this about
-    - why am i getting this
-    - why did i get this
-    - why did you text me
-    - what is early alert
-    - whats early alert
-    - what is this message
-    - whats this message
-    - when is this
-    - where is this
-    - why this
+      - huh
+      - why
+      - what
+      - when
+      - where
+      - what is this
+      - whats this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what is this message
+      - whats this message
+      - when is this
+      - where is this
+      - why this
 
   - name: clarification_phrases
     description: Common clarification phrases
     match_mode: exact
     keywords:
-    - what is this
-    - what is this for
-    - whats this for
-    - what is this about
-    - whats this about
-    - why am i getting this
-    - why did i get this
-    - why are you texting me
-    - why did you text me
-    - what is early alert
-    - whats early alert
-    - what does this mean
-    - what is this message about
-    - what is this in reference to
-    - what is this regarding
-    - is a chatbot
-    - is a chat bot
+      - what is this
+      - what is this for
+      - whats this for
+      - what is this about
+      - whats this about
+      - why am i getting this
+      - why did i get this
+      - why are you texting me
+      - why did you text me
+      - what is early alert
+      - whats early alert
+      - what does this mean
+      - what is this message about
+      - what is this in reference to
+      - what is this regarding
+      - is a chatbot
+      - is a chat bot
 
 regex_rules:
   - name: who_is_this_basic

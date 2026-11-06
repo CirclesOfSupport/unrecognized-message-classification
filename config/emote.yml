@@ -8,28 +8,28 @@ keyword_rules:
     match_mode: exact
     text_input_type: emoji_normalized_text
     keywords:
-    - __EMOJI__
-    - loved message
-    - liked message
-    - disliked message
-    - laughed at message
-    - emphasized message
-    - questioned message
+      - __EMOJI__
+      - loved message
+      - liked message
+      - disliked message
+      - laughed at message
+      - emphasized message
+      - questioned message
 
   - name: reaction_phrases
     description: Common reaction-system phrases that may include an emoji
     match_mode: phrase
     text_input_type: emoji_normalized_text
     keywords:
-    - reacted __EMOJI__ to
-    - removed __EMOJI__ from
-    - removed a question mark from
-    - removed a like from
-    - removed a heart from
-    - removed a laugh from
-    - removed a dislike from
-    - removed an emphasis from
-    - __EMOJI__ to
+      - reacted __EMOJI__ to
+      - removed __EMOJI__ from
+      - removed a question mark from
+      - removed a like from
+      - removed a heart from
+      - removed a laugh from
+      - removed a dislike from
+      - removed an emphasis from
+      - __EMOJI__ to
 
 regex_rules:
   - name: emoji_only

@@ -7,22 +7,22 @@ keyword_rules:
     description: Standalone greeting messages
     match_mode: exact
     keywords:
-    - hi
-    - hii
-    - hiii
-    - hey
-    - heyy
-    - heyyy
-    - hello
-    - yo
-    - sup
-    - wassup
-    - good morning
-    - good afternoon
-    - good evening
-    - morning
-    - afternoon
-    - evening
+      - hi
+      - hii
+      - hiii
+      - hey
+      - heyy
+      - heyyy
+      - hello
+      - yo
+      - sup
+      - wassup
+      - good morning
+      - good afternoon
+      - good evening
+      - morning
+      - afternoon
+      - evening
 
 regex_rules:
   - name: simple_greeting

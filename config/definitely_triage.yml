@@ -7,143 +7,143 @@ keyword_rules:
     description: Matches common alert words
     match_mode: token
     keywords:
-    - abandon*
-    - afraid
-    - anger*
-    - angry
-    - anxi*
-    - blam*
-    - bleed*
-    - blood*
-    - broken
-    - burden*
-    - burn*
-    - chok*
-    - confus*
-    - crumbl*
-    - dead
-    - death
-    - defective
-    - depress*
-    - '*deserv*'
-    - destroy*
-    - die*
-    - disappear*
-    - disappoint*
-    - drown*
-    - empt*
-    - enemy
-    - escap*
-    - exhaust*
-    - fail*
-    - fear*
-    - flaw*
-    - fright*
-    - gone*
-    - guilt*
-    - hate
-    - hid*
-    - hurt*
-    - invisible
-    - isolat*
-    - kill*
-    - '*lone*'
-    - lost
-    - miserable
-    - numb*
-    - overdose*
-    - overwhelm*
-    - pain*
-    - panic*
-    - pathetic
-    - reject*
-    - regret*
-    - scar*
-    - shame*
-    - shatter*
-    - slash*
-    - spiral*
-    - stress*
-    - suffer*
-    - suffoc*
-    - suicid*
-    - temper
-    - terror*
-    - trap*
-    - unlov*
-    - unravel*
-    - unwanted
-    - vanish*
-    - victim
-    - weak
-    - withdraw*
+      - abandon*
+      - afraid
+      - anger*
+      - angry
+      - anxi*
+      - blam*
+      - bleed*
+      - blood*
+      - broken
+      - burden*
+      - burn*
+      - chok*
+      - confus*
+      - crumbl*
+      - dead
+      - death
+      - defective
+      - depress*
+      - '*deserv*'
+      - destroy*
+      - die*
+      - disappear*
+      - disappoint*
+      - drown*
+      - empt*
+      - enemy
+      - escap*
+      - exhaust*
+      - fail*
+      - fear*
+      - flaw*
+      - fright*
+      - gone*
+      - guilt*
+      - hate
+      - hid*
+      - hurt*
+      - invisible
+      - isolat*
+      - kill*
+      - '*lone*'
+      - lost
+      - miserable
+      - numb*
+      - overdose*
+      - overwhelm*
+      - pain*
+      - panic*
+      - pathetic
+      - reject*
+      - regret*
+      - scar*
+      - shame*
+      - shatter*
+      - slash*
+      - spiral*
+      - stress*
+      - suffer*
+      - suffoc*
+      - suicid*
+      - temper
+      - terror*
+      - trap*
+      - unlov*
+      - unravel*
+      - unwanted
+      - vanish*
+      - victim
+      - weak
+      - withdraw*
 
   - name: alert_phrases
     description: Matches common alert phrases
     match_mode: phrase
     keywords:
-    - be careful
-    - watch out
-    - self harm
-    - give up
-    - its over
-    - not good enough
-    - whats the point
-    - what is the point
+      - be careful
+      - watch out
+      - self harm
+      - give up
+      - its over
+      - not good enough
+      - whats the point
+      - what is the point
 
   - name: alert_abbreviations
     description: Matches common alert abbreviations
     match_mode: token
     keywords:
-    - kms
-    - od
+      - kms
+      - od
 
   - name: alert_words_added
     description: Additional alert words (means, abuse, crisis, trauma, loss, housing)
     match_mode: token
     keywords:
-    - kys
-    - ctb
-    - sewerslide
-    - unalive*
-    - gun
-    - guns
-    - firearm*
-    - pills
-    - rope
-    - noose
-    - razor*
-    - weapon*
-    - abuse*
-    - abusive
-    - assault*
-    - rape*
-    - relapse*
-    - '911'
-    - ambulance
-    - seizure*
-    - ptsd
-    - flashback*
-    - nightmare*
-    - trigger*
-    - decease*
-    - funeral
-    - obituary
-    - evict*
+      - kys
+      - ctb
+      - sewerslide
+      - unalive*
+      - gun
+      - guns
+      - firearm*
+      - pills
+      - rope
+      - noose
+      - razor*
+      - weapon*
+      - abuse*
+      - abusive
+      - assault*
+      - rape*
+      - relapse*
+      - '911'
+      - ambulance
+      - seizure*
+      - ptsd
+      - flashback*
+      - nightmare*
+      - trigger*
+      - decease*
+      - funeral
+      - obituary
+      - evict*
 
   - name: alert_phrases_added
     description: Additional alert phrases (loss, housing, overwhelm, asking for help)
     match_mode: phrase
     keywords:
-    - passed away
-    - kicked out
-    - sleeping in my car
-    - everything sucks
-    - need help
-    - need to talk
-    - talk to someone
-    - real person
-    - dont know what to do
-    - don t know what to do
+      - passed away
+      - kicked out
+      - sleeping in my car
+      - everything sucks
+      - need help
+      - need to talk
+      - talk to someone
+      - real person
+      - dont know what to do
+      - don t know what to do
 
 regex_rules: []

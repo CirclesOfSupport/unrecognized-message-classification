@@ -7,11 +7,11 @@ keyword_rules:
     description: Standalone gift card or code messages
     match_mode: token
     keywords:
-    - gift card
-    - giftcard
-    - gift code
-    - amazon gift card
-    - amazon code
+      - gift card
+      - giftcard
+      - gift code
+      - amazon gift card
+      - amazon code
 
 regex_rules:
   - name: amazon_card_basic

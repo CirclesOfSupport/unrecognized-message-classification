@@ -7,26 +7,26 @@ keyword_rules:
     description: Standalone spelled-out or ambiguous numeric responses
     match_mode: exact
     keywords:
-    - zero
-    - one
-    - two
-    - three
-    - four
-    - five
-    - six
-    - seven
-    - eight
-    - nine
-    - ten
-    - one or two
-    - two or three
-    - three or four
-    - four or five
-    - five or six
-    - six or seven
-    - seven or eight
-    - eight or nine
-    - nine or ten
+      - zero
+      - one
+      - two
+      - three
+      - four
+      - five
+      - six
+      - seven
+      - eight
+      - nine
+      - ten
+      - one or two
+      - two or three
+      - three or four
+      - four or five
+      - five or six
+      - six or seven
+      - seven or eight
+      - eight or nine
+      - nine or ten
 
 regex_rules:
   - name: spelled_out_single_number

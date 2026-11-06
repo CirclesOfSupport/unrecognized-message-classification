@@ -7,107 +7,107 @@ keyword_rules:
     description: Matches common expressions
     match_mode: exact
     keywords:
-    - k
-    - kk
-    - ok
-    - okay
-    - okie
-    - okk
-    - okayy
-    - okayyy
-    - okey
-    - okiedokie
-    - okie dokie
-    - o k
-    - ok ok
-    - ok cool
-    - okay will do
-    - roger
-    - roger that
-    - rgr
-    - copy
-    - gotcha
-    - got it
-    - got u
-    - gotit
-    - received
-    - noted
-    - acknowledged
-    - understood
-    - bet
-    - word
-    - facts
-    - all good
-    - looks good
-    - sounds good
-    - fair enough
-    - works for me
-    - that works
-    - fair
-    - i will
-    - will do
-    - im okay
-    - i know
-    - ik
-    - maybe
-    - i guess
+      - k
+      - kk
+      - ok
+      - okay
+      - okie
+      - okk
+      - okayy
+      - okayyy
+      - okey
+      - okiedokie
+      - okie dokie
+      - o k
+      - ok ok
+      - ok cool
+      - okay will do
+      - roger
+      - roger that
+      - rgr
+      - copy
+      - gotcha
+      - got it
+      - got u
+      - gotit
+      - received
+      - noted
+      - acknowledged
+      - understood
+      - bet
+      - word
+      - facts
+      - all good
+      - looks good
+      - sounds good
+      - fair enough
+      - works for me
+      - that works
+      - fair
+      - i will
+      - will do
+      - im okay
+      - i know
+      - ik
+      - maybe
+      - i guess
 
   - name: kw_yes_variants
     description: Affirmative yes words and common spellings/abbreviations.
     match_mode: exact
     keywords:
-    - 'yes'
-    - yees
-    - yep
-    - yup
-    - yeah
-    - yea
-    - ya
-    - ye
-    - affirmative
-    - absolutely
-    - definitely
-    - certainly
-    - of course
-    - indeed
-    - ofc
-    - obv
-    - obviously
-    - duh
-    - uh huh
-    - mhm
-    - yessir
-    - sure
-    - for sure
-    - hell yeah
+      - 'yes'
+      - yees
+      - yep
+      - yup
+      - yeah
+      - yea
+      - ya
+      - ye
+      - affirmative
+      - absolutely
+      - definitely
+      - certainly
+      - of course
+      - indeed
+      - ofc
+      - obv
+      - obviously
+      - duh
+      - uh huh
+      - mhm
+      - yessir
+      - sure
+      - for sure
+      - hell yeah
 
   - name: kw_positive_reactions
     description: Standalone positive reaction words
     match_mode: exact
     keywords:
-    - great
-    - awesome
-    - cool
-    - nice
-    - amazing
-    - fantastic
-    - wonderful
-    - perfect
-    - excellent
-    - good
-    - fabulous
-    - lovely
-    - splendid
-    - superb
-    - terrific
-    - very good
-    - dope
-    - lit
-    - fire
-    - love you
-    - love ya
-    - love it
-    - yay
+      - great
+      - awesome
+      - cool
+      - nice
+      - amazing
+      - fantastic
+      - wonderful
+      - perfect
+      - excellent
+      - good
+      - fabulous
+      - lovely
+      - splendid
+      - superb
+      - terrific
+      - very good
+      - dope
+      - lit
+      - fire
+      - love you
+      - love ya
+      - love it
+      - yay
 
 regex_rules:
   - name: short_acknowledgment

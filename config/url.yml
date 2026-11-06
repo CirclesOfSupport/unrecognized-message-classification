@@ -7,7 +7,7 @@ keyword_rules:
     description: Common words/phrases indicating that a message contains a URL
     match_mode: token
     keywords:
-    - http*
+      - http*
 
 regex_rules:
   - name: url_detection

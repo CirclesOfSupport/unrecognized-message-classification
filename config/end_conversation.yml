@@ -7,125 +7,125 @@ keyword_rules:
     description: Explicit standalone conversation-ending messages and short closure acknowledgments
     match_mode: exact
     keywords:
-    - busy
-    - bbye
-    - bye
-    - bye bye
-    - catch you later
-    - cya
-    - gn
-    - good bye
-    - good night
-    - good nite
-    - goodby
-    - goodbye
-    - goodnite
-    - goodnight
-    - gtg
-    - have a good day
-    - have a good night
-    - have a great day
-    - have a nice day
-    - have a good one
-    - i gotta go
-    - i have to go
-    - later
-    - nah
-    - night
-    - nite
-    - 'no'
-    - nope
-    - none
-    - no thanks
-    - no thank you
-    - not now
-    - not yet
-    - not right now
-    - see u later
-    - see ya
-    - see you
-    - see you later
-    - shut up
-    - talk later
-    - talk soon
-    - talk tomorrow
-    - ttyl
-    - take care
-    - ty
-    - thanks
-    - thank you
-    - thx
-    - thks
-    - k
-    - kk
+      - busy
+      - bbye
+      - bye
+      - bye bye
+      - catch you later
+      - cya
+      - gn
+      - good bye
+      - good night
+      - good nite
+      - goodby
+      - goodbye
+      - goodnite
+      - goodnight
+      - gtg
+      - have a good day
+      - have a good night
+      - have a great day
+      - have a nice day
+      - have a good one
+      - i gotta go
+      - i have to go
+      - later
+      - nah
+      - night
+      - nite
+      - 'no'
+      - nope
+      - none
+      - no thanks
+      - no thank you
+      - not now
+      - not yet
+      - not right now
+      - see u later
+      - see ya
+      - see you
+      - see you later
+      - shut up
+      - talk later
+      - talk soon
+      - talk tomorrow
+      - ttyl
+      - take care
+      - ty
+      - thanks
+      - thank you
+      - thx
+      - thks
+      - k
+      - kk
 
   - name: end_conversation_phrases
     description: Common short phrases that politely end a conversation or indicate unavailability
     match_mode: exact
     keywords:
-    - cant talk right now im driving
-    - cant text i am driving
-    - cant text im driving
-    - cannot text i am driving
-    - cannot text im driving
-    - catch up later
-    - chat later
-    - driving right now cant text
-    - gotta go bye
-    - have a good one
-    - have a great day
-    - have a nice day
-    - i am currently driving
-    - i am driving
-    - i cant text i am driving
-    - i cant text im driving
-    - i have to go bye
-    - i m driving
-    - im driving
-    - see u tomorrow
-    - see you tomorrow
-    - speak later
-    - talk to u later
-    - talk to you later
-    - text u later
-    - text you later
-    - ttyl
-    - no thanks
-    - no thank you
-    - wrong number
-    - driving sent from
-    - with focus turned on
-    - not right now
-    - not yet
-    - have a good day
-    - good night
-    - good nite
+      - cant talk right now im driving
+      - cant text i am driving
+      - cant text im driving
+      - cannot text i am driving
+      - cannot text im driving
+      - catch up later
+      - chat later
+      - driving right now cant text
+      - gotta go bye
+      - have a good one
+      - have a great day
+      - have a nice day
+      - i am currently driving
+      - i am driving
+      - i cant text i am driving
+      - i cant text im driving
+      - i have to go bye
+      - i m driving
+      - im driving
+      - see u tomorrow
+      - see you tomorrow
+      - speak later
+      - talk to u later
+      - talk to you later
+      - text u later
+      - text you later
+      - ttyl
+      - no thanks
+      - no thank you
+      - wrong number
+      - driving sent from
+      - with focus turned on
+      - not right now
+      - not yet
+      - have a good day
+      - good night
+      - good nite
 
   - name: auto_reply_worship
     description: A specific subscriber's recurring worship auto-reply (full message match only)
     match_mode: exact
     keywords:
-    - i m at worship please call text sunday morning thanks shalom you re loved
-    - i m at worship please call text sunday morning thanks shalom younull
+      - i m at worship please call text sunday morning thanks shalom you re loved
+      - i m at worship please call text sunday morning thanks shalom younull
 
   - name: auto_reply_ios_focus
     description: iOS Focus / Do Not Disturb auto-reply template (full message match only)
     match_mode: exact
     keywords:
-    - i m not receiving notifications if this is urgent reply urgent to send a notification through with your original message
+      - i m not receiving notifications if this is urgent reply urgent to send a notification through with your original message
 
   - name: auto_reply_driving
     description: Phone / car driving auto-reply templates (full message match only)
     match_mode: exact
     keywords:
-    - i m driving sent from my car
-    - i m driving with focus turned on i ll see your message when i get where i m going
-    - beep beep i m driving with do not disturb while driving turned on i ll see your message when i get where i m going
-    - i m driving with do not disturb while driving turned on
-    - i m driving or otherwise occupied at the moment if time sensitive please call me and i ll answer hands free otherwise i will see your message later thanks
-    - i m driving right now so i can t respond
-    - i m driving right now but i ll get back to you as soon as possible if this is urgent please call me thanks
-    - i m driving right now i will call you back later
+      - i m driving sent from my car
+      - i m driving with focus turned on i ll see your message when i get where i m going
+      - beep beep i m driving with do not disturb while driving turned on i ll see your message when i get where i m going
+      - i m driving with do not disturb while driving turned on
+      - i m driving or otherwise occupied at the moment if time sensitive please call me and i ll answer hands free otherwise i will see your message later thanks
+      - i m driving right now so i can t respond
+      - i m driving right now but i ll get back to you as soon as possible if this is urgent please call me thanks
+      - i m driving right now i will call you back later
 
 regex_rules:
   - name: chained_short_closers
