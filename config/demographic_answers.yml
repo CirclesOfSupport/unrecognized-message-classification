@@ -1,0 +1,44 @@
+name: demographic_answers
+description: Answers to demographic / screening questions (employment status, gender, military branch, veteran status, age, name). Replaces the retired bucket.
+priority: 14
+
+regex_rules:
+  - name: retired_status_variants
+    description: Employment-status answers of 1-3 whitelisted clauses (e.g. "i'm retired", "unemployed", "disabled and retired", "i don't work anymore")
+    match_mode: include
+    pattern: '^\s*(?:(?:i\s+(?:m|am)|im|i)\s+)?(?:(?:now|currently|still|medically|happily|fully)\s+)?(?:retired|disabled|unemployed|on\s+disability|no\s+job|have\s+no\s+job|not\s+in\s+the\s+workforce|out\s+of\s+work|not\s+(?:currently\s+)?(?:working|employed)(?:\s+anymore)?|no\s+longer\s+(?:work|working|employed)|have\s+retired|recently\s+retired|retiring|retired\s+now|officially\s+retired|(?:left|out\s+of)\s+the\s+workforce|hung\s+up\s+my\s+(?:hat|boots)|(?:don\s+t|do\s+not|dont)\s+(?:have\s+a\s+job|work)(?:\s+anymore)?)(?:\s*(?:and|but|so|,)?\s*(?:(?:i\s+(?:m|am)|im|i)\s+)?(?:(?:now|currently|still|medically|happily|fully)\s+)?(?:retired|disabled|unemployed|on\s+disability|no\s+job|have\s+no\s+job|not\s+in\s+the\s+workforce|out\s+of\s+work|not\s+(?:currently\s+)?(?:working|employed)(?:\s+anymore)?|no\s+longer\s+(?:work|working|employed)|have\s+retired|recently\s+retired|retiring|retired\s+now|officially\s+retired|(?:left|out\s+of)\s+the\s+workforce|hung\s+up\s+my\s+(?:hat|boots)|(?:don\s+t|do\s+not|dont)\s+(?:have\s+a\s+job|work)(?:\s+anymore)?)){0,2}\s*$'
+
+  - name: what_job_regex
+    description: What job replies to the employment question, optionally followed by a simple status (e.g. "what job i am retired", "what job i don t work")
+    match_mode: include
+    pattern: '^\s*what\s+job(?:\s+(?:(?:i\s+(?:m|am)|im|i)\s+)?(?:(?:now|still|medically)\s+)?(?:retired|disabled|unemployed|on\s+disability|not\s+working|(?:don\s+t|do\s+not|dont)\s+(?:have\s+(?:a|one)|work)(?:\s+anymore)?))?\s*$'
+
+  - name: gender_answer_regex
+    description: Bare gender answers, optionally with a menu number (e.g. "male", "2 female")
+    match_mode: include
+    pattern: '^\s*(?:\d{1,2}\s+)?(?:male|female|man|woman|non\s*binary)\s*$'
+
+  - name: military_branch_regex
+    description: Bare military branch answers, optionally with "us", a menu number or "retired" (e.g. "army", "military", "us navy", "retired military", "i m retired navy")
+    match_mode: include
+    pattern: '^\s*(?:\d{1,2}\s+)?(?:(?:i\s+(?:m|am)|im)\s+(?:a\s+)?)?(?:retired\s+(?:us\s+)?(?:military(?:\s+(?:us\s+)?(?:army|navy|air\s+force|marines?|marine\s+corps|coast\s+guard|space\s+force|national\s+guard))?|(?:army|navy|air\s+force|marines?|marine\s+corps|coast\s+guard|space\s+force|national\s+guard))|(?:us\s+)?(?:military|army|navy|air\s+force|marines?|marine\s+corps|coast\s+guard|space\s+force|national\s+guard))\s*$'
+
+  - name: veteran_status_regex
+    description: Bare veteran status answers (e.g. "veteran", "i'm a veteran", "disabled veteran")
+    match_mode: include
+    pattern: '^\s*(?:yes\s+)?(?:(?:i\s+(?:m|am)|im)\s+(?:a\s+)?)?(?:disabled\s+)?veteran\s*$'
+
+  - name: age_statement_regex
+    description: Bare adult age answers 18-199 (e.g. "i am 75", "69 years old")
+    match_mode: include
+    pattern: '^\s*(?:i\s+(?:m|am)\s+)?(?:1[89]|[2-9]\d|1\d\d)(?:\s+years?\s+old)?\s*$'
+
+  - name: name_statement_regex
+    description: Bare single-name introductions (e.g. "my name is amy")
+    match_mode: include
+    pattern: '^\s*(?:my\s+)?name\s+is\s+[a-z]{2,15}\s*$'
+
+  - name: job_loss_hardship_guard
+    description: Keeps hardship wording (lost, fired, evict, homeless, no money, hungry, ...) out of this bucket's regex rules
+    match_mode: exclude
+    pattern: '\b(?:lost|laid\s+off|fired|can\s+t\s+afford|evict|homeless|broke|desperate|nothing\s+left|no\s+money|struggl|hungry|no\s+income|can\s+t\s+pay|bankrupt|terminated|quit|living\s+in\s+my\s+car)\w*'

@@ -7,10 +7,10 @@ keyword_rules:
     description: Common words/phrases indicating that a message contains a URL
     match_mode: token
     keywords:
-      - http*
+    - http*
 
 regex_rules:
   - name: url_detection
-    match_mode: include
     description: Detects URLs including http(s), www, or common domains
-    pattern: "\\b((https?:\\/\\/)|(www\\.))?([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}([^\\s]*)\\b"
+    match_mode: include
+    pattern: '\b((https?:\/\/)|(www\.))?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}([^\s]*)\b'
